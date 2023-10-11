@@ -1,0 +1,1912 @@
+
+
+/* 
+
+
+
+
+
+
+
+
+
+*/
+
+
+/* Import Eric Meyer's CSS Reset */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css');
+/* Import Normalize.css */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css');
+
+
+*{
+  
+  /* padding: 0 !important; 
+  margin: 0 !important; 
+  
+   */
+   
+   padding: 0; 
+   margin: 0; 
+   
+  
+  
+}
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+:root {
+  --light: #d0d1d3;
+  --dark: #040d14;
+  --green: #0ac574;
+  
+}
+
+body {
+  font-family: Poppins;
+  background: var(--green);
+  
+  line-height: 26px;
+
+  box-sizing: border-box; 
+  
+  padding: 0 !important; 
+  margin: 0 !important   ; 
+  
+  
+  
+}
+
+
+/* Add in the main container here  */
+
+.ContactForm{
+
+
+/* padding: 0 !important;  */
+/* margin: 0 !important;  */
+
+
+  
+}
+
+
+
+.container{
+  
+
+  
+  
+}
+
+
+.row{
+
+
+  
+  
+}
+
+.contactForm{
+
+  
+  
+  
+  
+}
+
+
+
+#contact-form{
+
+  
+  
+  
+  
+}
+
+
+
+
+
+
+
+
+#CTA-container{
+
+  
+  
+  
+  
+  
+  
+}
+
+
+#CTA-Header{
+
+
+  
+  font-size: 1.65rem; 
+  
+  font-weight: 740;
+  
+  margin-bottom: -0.85rem;
+  
+  
+  width: 50%; 
+  margin-left: 1.8rem; 
+  
+    
+  }
+
+
+#CTA-text-container{
+
+
+margin-bottom: -1rem;
+
+margin-left: 2.5rem; 
+
+  
+}
+
+
+#CTA-text{
+
+  
+  
+  
+
+  
+}
+
+
+
+
+h1 {
+  color: var(--green);
+}
+
+.App {
+  height: 75vh;
+  margin-top: 15vh;
+}
+
+
+/* Add in a media query to adjust the offset on smaller screens  */
+form {
+  margin-top: 20px;
+  background: var(--green);
+  
+  padding-top: 4.5rem; 
+  padding-bottom: 6.5rem; 
+
+  
+}
+
+
+
+/* Add in a media query to remove all this code and reset things.  */
+#content-container{
+
+  
+  
+  width: 40vw; 
+  
+  margin-left: 5%; 
+
+
+
+  
+}
+
+
+
+
+#name-input{
+
+
+width: 8.1rem; 
+
+height: 3rem; 
+
+  
+}
+
+
+#first-name-container{
+  position: relative; 
+  
+}
+
+#first-name-title{
+  
+  position: absolute; 
+  
+  margin-top: -0.3rem; 
+  margin-left: 1.5rem; 
+  
+  
+}
+
+
+
+.first-name{
+
+  
+  margin: 1.15rem; 
+  display: inline-block !important;
+  
+}
+
+
+
+.last-name{
+  
+  margin-top: 1.15rem; 
+  
+}
+
+
+#name-headline-title{
+  
+  position: absolute; 
+  
+  margin-top: -0.25rem; 
+  margin-left: 0.34rem; 
+  
+}
+
+#email-row{
+  
+  display: inline-block;
+
+}
+
+#input-list-item{
+  
+  
+  display: inline-block !important; 
+  margin-bottom: 2.5rem !important; 
+
+  
+}
+
+
+#email-input{
+
+  display: inline-block !important; 
+  width: 12.813rem !important;
+  margin-right: 1rem; 
+  height: 3rem; 
+
+  
+}
+
+
+#phone-input{
+
+  width: 12.813rem !important;
+  
+  
+  display: inline !important; 
+  
+  height: 3rem; 
+  
+
+}
+
+
+
+#phone-input{
+
+  display: inline-block !important; 
+  
+  
+}
+
+/* ----Text Area ------ */
+
+#message-row{
+  
+  margin-top: -1rem; 
+
+  
+}
+
+
+
+#text-area-input{
+  
+
+  
+}
+
+
+.message-input{
+  
+  
+
+  
+  
+  
+}
+
+
+
+
+#asterisk{
+
+  
+ color: #5d0404; 
+ 
+ font-size: 1.1rem; 
+ 
+ font-weight: 900; 
+ 
+ margin-left: 0.5rem; 
+ 
+ 
+ display: inline-block; 
+ 
+ margin-top: -1rem; 
+  transform: translate(0rem, -0.26rem);
+  
+  
+}
+
+
+
+#text-area-header{
+  
+  
+  font-weight: 570 !important;
+  
+  font-size: 1.3rem; 
+  display: inline-block;
+  
+  margin-left: -12.5rem; 
+
+  
+  
+  
+  
+  
+}
+
+
+
+#text-area-label{
+
+  
+  
+  
+  
+}
+
+
+
+
+.form-control{
+  
+  width: 26rem !important; 
+  resize: none !important;
+
+}
+
+
+
+.message-input{
+  
+  
+  width: 26.45rem !important; 
+  
+  
+}
+
+
+
+
+/* Add in the code here to clamp the input fields to the width of the page.  */
+
+
+
+
+
+
+.formRow {
+  margin: 10px 0 20px 0;
+  
+  
+}
+
+.formInput {
+  padding: 15px 10px;
+  background: white; 
+  border-radius: 10px; 
+  
+  
+  
+  box-shadow: 0 0 0 2px var(--green);
+  border: none;
+  color: var(--green);
+}
+
+.formInput:focus {
+    background-color: white; 
+    
+  /* background-color: var(--light); */
+  outline: none;
+  box-shadow: 0 0 0 2px var(--green);
+  color: var(--light);
+}
+
+.formInput::placeholder {
+  color: var(--green);
+  opacity: 1;
+}
+
+.formInput:focus::placeholder {
+  color: var(--light);
+  opacity: 1;
+}
+
+.errorMessage {
+  color: #f45532;
+  font-size: 14px;
+  margin: 0;
+  padding: 0;
+}
+
+#notifyToast {
+  color: #fff;
+  border-radius: 6px;
+  width: 200px;
+  margin-left: 75px;
+  background-color: var(--green);
+}
+
+.submit-btn {
+    background-color: #06abc1; 
+    
+  color: white; 
+
+  
+  padding: 15px 50px;
+  border: 2px solid var(--green);
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+
+
+
+.submit-btn:hover {
+    background-color: #0b5e69; 
+    
+  /* background-color: var(--green); */
+  color: white; 
+  
+  /* color: var(--dark) !important; */
+  border: 2px solid var(--green);
+}
+
+.submit-btn:disabled:hover {
+  background-color: var(--dark);
+  color: var(--green) !important;
+  cursor: wait;
+}
+
+#submit-button{
+  
+  height: 58px; 
+   width: 7.625rem;
+   
+   margin-top: 1.7rem; 
+   
+   
+   display: grid;
+   place-content: center;
+   
+   /* text-transform: capitalize; */
+   
+   text-transform: uppercase;
+   
+   letter-spacing: 0.09cap;
+   font-weight: 600;  
+   font-size: 0.85rem; 
+
+   
+   transform: translate(5.76rem, 0rem);
+
+  
+}
+
+
+#name-row{
+    
+ 
+ 
+ /* margin-bottom: 2.9rem !important; */
+ position: relative; 
+ 
+ 
+ display: grid;
+ 
+ grid-auto-rows: min-content;
+ 
+ 
+ /* justify-content: center; */
+ place-content: center;
+ 
+ /* display: inline-block !important; */
+ 
+ height: 22vh;
+
+ 
+ 
+    
+}
+
+
+
+#name-column{
+
+    /* width: 70%;  */
+    display: flex;
+    justify-items: baseline;
+    
+    
+    margin-bottom: -4rem; 
+    
+    
+    /* position: relative;  */
+    
+    /* transform: translate(0rem, 1.4rem);   */
+    
+
+}
+
+
+
+#name-header{
+
+  
+  
+  position: absolute; 
+  
+  top: 17.7%; 
+  left: 15.4%; 
+  
+  font-size: 1.2rem; 
+  
+  font-weight: 500; 
+
+}
+
+
+
+
+#name-asterisk{
+  
+  
+  color: #5d0404; 
+ 
+  font-size: 1.1rem; 
+  
+  font-weight: 900; 
+  
+  margin-left: 0.27rem; 
+  
+  
+  display: inline-block !important;
+  transform: translate(0rem, -0.25rem) !important;
+  
+  
+  /* transform: translate(0rem, -400rem) !important; */
+  
+  
+  
+  }
+
+
+#dropdown-title{
+
+  
+  
+  position: absolute; 
+  /* position: relative;  */
+  transform: translate(0rem, -1.4rem);
+  
+  z-index: 200; 
+  
+
+  
+  
+}
+
+
+#first-name-title{
+
+  
+  
+  
+  
+}
+
+
+
+/* Container */
+
+#last-name-title-container{
+  
+  
+  position: relative; 
+  
+
+  
+  
+  
+}
+
+
+#name-headline-title{
+
+  
+  
+  
+  
+}
+
+
+
+#last-name-span{
+
+  
+  
+  
+  
+}
+
+
+/* Email and Phone Section------ */
+
+#email-title{
+
+  
+  margin-left: -9rem; 
+  
+  font-size: 1.2rem; 
+  font-weight: 500; 
+  
+  margin-bottom: 0.29rem; 
+  
+  
+  
+  
+  
+}
+
+
+#email-asterisk{
+  
+  color: #5d0404; 
+ 
+  font-size: 1.1rem; 
+  
+  font-weight: 900; 
+  
+  margin-left: 0.5rem; 
+  
+  display: inline-block !important; 
+  
+  transform: translate(0rem, -0.3rem) !important;
+  
+  
+
+ 
+ 
+  
+  
+}
+
+
+#phone-title{
+
+
+  margin-left: -8.5rem; 
+  
+  font-size: 1.2rem; 
+  
+  font-weight: 500; 
+  
+  margin-bottom: 0.313rem; 
+  
+  
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------Footer Section----- */
+
+#footer-main-container{
+
+    background: #161822; 
+    width: 100vw; 
+    margin-left: -2rem; 
+    min-height: 100vh; 
+    
+    
+    
+}
+
+
+#drop-down-container{
+
+    
+
+    
+  /* display: inline-block !important; */
+  
+  
+  margin-top: 1.15rem; 
+  
+  
+  
+  
+  
+}
+
+
+#title-container{
+  
+  position: relative; 
+  
+
+}
+
+
+
+#drop-down-list{
+  
+  
+  height: 3rem; 
+  position: relative; 
+
+  
+  border-radius: none !important; 
+  
+  
+  border-radius: 7px !important; 
+  
+  
+  width: 8.1rem !important;
+  
+  /* display: inline-block !important; */
+}
+
+
+  
+
+
+
+
+
+@media (max-width: 768px) {
+  .submit-message {
+    width: 125px;
+    margin-left: 200px;
+  }
+}
+
+
+
+@media(max-width: 1030px){
+  
+  
+  
+  /* Center the whole contact form here  */
+  
+  
+  /* Add in the containers for all the input elements here  */
+  #drop-down-list{
+    
+    
+    
+    width: 29vw !important;
+    
+    
+    
+  }
+  
+  
+  #first-name-container{
+    
+    
+    /* width: 29vw;  */
+    
+    
+    
+  }
+  
+  
+  #name-input{
+    
+    width: 29vw; 
+    
+    
+    
+  }
+  
+  
+  #CTA-text-container{
+    
+    
+    width: 90vw; 
+    margin: 0 auto; 
+    margin-top: 3rem; 
+    
+    
+    
+  }
+  
+  
+  #CTA-text{
+    
+    
+    
+    margin: 0 auto; 
+    width: 50vw; 
+    margin-top: 13rem !important;
+
+    
+  }
+  
+  
+  #CTA-container{
+    
+    margin: 0 auto; 
+    
+    
+    
+  }
+  
+  
+  
+  #content-container{
+    
+    
+    margin: 0 auto; 
+    width: 100vw; 
+    
+    
+    
+  }
+  
+  #email-input{
+    
+    
+    width: 45vw !important;
+    
+    
+    
+    
+  }
+  
+  
+  #phone-input{
+    
+    
+    
+    width: 45vw !important   ; 
+    
+    
+  }
+  
+#message-textarea{
+  
+  
+  
+  width: 92vw !important; 
+  
+  
+  min-height: 10rem !important; 
+  
+  
+  
+}
+
+
+
+
+#email-title{ 
+
+margin-left: -37vw;   
+
+
+}  
+
+#phone-title{
+
+  
+margin-left: -37vw !important ;   
+
+
+
+
+}
+
+
+
+
+#text-area-label{
+
+margin-left: -50vw !important ;       
+  
+  
+
+
+}
+
+
+#name-header{
+  
+  
+  margin-left: -10vw; 
+  
+  
+  
+}
+
+
+
+#submit-button{
+
+  
+  transform: translate(-0.1vw, 0rem);
+  margin-right: -4vw; 
+  margin-left: 4vw; 
+  
+  
+}
+
+
+/* Add in the container for the contact form here */
+#content-container{
+  
+  
+  /* height: 50vh !important;  */
+  
+  
+  
+  
+}
+
+
+/* Add in the code here for the reduction of the top margin between sections  */
+
+#name-row{
+  
+  
+  height: 12vh !important; 
+  
+  
+  
+}
+
+
+#CTA-text-container{
+  
+  
+  /* margin: 0 auto !important;  */
+  margin-bottom: -1.5rem !important; 
+  /* margin-top: 5%;  */
+  
+  
+  
+  
+  
+}
+
+
+#CTA-text{
+  
+
+  font-size: 0.95rem; 
+  
+  margin-bottom: 2rem; 
+  
+  margin-left: -2rem; 
+  
+  
+  
+}
+
+  
+  /* Remove the excessive top margin between the elements here */
+  
+  #CTA-container{
+    
+    
+    margin-left: -17.7vw !important; 
+    
+    
+    
+    
+  }
+  
+  
+  /*  */
+  
+  
+  
+  
+}
+
+
+
+/* Add in the media query here to reduce the negative left margin for the titles  */
+
+@media(max-width: 890px){
+  
+
+
+/* Select the CTA Text here  */
+
+#CTA-text-container{
+
+  
+  
+  
+}
+
+#CTA-text{
+
+  
+  
+  
+}
+
+
+#name-header{
+
+  
+  
+  
+}
+
+#email-title{
+
+  
+  
+  
+  
+}
+
+
+
+#phone-title{
+  
+
+  
+margin-left: -35.5vw; 
+
+
+
+  
+  
+}
+
+#text-area-label{
+
+  
+}
+  
+  
+  #text-area-header{
+  
+
+
+    
+    margin-left: -11.4vw; 
+
+  }
+  
+  
+  
+}
+
+
+@media(max-width: 655px){
+
+  
+  /* Adjust the CTA header here  */
+  #CTA-container{
+
+
+    
+    /* margin: 0 auto !important;  */
+    
+    margin-left: -15vw !important;
+    
+    
+    
+    
+  }
+  
+  #CTA-Header{
+    
+    
+    
+  }
+  
+  
+  
+  /* Adjust the CTA Text here  */
+  #CTA-text-container{
+    
+    
+    margin: 0 auto !important; 
+    
+    margin-top: 2rem !important; 
+    
+    /* overflow: hidden;  */
+    
+    
+  width: 80vw !important; 
+  
+    
+    
+    
+  }
+  
+  
+  #CTA-text{
+
+    
+
+    
+    
+    
+  }
+  
+  /* Adjust the Name title here  */
+  #name-row{
+
+    
+    
+    
+  }
+  
+  
+  #name-header{
+  
+
+    
+    
+  }
+  
+  #text-area-header{
+    
+    
+    
+    margin-left: -6.7vw; 
+    
+    
+  }
+  
+  
+  /* Adjust the message title here  */
+  
+  
+  
+  
+  
+}
+
+
+/* 
+
+Okay so I need to create a the mobile equivalent structure for the contact form 
+
+This means that everything that is stacked or lined up side by side 
+
+needs to be on it's own line. 
+
+
+First of all I can reset things by setting each element and it's parent 
+
+containers to a display of block and then I can reset and set their margin 
+
+and padding to zero as well as all their transform translate properties. 
+
+
+Then I need to set each input element to a viewport unit and have each one take up most 
+of the width of the screen up to a certain point. 
+
+Once this is done I need to remove all the labels and titles and Once that is done 
+
+I need to adjust the spacing and margin as well as sizing. 
+
+*/
+
+@media(max-width: 645px){
+  
+  /* Add in the CTA header here  */
+   #CTA-container{
+
+    
+
+    
+    /* centralize the CTA here  */
+    
+    
+    
+    
+   }
+   
+   
+   #CTA-Header{
+
+    margin: 0 auto; 
+    
+    
+    
+   }
+  
+  /* Adjust the main CTA Text here  */
+  #CTA-text-container{
+    
+
+
+  margin: 0 auto; 
+  min-width: 90vw !important; 
+  /* overflow: hidden; */
+  margin-left: 8vw !important;
+    
+  }
+
+  
+  
+  #CTA-text{
+    
+    outline: none !important; 
+
+    
+  }
+  
+  /* Add in the title containers here  */
+  
+  #name-header{
+    
+  display: none !important;
+  
+
+    
+  }
+  
+  
+  #dropdown-title{
+    
+    
+  }
+
+  
+  #first-name-title{
+
+  
+  display: none !important;
+  
+    
+    
+  }
+  
+  
+  #name-headline-title{
+    
+    
+  }
+  
+  
+  #email-title{
+
+  display: none !important; 
+
+    
+  }
+  
+  #phone-title{
+  
+
+  display: none !important; 
+
+    
+  }
+  
+  
+  
+  #text-area-header{
+
+    
+    
+    
+  }
+  
+  
+  
+  
+  
+  
+  /* Adjust the widths of the input elements here  */
+  #drop-down-list{
+    
+
+    display: none !important;
+    
+
+
+  }
+  
+  
+  #name-input{
+
+    
+    display: block !important; 
+    
+    padding: 0; 
+    margin: 0 auto; 
+    
+    width: 85vw !important; 
+    
+
+    
+    
+  }
+  
+  
+  #first-name-container{
+
+    
+
+    display: block; 
+    padding: 0; 
+    margin: 0;
+    
+    
+    display: none !important;
+    
+    
+  }
+  
+  #last-name-title-container{
+    
+    
+    
+    
+  }
+  
+  #input-list{
+    
+  
+    
+    
+  }
+  
+  
+  
+  
+  
+  #input-list-item{
+    
+
+    
+    
+  }
+  
+  
+  #email-row{
+
+    
+    
+    
+    
+  }
+  
+  
+  
+  
+  
+  #email-input{
+    
+    
+
+    width: 85vw !important; 
+    margin: 0 auto !important; 
+    
+
+    
+  }
+  
+  
+  
+  #phone-number-row{
+    
+
+    
+    display: none !important;
+    
+    
+  }
+  
+  
+  #phone-input{
+    
+    
+    
+    
+    
+  }
+  
+
+  
+  #phone-input{
+
+    
+    
+    
+    
+  }
+  
+  
+  
+  
+  #text-area-input{
+
+    
+    
+  }
+  
+  
+  
+  
+  
+  #message-textarea{
+
+    
+  width: 85vw !important; 
+  margin: 0 auto !important; 
+  
+  margin-top: 0.7rem !important; 
+  
+    
+    
+  }
+  
+  #last-name-title-container{
+  
+  
+    position: relative; 
+    
+    /* min-height: 15rem;  */
+    
+    
+    
+
+    
+    max-height: 3rem !important; 
+      
+      /* display: none; */
+    
+    
+    
+  }
+  
+  
+  #name-column{
+    
+    padding: 0 !important; 
+    margin: 0 !important; 
+    
+    margin-bottom: -15rem !important;
+    
+
+    
+    
+height: 10vh !important ; 
+    
+  }
+  
+  /* Add in the code here for the title and CTA text  */
+  #CTA-container{
+
+    
+    
+    
+    margin-bottom: -4rem;
+    
+    
+  }
+  
+  
+  #CTA-Header{
+    
+    
+    
+    
+    
+  }
+  
+  #CTA-text-container{
+    
+
+    
+    transform: translate(0rem, 5rem);
+    
+    
+    
+  }
+  
+  
+  #CTA-text{
+    
+    
+    margin-bottom: -4rem !important;
+    
+    
+    
+    
+    
+    
+  }
+  
+  
+  
+  #name-input{
+    
+    
+    transform: translate(0rem, 2rem);
+    
+    /* margin-bottom: -4rem !important; */
+    
+    
+  }
+  
+  
+  
+  
+  #text-area-label{
+    
+    
+    display: none !important;
+    
+  }
+  
+  #submit-button{
+
+    
+
+
+    
+    margin: 0 auto !important; 
+    
+    transform: translate(-30vw, 0rem);
+    
+    
+    
+  }
+  
+  /* Add in the code here to remove the input titles here  */
+  
+  #name-headline-title{
+
+    display: none !important; 
+    
+    
+    
+  }
+  
+  
+  #first-name-title{
+    
+    display: none !important; 
+    
+    
+    
+    
+  }
+  
+
+  #dropdown-title{
+
+    display: none !important; 
+    
+    
+  }
+  
+  #name-header{
+    
+    display: none !important; 
+    
+    
+  }
+  
+  
+  /* This the the element with the green background  */
+  form{
+    
+    
+    
+    transform: translate(1.1vw, 0rem);
+    
+    
+    
+    
+  }
+  
+  
+  /* Add in some extra top margin to the message text area to push it down a bit */
+  
+  
+  
+  
+  /* Adjust the padding and margin here  */
+  
+  
+  /* Adjust the sizing here  */
+  
+  
+  /* Adjust the Submit button here  */
+
+  
+  
+}
+
+@media(max-width: 560px){
+  
+  
+  /* Add in the form here  */
+  
+  form{
+    
+    
+
+    /* transform: translate(10vw, 0rem); */
+    
+    
+  }
+  
+  
+  /* Add in the name input here  */
+  
+  
+  #name-input{
+
+    margin-top: 1rem; 
+    
+    
+    
+  }
+  
+  
+  #email-input{
+    
+    
+  margin-top: 4rem !important; 
+  
+    
+    
+  }
+  
+  
+  
+  
+}
+
+
+
+
+
+
+
+
+
+@media(max-width: 480px) {
+  
+  
+  form{
+    
+    transform: translate(1.7vw, 0rem);
+    
+    
+    
+    
+  }
+  
+  
+  /* Add in the name input here  */
+  
+  
+  
+  /* Add in the email input here and it's container  */
+  
+  
+}
+
+
+/* Add in the rest of the media queries here  */
+@media(max-width: 440px){
+
+  #submit-button{
+    
+    transform: translate(-27vw, 0rem);
+    
+    
+  }
+  
+  
+  form{
+
+    /* transform: translate(1.97vw, 0rem); */
+    
+    
+    
+    
+  }
+  
+  
+  #name-input{
+    
+    /* margin-bottom: 1rem !important; */
+    transform: translate(0rem, 0rem);
+    
+    margin-top: 5rem !important; 
+    
+    
+    
+    
+  }
+  
+  
+  #email-input{
+  
+    margin-top: 6.5rem !important; 
+    
+    
+    
+  }
+  
+  
+}
+
+
+@media(max-width: 360px) {
+  
+  
+  form{
+    
+    transform: translate(8vw, 0rem);
+
+    
+    
+    
+  }
+  
+  
+}
+
+
+@media(min-width: 375px){
+  form{
+
+    transform: translate(8.06vw, 0rem) !important;
+    /* outline: 20px solid lime !important; */
+    
+    
+    
+  }
+  
+}
+
+
+@media(max-width: 1200px){
+  
+  form{
+    
+    /* transform: translate(8.06vw, 0rem) !important; */
+    /* 
+    Okay so let's just work things out. 
+    
+    So far I have a working contact form. 
+    
+    
+    It need some polishing but as far as I know there are not 
+    
+    gaps.   
+    
+    
+    So now all I need to do is polish up the contact form and then 
+    
+    once that is done do the footer and the rest of the page. 
+    
+    
+    
+    
+    
+    
+    */
+    
+    
+  }
+  
+  
+}
+
+
+@media(max-width: 950px){
+
+  
+    form{
+    
+    transform: translate(0vw, 0rem) !important;
+
+    
+    
+    
+  }
+  
+  
+}
+
+
+@media(max-width: 1600px){
+  
+  
+  form{
+    
+    transform: translate(0vw, 0rem) !important;
+    
+    
+    
+  }
+  
+}
+
+
+/* Add in the container queries here  */
+
+
+/* Add in the orientation queries here  */
+
+
+/* Add in the orientation lock here  */
+
+
+
+
+/* Add in the Effects here  */
+
+
+/* Add in the animations here  */
+
+
+
+

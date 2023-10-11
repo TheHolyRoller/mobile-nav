@@ -1,0 +1,1054 @@
+
+
+
+*, *::after, *::before{
+    
+    padding: 0px; 
+    margin: 0px; 
+    
+    
+}
+
+
+body{
+
+
+width: 100vw; 
+min-height: 100vh;
+position: relative;
+
+padding: 0; 
+margin: 0; 
+
+    
+}
+
+
+
+
+:root{
+    
+    
+
+}
+
+
+html{
+
+    
+scroll-behavior: smooth;
+
+
+
+    
+    
+}
+
+
+#footer-container{
+    
+    
+    
+}
+
+#background-container{
+
+    min-width: 100vw !important; 
+    
+    position: absolute; 
+
+    
+    left: 0; 
+    right: 0; 
+    
+}
+
+
+#mobile-footer-background{
+    
+    
+}
+
+
+
+#footer-logo-container{
+    
+    position: absolute; 
+    top: 13%; 
+    left: 50%;
+    
+    transform: translate(-50%, 50%);    
+    
+}
+
+
+#footer-content-section{
+
+    position: absolute; 
+    
+    top: 29.9%; 
+    
+    left: 50%;
+    
+    transform: translate(-50%, -9%);
+    
+    
+}
+
+#footer-content-container{
+    
+
+}
+
+
+#footer-list{
+    
+    
+    text-align: center;
+    
+
+    
+    
+    
+}
+
+
+
+#footer-list-item{
+    margin-top: 0.62rem; 
+
+}
+
+
+#footer-list-text{
+
+    
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    
+    
+    
+}
+
+
+
+#bottom-buttons-section{
+
+    
+    position: absolute; 
+
+    bottom: 0; 
+    left: 0%; 
+    
+    
+    width: 100vw; 
+    
+}
+
+
+
+#footer-social-buttons-container{
+    
+
+    position: relative; 
+    
+}
+
+
+
+#social-list-container{
+
+    
+    min-height: 4.31rem;
+
+    
+    display: flex;
+    align-items: center;
+    
+    
+    
+}
+
+
+
+#social-media-list{
+    
+    
+    width: 34vw; 
+
+    border-right: 1px solid white; 
+    
+    height: 4.93rem; 
+    
+    margin-bottom:0px; 
+    
+    
+    overflow: hidden;
+
+    
+}
+
+
+
+#social-media-list-item{
+    
+    display: inline-block;
+    
+    margin-top: 1.1rem; 
+    
+    font-size: 3rem;
+
+    
+}
+
+
+
+.facebook-icon{
+
+    
+margin-left: 1.6rem; 
+   
+margin-right: 0.45rem;
+
+font-size: 2.5rem; 
+ 
+    
+}
+
+
+#footer-social-icon{
+
+font-size: 2.5rem;  
+
+
+
+
+}
+
+
+
+
+
+
+#footer-icon{
+
+
+    
+}
+
+
+#footer-CTA-container{
+
+    
+position: absolute; 
+
+bottom: 0px; 
+
+border: 1px solid white; 
+
+
+overflow: hidden;
+
+
+width: 100vw; 
+min-height: 5rem; 
+
+    
+    
+}
+
+
+
+
+
+#CTA-button-container{
+
+
+    width: 23rem; 
+
+    
+    transform: translate(36vw, 0);
+    
+}
+
+
+
+
+#CTA-button{
+
+
+    display: grid; 
+    justify-content: center;
+    
+    align-content: center;
+
+}
+
+
+
+
+#footer-CTA-text{
+    
+    
+    margin-top: 1.5rem; 
+    
+    text-transform: uppercase;
+    
+
+    
+}
+
+
+
+#footer-main-container{
+
+        
+    min-height: 127vh; 
+    
+    
+}
+
+
+#footer-container{
+
+    
+    
+    
+}
+
+
+
+
+#footer-section-container{
+
+    
+    display: grid;
+    
+}
+
+
+
+#section-list-container{
+
+
+
+display: grid; 
+
+margin-top: 3%; 
+
+margin-left: 5%; 
+margin-right: 5%; 
+
+min-height: 50vh;
+
+
+outline: 20px solid lime !important;
+
+
+
+    
+
+grid-template-columns: 4fr 2fr;
+
+position: relative; 
+
+
+
+}
+
+
+#list-container{
+
+
+position: absolute; 
+left: 0; 
+
+
+top: 20%; 
+
+
+
+
+}
+
+#section-list{
+
+display: grid;
+place-content: center;
+
+
+
+
+}
+
+
+
+
+#section-list-item{
+
+margin-bottom: 1rem; 
+
+
+
+}
+
+
+#headline-container{
+
+
+
+
+
+}
+
+
+#footer-main-container{
+position: relative; 
+
+}
+
+
+
+#footer-container{
+
+
+
+}
+
+
+#section-headline{
+
+
+
+margin-bottom: 2rem; 
+
+font-size: 1rem !important;
+
+
+font-weight: 500; 
+
+
+
+
+}
+
+
+
+
+
+
+#section-list-item{
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+#second-section-container{
+
+
+    position: absolute; 
+    right: 0; 
+    top: 0%; 
+    
+    
+    
+}
+
+#second-section-list{
+
+    width: 100%; 
+    
+    min-height: 40vh; 
+    margin-top: 5%; 
+    
+    margin-left: -25%; 
+    
+    display: grid;
+
+    justify-content: center;
+    
+    padding-top: 1rem; 
+    
+    gap: 10%;
+    width: 38vw; 
+    grid-template-columns: 1fr 1fr;
+    
+}
+
+#second-section-item{
+
+    
+
+    
+}
+
+
+#second-section-text{
+
+    
+    font-size: 1.2rem; 
+    
+    font-weight: 700;   
+    
+    
+}
+
+
+#location-icon{
+
+
+    font-size: 1rem; 
+    
+    font-weight: 500; 
+    
+    
+}
+
+
+#meeting-location{
+
+    margin-left: 1rem; 
+    
+    font-size: 1.2rem; 
+    font-weight: 700; 
+    
+    
+    
+    
+}
+
+#meeting-info{
+
+    display: block; 
+    
+    font-size: 1rem; 
+    
+    font-weight: 500; 
+    
+    color: grey; 
+
+    margin-top: 0.9rem; 
+
+    
+}
+
+
+
+
+
+
+#headline-container{
+
+    margin-bottom: 1.7rem; 
+    
+    
+} 
+
+
+
+
+#section-headline{
+
+    
+    font-size: 1.1rem; 
+    
+    font-weight: 700;
+    color: #e7e7e8; 
+    
+    
+    text-transform: uppercase;
+    
+    
+    
+}
+
+
+#list-phone-text{
+
+
+    
+    font-size: 1.2rem !important;
+    
+    color: #00c56f; 
+    
+}
+
+
+
+#list-text{
+
+   font-size: 1.5rem; 
+   
+   font-weight: 400; 
+    color: #00c56f;
+}
+
+.email-contact{
+    margin-bottom: 2rem !important; 
+    margin-top: -5px; 
+}
+
+
+
+
+#signup-container{
+
+display: grid;
+place-content: center;
+
+
+
+}    
+
+
+
+
+
+
+#signup-header{
+
+
+/* outline: 4px solid blue;  */
+
+font-size: 1.3rem; 
+
+font-weight: 400; 
+
+
+}    
+
+
+#signup-input{
+
+
+width: 12rem; 
+margin-top: 1rem; 
+margin-bottom: 3rem; 
+
+margin-left: 13.5%; 
+
+
+    
+    
+    
+}
+
+
+
+#footer-section-container{
+    
+    display: grid;
+    
+    
+    
+}
+
+
+#section-list{
+
+    
+    
+}
+
+
+
+
+
+#section-list-item{
+
+    
+    
+}
+
+
+
+
+
+#social-media-item{
+
+    
+    
+    
+}
+
+
+#social-list{
+    
+    display: flex;
+    align-items: baseline; 
+    
+}
+
+
+
+
+
+#social-item{
+    
+    display: inline-block;
+    
+    margin-right: 1rem; 
+    
+    font-size: 1.3rem; 
+    
+}
+
+
+#icon-container{
+    
+    font-size: 2rem; 
+}
+
+
+#bottom-section-container{
+    position: absolute;
+    
+    bottom: 8%; 
+    left: 5%; 
+    
+    display: flex;
+    justify-items: center;
+    
+}
+
+
+
+#bottom-section-list{
+
+    
+    display: flex; 
+    place-items: center;
+    margin: 0 auto; 
+
+    
+}
+
+
+
+#bottom-section-item{
+
+display: inline-block;
+margin-right: 2rem; 
+
+font-size: 0.75rem; 
+
+
+
+}
+
+
+#copyright-info{
+
+margin-top: 5%; 
+
+position: absolute;
+bottom: 8%; 
+right: 9%; 
+
+width: 35vw; 
+
+font-size: 0.84rem; 
+font-weight: 500; 
+
+display: grid; 
+justify-content: center;
+
+
+
+}
+
+
+
+#ministry-tagline{
+
+
+/* outline: 10px solid lime;  */
+
+position: absolute; 
+
+bottom: 10%; 
+right: 5%; 
+
+
+
+display: grid;
+place-content: center;
+margin-top: 2rem; 
+
+
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+   
+    #hero-container{
+        
+        margin-left: -1.5rem;
+        
+        
+        
+    }
+    
+    
+    #section-list-container{
+    
+        
+        
+    }
+   
+  }    
+#hero-text-container{
+position: absolute;
+
+top: 50%; 
+left: 5vw; 
+
+z-index: 20; 
+
+}
+
+
+
+
+/* Add in the media query here to change the placement of the bottom Section of the footer  */
+
+
+@media  (max-width: 1435px){
+
+
+/* Add in a container for the copyright info here  */
+#copyright-info-container{
+    
+    /* outline: 10px solid lime;  */
+    
+    width: 100vw; 
+    display: grid;
+    place-content: center;
+    
+    
+    
+    
+}
+
+
+#copyright-info{
+
+    /* outline: 10px solid blue !important;  */
+    
+    position: relative !important;
+    
+    width: 90vw; 
+    display: grid;
+    place-content: center;
+    margin-top: 2.3rem; 
+    
+    
+    transform: translate(8.2vw, 0rem); 
+    
+}
+
+/* Select the bottom section list here  */
+#bottom-section-container{
+
+
+position: relative !important; 
+
+width: 100vw; 
+outline: 10px solid blue; 
+display: grid;
+place-content: center;
+
+/* margin: 0 auto !important;  */
+margin-left: -5vw; 
+
+/* margin-left: -8vw;  */
+margin-top: 5rem; 
+    
+}
+
+/* Select the tagline here  */
+
+#ministry-tagline{
+
+    position: relative !important; 
+
+}
+
+
+#tagline-container{
+
+
+    
+    
+}
+
+
+/* For the grid template to work you need to reset all the sub-containers below  */
+#list-container{
+
+position: relative; 
+
+    
+    
+    
+    
+}
+
+
+#second-section-container{
+
+    position: relative; 
+    
+    outline: 20px solid blue; 
+    
+    /* overflow: hidden; */
+    
+    
+    
+    
+    
+}
+
+#second-section-list{
+    
+    
+    margin: 0 auto; 
+    
+    margin-top: 15vh; 
+    
+    
+}
+
+
+
+#section-list-container{
+    
+    
+    
+        
+    grid-template-columns: 1fr !important; 
+    
+    outline: 10px solid lime !important; 
+
+    
+    
+}
+
+
+
+#footer-section-container{
+
+
+/* grid-template-columns: 1fr !important; */
+    
+    
+    
+    
+}
+
+
+
+}
+
+
+/* Add in the media query here to reduce negative left margin and to create a mobile layout  */
+
+@media (max-width: 500px){
+
+
+
+
+
+
+
+}
+
+
+
+
+/* Add in the media queries here  */
+
+
+/* Add in the Animations here  */
+
+
+/* Add in the Effects here  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Add in the Media queries here  */
+
+
+
+
+/* Add in the container queries here  */
+
+
+
+
+/* Add in the preference queries here  */
+
+
+
+/* Add in the orientation queries here  */
+
+
+
+
+
+/* Add in the Effects here  */
+
+
+
+
+/* Add in the Animations here  */
+
+
+
+
+
+

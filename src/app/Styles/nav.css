@@ -1,0 +1,52 @@
+*, *::after, *::before{
+
+padding: 0; 
+margin:0; 
+
+
+backdrop-filter: none !important; 
+
+-webkit-backdrop-filter: none !important;
+
+    
+}
+
+
+html{
+
+scroll-behavior: smooth;
+
+    
+}
+
+
+
+body{
+    
+    
+    overflow-x: hidden;
+    position: relative; 
+    
+    
+    margin: 0 !important;
+    
+    padding: 0px; 
+    
+    
+    
+}
+
+
+/* Add in the hero section here  */
+
+
+
+
+.nextui-c-egxOLa nextui-navbar-container{
+
+        backdrop-filter: transparent !important;
+        -webkit-backdrop-filter: none !important ;   
+
+        
+}
+

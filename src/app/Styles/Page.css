@@ -1,0 +1,764 @@
+        /* 
+
+
+        Okay so let's just talk things through. 
+
+
+        So first of all I want to create a hamburger menu. 
+
+
+        Once that is done then I want to create the mobile footer. 
+
+
+        First of all I need to get the example and deconstruct 
+
+        it. 
+
+
+        Then once the example is deconstructed then I need to go 
+
+        through the planning process and then once that is done I need
+
+        to follow the planning process creating new plans when needed.
+
+
+        Okay so now I need to look at the example. 
+
+
+
+
+
+        Okay so first of all there are three groups of buttons. 
+
+        The main stack of footer navigational buttons. 
+
+
+        The social media buttons and then the two CTA buttons. 
+
+
+        The logo is placed up at the top left hand side 
+
+
+        and the closing button is on the right. 
+
+
+
+        Then the background is the felt image and it covers the whole 
+
+
+        width and height of the viewport. 
+
+        Okay so that's a general overview of the component. 
+
+
+
+        Okay so now let's deconstruct the component. 
+
+
+
+        So first of all we'll need the right background and set that image to be the 
+
+
+        full size of the viewport. 
+
+
+
+        This should have some tolerance for different screen sizes. 
+
+
+        Okay next we need to place the Logo at the top left hand side of the screen. 
+
+
+        Then we need to create the container and the list to hold the seven 
+
+
+        different navigational buttons. 
+
+
+        Then we need to ensure that they are in the center of the screen and that 
+
+
+        the sizing and spacing is just right. 
+
+
+        Then right below that we have the list of social media icons. 
+
+        Two in total. 
+
+        Then right below that we have the two CTA buttons. 
+
+        These will be a set width up to a certain threshold in which case they will 
+
+        conform to a certain percentage of the viewport when the viewport becomes quite 
+
+
+        narrow. 
+
+
+
+        Okay so that's the general structure. 
+
+
+        The next thing that we have to worry about now is the opening and 
+
+
+        closing button. 
+
+        For that we'll need two icons. 
+
+
+        Once for the hamburger menu and then one for the closing icon button. 
+
+
+        Okay so there is an automatic hamburger menu that pops up right when the 
+
+        site loads. 
+
+        This is different from the main hamburger menu that can be accessed 
+
+        at full screen sizes. 
+
+        This hamburger menu can be accessed by clicking the home button and then 
+
+        this different hamburger menu is opened. 
+
+
+
+
+        I think it is quite unnecessary though to create two separate hamburger menus 
+
+        though. 
+
+        I think it would be much better to create one that can be accessed on smaller 
+
+        full screen mode. 
+
+
+        This means that I only need to create one hamburger menu and I'll model it after 
+
+        the main full screen hamburger menu. 
+
+        Then when the side loads I'll load the main hamburger menu and then I'll 
+
+        just have the close icon so that the user knows how to continue to the site. 
+
+
+
+        Okay so that sounds like a good plan. 
+
+        There will follow a lot more plans and steps later but that is a good start. 
+
+
+        First of all I'm going to get the right images and set it as the background. 
+
+
+        Then I'm going to add in the list of buttons the CTA buttons as well as the social 
+
+        media icons and then the close button. 
+
+
+        Okay so there are a lot of things that still 
+        
+        need to be done for the hamburger menu. Especially the typography 
+        
+        needs changing. 
+        
+        And everything needs to be aligned perfectly then the right 
+        
+        colors and icons need to be used then a whole suite of polishing tasks 
+        
+        need to be done to get the component up to standard. 
+        
+        
+
+        Okay so that's the remaining work for the hamburger menu. 
+        
+        
+        Now it would be great to start and get some work done on the 
+        
+        
+        
+        mobile footer. 
+        
+        
+        
+        First of all let's go through the planning steps. 
+        
+        
+        First of all the footer is at the bottom of the page and it has the same 
+        
+        background as the hamburger menu. 
+        
+        
+        It takes up the full width of the viewport and is an average of 
+        
+        70 to 80 percent of the viewport height and sometimes a bit higher or lower. 
+        
+        
+        
+        Next there are two different types of mobile footers. 
+        
+        
+        There is the tablet footer and there is the footer for phones with narrow screens. 
+        
+        Okay so the tablet version has a line that runs through the top of the 
+        
+        
+        footer. This line is interrupted by the logo which is placed at the top 
+        
+        at the center. 
+        
+        
+        So Then this line disappears when the screen becomes smaller. 
+        
+        
+        
+        Okay so the main components of the footer are the background. 
+        
+        
+        Then after a bit of whitespace at the top there is the logo. That 
+        
+        interrupts the line at the top. 
+        
+        
+        Then right below that there is a horizontal list of navigational buttons. 
+        
+        These buttons are all the different pages on the site. 
+        
+        
+        There is a bit of space above and below these buttons. 
+        
+        
+        Then after a bit of whitespace there is another line that borders the 
+        
+        bottom navigational section. 
+        
+        
+        On the left there is a section that holds the social media icons. This has a 
+        
+        border on the right and it is larger than it's contents to provide a bit of space 
+        
+        then to the right of that there is a Call to Action button that tells the 
+        
+        user to make a reservation. 
+        
+        This increases and decreases with the available viewport width up to 
+        
+        a certain point. 
+        
+        
+        And basically that's the whole thing really. 
+                
+                
+        Okay so let's talk how things through. 
+        
+        
+        
+        First of all let's work with the current example. 
+        
+        
+        The first thing to change would be to center the logo and position it correctly. 
+        
+        
+        Then once that is done the next logical step would be to adjust the height of 
+        
+        background to match the background of the example. 
+        
+        
+        
+        Then I can focus on the other tasks like adding in the right text and then 
+        
+        adjusting the spacing and then making the continue to site button. 
+        
+        
+        As well as removing the social media icons. 
+        
+        
+        
+        Okay so let's just talk things through. 
+        
+        
+
+        
+        */
+
+
+
+        *{
+            
+            
+        padding: 0; 
+        margin: 0; 
+
+            
+        }
+
+        html{
+
+            scroll-behavior: smooth;
+            
+        }
+
+
+
+
+        body{
+
+            
+            
+        padding: 0;
+        margin: 0; 
+
+        position: relative; 
+
+        width: 100vw; 
+        min-height: 100vh;
+
+            
+            
+            
+        }
+
+
+        :root{
+            
+            
+        /* Add in the root variables here  */
+
+
+        /* Add in the color variables here */
+
+
+
+        /* Add in the positioning variables here  */
+
+
+
+        /* Add in the dimensional variables here  */
+
+
+
+        /* Add in the timing variables here  */
+            
+            
+            
+            
+            
+        }
+
+
+        /* Add in the styling for the main container here  */
+
+
+
+        #hamburger-main-container{
+
+
+        position: relative; 
+
+        min-width: 100vw; 
+        max-width: 100vw; 
+        min-height: 100vh;
+
+        outline: 2px solid white; 
+
+            
+            
+            
+        }
+
+
+
+        #background-container{
+
+            
+            min-width: 100vw;
+            max-width: 100vw; 
+
+            
+            outline: 20px solid lime; 
+
+            position: relative; 
+
+            
+            
+            
+            
+        }
+
+
+
+
+        #background-image{
+
+            pointer-events: none;
+
+            
+        }
+
+
+
+
+
+        #top-section-container{
+
+            
+        }
+
+        #logo-container{
+
+            width: 10vw; 
+            position: absolute; 
+            
+            
+            top: 20%; 
+            left: 50%; 
+            transform: translate(-50%, 0);
+            font-size: large;
+            
+            
+        }
+
+
+
+
+
+        #exit-button-container{
+
+            /* outline: 10px solid orange;  */
+
+            width: 3vw; 
+            margin-left: 96vw;
+
+        }
+
+
+        #hamburger-list-container{
+            
+
+        position: absolute;
+
+
+        top: 50%; 
+
+        left: 50%; 
+
+        transform: translate(-50%, -50%);
+
+
+        margin-top: -4vh; 
+
+            
+            
+            
+        }
+
+
+
+
+        #hamburger-list{
+            
+
+            text-align: center;
+            
+            /* margin-top: 4vh;  */
+            
+            
+            
+            
+        }
+
+
+
+
+
+        #hamburger-list-item{
+
+            
+            margin-top: 1rem;
+            
+            
+            
+            
+            
+        }
+
+
+
+
+        #hamburger-text{
+
+            
+            font-size: 2rem;
+            
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            
+            /* Change the font weight here  */
+            
+            
+            /* Change the Kerning here  */
+            
+            
+            /* Change the letter spacing here  */
+            
+            
+            
+            /* Change the word spacing here  */
+            
+            
+            /* Change the font style here  */
+            
+            /* Change the font family here  */
+            
+            
+            /* Change the font color here  */
+            
+            
+        }
+
+
+
+
+
+        #social-media-container{
+
+            margin-top: 4.25rem; 
+
+            
+        }
+
+
+
+
+
+        #hamburger-social-list{
+
+            
+            
+
+            min-height: 4rem;
+            width: 15vw; 
+            margin-bottom: 0.93rem;
+            margin-top: -2rem; 
+            
+            
+            
+            transform: translate(7.1vw, 0);
+            
+            
+        }
+
+
+
+
+        #hamburger-social-item{
+
+            
+        display: inline-block;
+        
+
+            
+        }
+
+
+
+        .last-social{
+            
+            
+            transform: translate(-0.63rem, 0) !important;
+            
+            
+        }
+        
+        
+        .facebook-icon{
+
+            
+            
+            
+        }
+
+
+        #CTA-list{
+
+            
+
+
+            
+        }
+
+
+
+
+        #hamburger-social-text{
+
+        margin-left: 1rem; 
+        
+
+        display: inline-block;
+        
+        font-size: 3rem; 
+
+        }
+        
+        #social-icon{
+            
+        
+        
+            
+            
+        }
+        
+        
+        
+        
+        
+        
+        /* Call  */
+
+        #CTA-container{
+
+        /* outline: 10px solid blue;  */
+
+        width: 22rem; 
+
+        min-height: 8rem;
+
+        display: grid;
+
+        place-content: center;  
+
+
+            
+        }
+
+
+
+
+        #CTA-list{
+
+            
+        /* outline: 4px solid red;  */
+
+            
+        }
+
+
+
+
+        #CTA-list-item{
+
+
+
+        margin-top: 2rem;
+
+
+        min-height: 3.375rem;
+
+        width: 21.91rem !important; 
+
+        background-color: #ebdfd4; 
+
+        color: #0f1d1d; 
+
+
+        display: grid;
+
+        justify-content: center;
+        
+        align-content: center;
+            
+            
+            
+        }
+
+
+
+
+        #CTA-text{
+
+            
+        text-transform: uppercase;
+        
+        font-size: 1.2rem; 
+        
+        
+        /* Change the font weight here  */
+        
+        
+        /* Change the letter spacing here  */
+        
+        
+        /* Change the font family here  */
+            
+        /* Change the word spacing here  */
+            
+            
+            
+            
+            
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /* Add in the media queries here  */
+
+
+
+
+
+
+        /* Add in the container queries here  */
+
+
+
+        /* Add in the orientation queries here  */
+
+
+
+        /* Add in the user preference queries here  */
+
+
+
+
+
+
+        /* Add in the Effects here  */
+
+
+
+
+
+
+        /* Add in the animations here  */
+
+
+
+
+
+
+

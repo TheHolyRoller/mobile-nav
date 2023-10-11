@@ -1,0 +1,462 @@
+        *, *::after, *::before{
+
+        padding: 0; 
+        margin: 0; 
+
+            
+        }
+
+
+
+
+        body{
+
+        padding: 0; 
+        margin: 0; 
+
+
+        width: 100vw; 
+        max-width: 100vw; 
+        min-height: 100vh; 
+            
+        overflow-x: hidden;
+        overflow-y: scroll;
+
+        position: relative; 
+
+        /* Add in the font family type and size here  */
+            
+        /* Add in the background color here  */
+
+
+
+
+            
+        }
+
+
+
+        html{
+
+
+            
+        scroll-behavior: smooth;
+
+            
+            
+            
+        }
+
+
+
+        :root{
+
+        /* Add in the color variables here  */
+            
+
+        /* Add in the font variables here  */
+            
+
+        /* Add in the padding and margin variables here  */
+
+
+        /* Add in the sizing variables here  */
+
+
+
+        /* Add in the timing variables here  */
+            
+
+        }
+
+
+
+
+        /* Add in the main container here  */
+
+        #slider-container{
+
+            
+        margin: 0 auto; 
+
+
+            
+            
+        }
+
+
+        #slider-paper{
+
+            
+            
+        }
+
+
+        /* 
+
+        style={{transform: 'translate(45vw, 30vh)', position: 'relative', zIndex: '99', }}
+
+        */
+        
+        
+        
+        #main-slider-text-container{
+
+            
+            transform: translate(25vw, 45vh);
+
+            z-index: 200; 
+            width: 50vw; 
+            
+            display: grid;
+            place-content: center; 
+            
+            text-align: center; 
+            font-size: 1.3rem; 
+            font-weight: 700;
+            
+            /* width: 10rem;  */
+            outline: 10px solid lime; 
+            
+            
+            
+            
+        }
+        
+        
+        
+
+        #slider-header{
+
+
+            /* transform: translate(25vw, 45vh);
+            position: relative; 
+            z-index: 200; 
+            
+            
+            width: 50vw; 
+            
+            display: grid;
+            place-content: center; 
+            
+            text-align: center; 
+            font-size: 1.3rem; 
+            font-weight: 700; */
+            
+        
+            
+            
+            
+        }
+
+
+        #slider-text{
+
+            
+            /* transform: translate(-10vw, 16vh);
+            position: relative; 
+            z-index: 200; 
+            font-size: 2rem  !important; 
+            font-weight: 700;   
+            
+            word-spacing: 0.15ch;
+            letter-spacing: -0.1rem;
+            
+            
+            
+            outline: 10px solid red;  */
+            
+            
+            
+            
+        }
+        
+        
+        #slider-btn-container{
+
+           
+           
+           
+            
+            
+        }
+
+
+
+        #slider-btn{
+
+
+            
+            /* z-index: 200; 
+            
+            display: grid;
+            place-content: center;
+            
+            margin-top: 3rem; 
+            
+            
+            outline: 10px solid blue;    */
+            
+            
+        }
+
+
+        #slider-autoplay{
+
+            
+            
+            
+        }
+
+
+        #slider-img-container{
+
+
+            
+            
+        }
+
+
+
+        #slider-img-box{
+            
+            
+            
+            
+            
+            
+            
+        }
+
+
+
+        #mobile-slider-stepper{
+
+            
+            
+            
+            
+        }
+
+
+        #slider-right-btn{
+
+
+        margin-right: -4.4vw; 
+        
+            
+            
+        }
+
+
+
+        #slider-right-svg{
+
+            
+            
+            
+        }
+
+
+
+        #slider-left-btn{
+
+        
+        margin-left: -5.05vw; 
+        
+            
+            
+            
+            
+        }
+
+
+        #slider-left-svg{
+
+            
+            
+            
+            
+        }
+
+
+        .myButton {
+            background-color:#44c767;
+            -webkit-border-radius:15px;
+            -moz-border-radius:15px;
+            border-radius:15px;
+            border:1px solid #18ab29;
+            display:inline-block;
+            cursor:pointer;
+            color:#ffffff;
+            font-family:Arial;
+            font-size:20px;
+            padding:21px 76px;
+            text-decoration:none;
+            text-shadow:0px 1px 0px #2f6627;
+        }
+        .myButton:hover {
+            background-color:#5cbf2a;
+        }
+        .myButton:active {
+            position:relative;
+            top:1px;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        /* Add in the Media Queries here  */
+        @media(max-width: 650px){
+            
+            #slider-header{
+                
+            
+            min-width: 40vw !important; 
+            
+            transform: translate(32vw, 30vh);
+            
+            outline: 10px solid blue; 
+            
+                
+                
+                
+                
+            }
+            
+            
+            
+            
+            
+        }
+        
+        
+        @media(max-width: 900px){
+            #slider-right-svg{
+            
+                
+                display: none;  
+
+                
+            }
+            
+            
+            
+            #slider-left-svg{
+
+                
+              display: none;  
+                
+                
+            }
+            
+        }
+            
+            
+            
+        
+
+
+
+        /* Add in the container queries here  */
+
+
+
+
+        /* Add in the orientation queries here  */
+
+
+
+        /* Add in the nested queries here  */
+
+
+        /* Add in the user preference queries here  */
+
+
+        /* Add in the effects here  */
+
+
+
+
+        /* Add in the animations here  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

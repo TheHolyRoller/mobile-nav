@@ -15,6 +15,12 @@ code pen.
 
 Once this example has been changed accordingly. 
 
+So the plan with making the contact form is that I'm going to take an example from github 
+and adapt it because making one from scratch is extremely time consuming. 
+
+So I'm going to adapt the design and I'm not going to follow the website design completely 
+either because It's just not very practical. 
+
 
 
 
@@ -189,4 +195,4 @@ function NewContact() {
   )
 }
 
-export default NewContact
+//  default NewContact

@@ -1,0 +1,650 @@
+*, *::before, *::after{
+
+   padding: 0; 
+   margin: 0;
+}
+
+
+body{
+
+    padding: 0 !important; 
+    margin: 0 !important;
+    width: 100vw; 
+    min-height: 100vh;
+    position: relative; 
+}
+html{
+scroll-behavior: smooth;
+}
+#hero-container{
+    
+    position: relative; 
+    
+    min-width: 100vw; 
+    min-height: 110vh;  
+    
+        margin-top: -20vh; 
+        margin-left: -2rem;
+        
+    }
+    
+    #hero-container::before{
+        
+        content: "";
+        position: absolute; 
+        top: 0; 
+        left: 0; 
+        width: 100%; 
+        height: 110vh;
+
+
+        background-image: url('../assets/BluePrints.jpg'); 
+        background-repeat: no-repeat;
+        background-size: cover; 
+        background-position: center center;
+    }
+
+    #hero-text{
+       
+       width: 40vw; 
+       
+       font-size: 2.5rem;
+       font-weight: 700;
+       
+       
+       
+       
+    }
+    
+     #hero-text-container{
+        position: absolute;
+        
+        top: 5.9%; 
+        left: 5%; 
+        z-index: 20; 
+        
+    }
+    
+      
+    #hero-headline{
+        
+        /* clamp the font size here and make sure it's responsive  */
+        font-size: clamp(1.2rem, 1rem + 1vw, 1.7rem); 
+        
+        
+        
+        /* font-size: 3rem; */
+        color: white; 
+        font-weight: 780;   
+
+        
+        /* Add in a media query here for the width make it increase in proportion to the 
+        
+        reduction of the screen width */
+        width: 33vw; 
+        outline: 20px solid lime; 
+
+        
+        
+    }
+
+    #hero-button{
+        
+        
+        position: absolute;
+        
+        top: 111%; 
+        left: -2.3%; 
+        z-index: 20;
+        
+        
+        /* Create the button here  */
+        
+        width: 13.438rem; 
+        height: 3.625rem;
+        background: #00c670; 
+        border-radius: 12px;
+        
+        text-transform: uppercase;
+        font-weight: 600;   
+        font-size: 0.899rem; 
+        color: white; 
+        
+        
+    }
+
+    
+    
+    
+    #box{
+    background-color: #ffffff; 
+    }
+    #mission-section{
+       width: 48vw; 
+       margin: auto; 
+       margin-top: 7rem;
+       margin-bottom: 5rem;
+        color: #9b9997 !important;
+    }
+    
+    #mission-text{
+
+        font-size: clamp(1.1rem, 1.3rem + 1vw, 4rem);
+        font-weight: 700;
+        letter-spacing: -0.1rem;    
+        
+    }
+    
+    #mission-paragraph{
+
+        font-weight: 500;   
+        font-size: clamp(0.5rem, 0.1rem + 1vw, 2rem);
+        color: #9b9997 !important;
+    }
+        #footer-main-container{
+
+            min-height: 127vh; 
+        }
+        
+        #footer-section-container{
+
+            display: grid;
+        }
+    #section-list-container{
+        display: grid; 
+        margin-top: 3%; 
+        margin-left: 5%; 
+        margin-right: 5%; 
+        min-height: 50vh;
+        grid-template-columns: 4fr 2fr;
+        position: relative; 
+    }
+    
+    
+    #list-container{
+    
+        position: absolute; 
+        left: 0; 
+        top: 20%; 
+    }
+    
+    #section-list{
+
+    display: grid;
+    place-content: center;
+    }
+    
+    #section-list-item{
+        margin-bottom: 1rem; 
+    }
+    
+    #footer-main-container{
+        position: relative; 
+    }
+    #section-headline{
+
+        margin-bottom: 2rem; 
+        font-size: 1rem !important;
+        font-weight: 500; 
+    }
+        #second-section-container{
+        
+            position: absolute; 
+            right: 0; 
+            top: 0%; 
+            
+        }
+        #second-section-list{
+            
+            width: 100%; 
+            
+            min-height: 40vh; 
+            margin-top: 5%; 
+            
+            margin-left: -25%; 
+            display: grid;
+            justify-content: center;
+            padding-top: 1rem; 
+            gap: 10%;
+            width: 38vw; 
+            grid-template-columns: 1fr 1fr;
+            
+        }
+        
+        #second-section-text{
+
+            font-size: 1.2rem; 
+            font-weight: 700;   
+        }
+
+
+        #location-icon{
+
+            font-size: 1rem; 
+            font-weight: 500; 
+            
+        }
+        
+        
+        #meeting-location{
+
+            margin-left: 1rem; 
+            font-size: 1.2rem; 
+            font-weight: 700; 
+            
+        }
+        
+        #meeting-info{
+
+            display: block; 
+            font-size: 1rem; 
+            font-weight: 500; 
+            color: grey; 
+            margin-top: 0.9rem; 
+        }
+        
+        #headline-container{
+
+            margin-bottom: 1.7rem; 
+        } 
+        
+        #section-headline{
+            
+            font-size: 1.1rem; 
+            font-weight: 700;
+            color: #e7e7e8; 
+            text-transform: uppercase;
+        }
+        #list-phone-text{
+            
+            font-size: 1.2rem !important;
+            color: #00c56f; 
+        }
+        #list-text{
+
+        font-size: 1.5rem; 
+        font-weight: 400; 
+            color: #00c56f;
+        }
+        
+        .email-contact{
+            
+            margin-bottom: 2rem !important; 
+            margin-top: -5px; 
+        }
+    #signup-container{
+
+        display: grid;
+        place-content: center;
+    }    
+        
+    #signup-header{
+        
+        font-size: 1.3rem; 
+        font-weight: 400; 
+        
+    }    
+        
+        #signup-input{
+
+        width: 12rem; 
+        margin-top: 1rem; 
+        margin-bottom: 3rem; 
+        
+        margin-left: 13.5%; 
+
+        }
+        
+        #footer-section-container{
+            
+            display: grid;
+            
+        }
+       
+        
+        #social-list{
+            display: flex;
+            align-items: baseline; 
+            
+        }
+        
+        #social-item{
+
+            display: inline-block;
+            margin-right: 1rem; 
+            font-size: 1.3rem; 
+        }
+        
+        
+        #icon-container{
+            
+            font-size: 2rem; 
+
+        }
+        
+        
+        #bottom-section-container{
+            position: absolute;
+            
+            bottom: 8%; 
+            left: 5%; 
+            
+            display: flex;
+            justify-items: center;
+            
+        }
+        
+        
+        
+        #bottom-section-list{
+
+            
+            display: flex; 
+            place-items: center;
+
+            margin: 0 auto; 
+
+            
+        }
+
+    #bottom-section-item{
+        
+        display: inline-block;
+        margin-right: 2rem; 
+        
+        font-size: 0.75rem; 
+
+    }
+
+
+    #copyright-info{
+
+    margin-top: 5%; 
+
+    position: absolute;
+    bottom: 8%; 
+    right: 9%; 
+
+    width: 35vw; 
+
+    font-size: 0.84rem; 
+    font-weight: 500; 
+
+    display: grid; 
+    justify-content: center;
+    }
+
+    #ministry-tagline{
+        position: absolute; 
+        
+        bottom: 10%; 
+        right: 5%; 
+        
+        display: grid;
+        place-content: center;
+        margin-top: 2rem; 
+    }
+    /* +++++++++++++_______________----------- */
+    /* -----Media Queries Start Here------- */
+    
+    @media  (max-width: 1435px){
+        
+
+        #copyright-info-container{
+
+            width: 100vw; 
+            display: grid;
+            place-content: center;
+
+        }
+        
+
+        #copyright-info{
+            
+            position: relative !important;
+            
+            width: 90vw; 
+            display: grid;
+            place-content: center;
+            margin-top: 2.3rem; 
+            
+            transform: translate(8.2vw, 0rem); 
+        }
+        
+        /* Select the bottom section list here  */
+        #bottom-section-container{
+
+        
+        position: relative !important; 
+        
+        width: 100vw; 
+        outline: 10px solid blue; 
+        display: grid;
+        place-content: center;
+        margin-left: -5vw; 
+
+        margin-top: 5rem; 
+            
+        }
+        
+        #ministry-tagline{
+
+            position: relative !important; 
+        }
+        
+        #tagline-container{
+            
+        }
+
+        #list-container{
+        
+        position: relative; 
+            
+        }
+        
+        
+        #second-section-container{
+        
+            position: relative; 
+            
+            outline: 20px solid blue; 
+            
+        }
+        
+        #second-section-list{
+            
+            margin: 0 auto; 
+            margin-top: 15vh; 
+
+        }
+        
+        #section-list-container{
+                
+            grid-template-columns: 1fr !important; 
+            outline: 10px solid lime !important; 
+        }
+        
+        #footer-section-container{
+            
+        }
+        
+    }
+    
+    @media(max-width: 1200px){
+
+          #hero-text-container{
+            position: absolute;
+            
+            top: 5.8%; 
+            left: 7.2%; 
+            z-index: 20; 
+            outline: 50px solid orange; 
+            
+            
+        }
+        
+        #hero-headline{
+            
+            
+            width: 50vw; 
+            font-size: clamp(1rem, 1vw + 1rem, 2.5rem);
+            
+            
+        }
+        
+        
+        
+    }
+    
+    @media(max-width: 1070px){
+
+          
+        #hero-headline{
+        
+            width: 46vw; 
+            
+            
+            
+        }
+
+        #hero-text-container{
+            position: absolute;
+            
+            outline: 30px solid red; 
+            
+            top: 3%; 
+            left: 12%; 
+            z-index: 20; 
+            
+        }
+        
+        
+    }
+    
+    @media(max-width: 1100px){
+        
+        #hero-headline{
+        
+            width: 46vw; 
+            
+
+            
+        }
+        
+        #hero-text-container{
+            position: absolute;
+            
+            top: 3.85%; 
+            left: 8%; 
+            z-index: 20;
+            
+            width: 50vw; 
+            
+            
+            outline: 30px solid blue; 
+            
+            
+        }
+        
+        
+        /* Adjust the height of the hero section here  */
+        #hero-container{
+            
+
+            
+            
+        }
+        
+        /* Adjust the height of the pseudo element here */
+        #hero-container::before{
+
+            
+            
+            
+        }
+        
+        
+        
+    }
+        
+        @media screen and (max-width: 480px) {
+        
+            #hero-container{
+                
+                /* margin-left: -1.5rem; */
+            }
+            
+            
+            #hero-text-container{
+
+
+            
+            left: 8.5% !important; 
+            
+            
+            
+                
+            }
+            
+            #hero-headline{
+            
+            /* Reset the font size here  */
+            width: 90vw !important;
+            /* outline: 30px solid blue;  */
+            
+            /* Increase the font size here  */
+            
+            font-size: clamp(1rem, 1vw + 1.4rem, 2rem); 
+            
+                
+                
+                
+            }
+        }    
+
+    /* Add in the sub-containers here  */
+
+    
+    #hero-main-container{
+
+     
+     position: relative;
+     overflow: hidden;
+        
+        
+    }
+
+
+    @media (max-width: 670px){
+    
+        #hero-headline{
+            
+            width: 89vw; 
+
+            /* Adjust the placement of the Text here */
+            
+        }
+        /* Adjust the container placement here  */
+        
+        #hero-text-container{
+            position: absolute;
+            
+            top: 3.5%; 
+            left: 6.8%; 
+            z-index: 20; 
+
+            
+        }
+        
+        
+        
+        #hero-container::before{
+
+            
+            
+            
+        }
+        
+    
+    
+    }

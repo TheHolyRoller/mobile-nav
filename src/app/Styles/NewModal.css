@@ -1,0 +1,754 @@
+
+        /* 
+    
+        Okay so let's just talk things through. 
+        
+        So first of all there is still some polishing to do on the navbar and the hero 
+        
+        Then these components need to be changed so that they can work in 
+        
+        landscape mode. 
+        
+        
+        section. 
+        
+        
+        Then once that is done then the CTA section needs polishing 
+        
+        then it's just the contact and footer than are the major pieces that 
+        
+        need to be polished. 
+        
+        Once those components are done then I can add some effects 
+        routing and then some animations. 
+        
+        Once that is done I can add in the functional components and then 
+        
+        create the rest of the needed functional components and add them in 
+        
+        then after some more polishing I can launch the website. 
+        
+        
+        So that's basically the plan. 
+        
+        So what I need to do now is finish off the hero and navbar section. 
+        
+        
+
+
+        */
+
+        *, *::after, *::before{
+
+
+        padding: 0; 
+        margin: 0; 
+
+            
+        }
+
+
+
+        html{
+
+        scroll-behavior: smooth;
+
+            
+            
+        }
+
+
+        body{
+
+        width: 100vw; 
+        min-height: 100vh;
+        position: relative; 
+
+        box-sizing: border-box;
+
+        padding: 0; 
+        margin: 0; 
+
+
+        /* Add in the font type and family here  */
+
+        /* Add in the font color and size here  */
+
+        /* Add in the  */
+            
+            
+        }
+
+
+
+        :root{
+        
+        /* Add in the color variables here  */
+
+
+        /* Add in the sizing variables here  */
+
+
+        /* Add in the margin variables here  */
+
+
+        /* Add in the timing variables here  */
+            
+            
+            
+        }
+
+
+        /* Add in the main container here  */
+        #modal-open-button{
+
+            z-index: 20000;
+            
+            
+        }
+
+
+        #modal{
+
+        background: #1f2231; 
+        background-color: #202333 !important;
+
+        width: 100vw; 
+
+        margin: 0 !important; 
+        padding: 0 !important; 
+
+        box-sizing: border-box; 
+
+            
+            
+        }
+
+        #modal-overlay{
+
+            
+        background-color: #161822 !important; 
+
+            
+            
+            
+        }
+
+
+
+        #modal-content{
+            
+
+        background-color: #161822 !important; 
+
+        opacity: 1 !important; 
+
+
+        padding: 0 !important; 
+            
+            
+        }
+
+        #modal-header-container{
+        
+        font-size: 2.5rem;
+        font-weight: 800;    
+        
+        position: relative; 
+        
+        background-color: #161822; 
+        background: #161822 !important; 
+        opacity: 1 !important; 
+        z-index: 20000;  
+        
+            
+        }
+
+
+        #menu-logo{
+
+        font-size: 2.3rem;
+        
+        color: white; 
+
+        }
+        
+        #modal-logo-container{
+        
+            
+        /* outline: 10px solid lime;  */
+        margin-top: 1.25rem; 
+
+            
+        }
+
+        
+        #modal-logo{
+            
+
+        margin-left: calc(0.55vw + 0.5rem); 
+        
+        font-weight: 770; 
+
+        
+        font-size: clamp(1.5rem, 1.77vw + 1rem, 2.7rem); 
+
+        }
+
+
+
+
+        #close-button-container{
+
+            
+            
+            
+            
+        }
+
+
+
+
+        #close-button-relative-container{
+
+            
+            
+            
+            
+        }
+
+
+
+        /* Add in the extra nav buttons here  */
+
+
+        #nav-buttons-container{
+
+            
+
+            width: 8rem; 
+            transform: translate(44vw, -3.1rem);
+            
+            
+        }
+
+
+        #nav-buttons-list{
+
+            
+        }
+
+
+
+        #nav-button-item{
+
+            
+        display: inline-block;
+
+            
+        }
+
+
+        #icon-item-container{
+            
+
+        margin-right: 2rem; 
+
+            
+            
+        }
+
+        .first-icon{
+
+            
+        }
+
+
+
+        #nav-icon{
+            
+
+            
+        }
+
+
+
+        #close-button-icon-container{
+
+            
+        }
+
+
+        #modal-body{
+
+
+        min-width: 109vw; 
+
+        margin-left: -2.6vw !important; 
+
+        padding: 0 !important; 
+
+        
+        }
+
+
+        #modal-content-container{
+
+            
+            
+        }
+
+
+
+        #modal-list-container{
+
+        margin-left: -4%; 
+        background-color: #161822 !important; 
+        
+        
+
+        }
+
+
+
+        #modal-list{
+
+
+        width: 50vw; 
+        margin: 0 auto; 
+        
+        display: grid;
+        place-content: center;
+        padding-top: 5%;
+        
+            
+        }
+
+
+        #menu-list-item{
+
+        height: 5.5rem; 
+
+            
+        }
+
+
+
+
+        #list-item-content{
+
+            font-size: 2.4rem;
+            font-weight: 680; 
+            color: white; 
+
+        }
+
+
+
+
+        #menu-content-container{
+
+            
+            
+        }
+
+
+        #modal-footer{
+            
+        }
+
+        #social-media-footer-section{
+
+            margin-top: 0.7rem; 
+        }
+
+
+        #social-media-footer-list{
+            margin-left: -7%; 
+
+        }
+
+
+
+        #social-media-item-footer{
+            
+        display: inline-block;
+        margin-right: 2rem;
+            
+        }
+
+
+
+        #social-footer-icon-container{
+            
+        }
+        
+        
+        #footer-icon{
+            font-size: 2rem;
+            
+        }
+        
+        
+        #modal-close-button{
+            
+        
+        position: absolute; 
+        right: 0; 
+        top: 0; 
+        z-index: 200;   
+            
+        }
+        
+
+
+
+        #modal-close-icon-button{
+
+            
+        position: relative; 
+        margin-right: -3.3rem; 
+        z-index: 200; 
+        padding: 0; 
+
+        
+        margin-bottom: -1rem; 
+
+        font-size: 1.3rem;
+        
+            
+        }
+
+
+
+        #close-modal-span{
+            
+            text-transform: uppercase;
+            font-weight: 550;   
+            margin-left: 2.3rem;
+
+            
+        }
+        
+        
+        #close-btn-container{
+            
+            display: block;
+            width: 8.1rem; 
+            height: 3.4rem; 
+            display: grid;
+            background-color: white;
+            border-radius: 10px; 
+            align-content: center;
+            position: relative; 
+            margin-bottom: -2rem; 
+            
+            
+        }
+        
+        #open-btn-container{
+            
+        /* margin-top: -0.5rem;  */
+        margin-top: 1rem; 
+        
+            
+            
+            
+            
+            
+        }
+        
+        #toggle-button{
+            
+            
+
+            
+        }
+        
+        #modal-open-button{
+        
+
+            
+        /* margin-top: 0.5rem !important;  */
+        
+        transform: translate(0.88rem, -0.75rem) !important;
+        margin-top: 0.5rem !important;
+        
+            
+            
+        }
+        
+        
+        
+        
+        #second-toggle-button{
+        
+            
+            display: none;
+            color: white; 
+            font-size: 2.7rem !important; 
+            border-radius: 10px; 
+
+        }
+
+
+
+
+        /* Add in the media queries here  */
+
+        @media(min-width: 300px){
+            #nav-buttons-container{
+                
+                display: none !important; 
+                
+                
+            }
+            
+            
+        }
+
+
+        @media(max-width: 430px){
+            
+            
+            /* Add in the modal content here  */
+            #modal-body{
+
+            margin-left: -0.2vw !important; 
+
+
+                
+            }
+            
+            /* Add in the list item here  */
+
+        }
+
+
+        @media(max-width: 360px){
+            
+
+            #modal-body{
+
+                margin-left: -0.1vw !important;
+
+            }
+            
+        }
+
+
+
+        /* Add in the media query here for the extra buttons  */
+        @media(min-width: 500px){
+            
+            /* select the button list here  */
+            #nav-buttons-container{
+            
+            /* display: inline-block !important;  */
+            
+            
+            /* Add in the proper coordinates here  */
+            transform: translate(0, 0);
+                
+                
+            }
+            
+            
+            
+            
+        }
+        
+        @media(max-width: 949px){
+            
+            #modal-open-button{
+                
+                display: none !important;
+                
+                
+                
+                
+            } 
+            
+            
+            
+            
+            
+        }
+
+
+
+        /* Add in the media query here to display the hamburger icon and remove the button */
+        
+        @media(max-width: 960px){
+            
+            #second-menu-btn-container{
+
+                
+                    
+                }
+            
+            
+        }
+        
+        
+        
+        
+        @media(max-width: 950px){
+            
+        #modal-open-button{
+        
+        display: none !important; 
+        
+            
+            
+            
+        }
+        
+        
+        #second-menu-btn-container{
+
+            
+
+        
+        position: relative; 
+        
+        /* outline: 10px solid lime;  */
+        
+            
+            
+            
+        }
+        
+        
+        /* Select the hamburger icon here  */
+        
+        #second-toggle-button{
+
+            display: inline-block !important;
+            font-size: 3.5rem;
+            /* margin-bottom: -3.5rem;  */
+            margin-top: 0; 
+            
+            
+            margin-left: 0; 
+            
+        }
+        
+        #second-menu-btn-container{
+            
+            
+            /* outline: 20px solid lime;  */
+            
+            
+            
+        }
+            
+            
+            
+        }
+        
+        
+        /* Add in a media query to move the hamburger menu icon further left here  */
+        
+        @media(max-with: 540px){
+
+            #open-btn-container{
+            
+                    
+                }
+                
+                #toggle-button{
+                    
+                    outline: none !important; 
+                    
+        
+                    
+                }
+                
+                #second-toggle-button{
+
+                    display: inline-block !important;
+                    font-size: 3.5rem;
+                    
+                    margin-top: 0 !important; 
+                    
+                    margin-left: 0; 
+                    
+                }
+                
+                #modal-open-button{
+                
+                
+                
+                transform: translate(0rem, 0rem) !important;
+                
+                    outline: none !important; 
+                    
+                    
+                }
+                
+                #second-toggle-button{
+
+                    display: inline-block !important;
+                    font-size: 3.5rem;
+                    
+                    
+                    margin-left: 0; 
+                    
+                }
+            
+            
+        }
+        
+        
+        @media(max-width: 490px){
+            
+            #second-menu-btn-container{
+
+                
+                
+            }
+            
+            
+            #second-toggle-button{
+
+                display: inline-block !important;
+                font-size: 3.5rem;
+                
+                margin-top: -3.97rem; 
+
+                
+                margin-left: 0; 
+                
+            }
+            
+            
+            
+        }
+
+
+        /* Add in the orientation queries here  */
+
+
+        /* Add in the nested queries here  */
+
+
+
+        /* Add in the container queries here  */
+
+
+        /* Add in the Effects here  */
+
+
+        /* Add in the animations here  */
+
+
+
+
+
+
+
+
+
+
+

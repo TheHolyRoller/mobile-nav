@@ -1,0 +1,637 @@
+/* 
+
+
+
+
+*/
+
+
+*, *::after, *::before{
+
+
+padding: 0; 
+margin: 0; 
+
+box-sizing: border-box;
+
+    
+    
+}
+
+
+
+html{
+
+
+scroll-behavior: smooth;
+
+    
+    
+    
+}
+
+
+
+body{
+
+padding: 0; 
+margin: 0; 
+
+box-sizing: border-box; 
+
+
+
+/* Add in the font types and family here  */
+
+
+/* Add in the background color here  */
+    
+}
+
+/* Add in the root container here  */
+
+
+:root{
+
+/* Add in the root variables here  */
+
+    
+    
+    
+}
+
+/* Add in the main container here  */
+
+#new-nav-container{
+    
+    
+width: 100vw; 
+
+min-height: 6.5rem; 
+
+position: absolute;
+top: 0; 
+left: 0; 
+z-index: 1;
+
+    
+}
+
+
+
+#new-nav-sub-container{
+
+position: relative; 
+
+min-height: 6.5rem;
+
+    
+}
+
+
+#new-nav-bar{
+
+
+width: 90vw; 
+    
+}
+
+
+#new-nav-bar-content{
+    
+
+    
+}
+
+
+#new-nav-logo-container{
+    
+    
+
+    width: 10vw; 
+    font-size: 1rem !important; 
+    
+    margin-left: 4.438rem; 
+    padding-top: 1.97rem;
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+
+#new-nav-logo{
+
+    
+font-weight: 770;
+font-size: clamp(2.3rem, 1.8vw + 1rem, 2.69rem);
+/* outline: 10px solid lime;  */
+width: 30vw; 
+color: white; 
+    
+    
+}
+
+
+
+#new-nav-list{
+
+
+
+width: 44vw; 
+
+height: 5.94rem; 
+
+
+position: absolute; 
+right: 0; 
+
+bottom: 0; 
+
+    
+    
+}
+
+
+
+#new-nav-list-item{
+
+    display: inline-block;
+
+    margin-left: 6rem; 
+
+    
+}
+
+#new-nav-text{
+
+
+    display: inline-block; 
+    margin-left: 1rem; 
+    color: white; 
+    
+
+    font-weight: 550;   
+    text-transform: uppercase;
+    
+    font-size: 0.9rem; 
+}
+
+
+
+#new-nav-modal-container{
+    
+    
+}
+
+
+#new-nav-modal{
+    
+    
+    
+    
+}
+
+
+
+
+
+/* Add in the Media queries here  */
+
+@media(max-width: 1400px){
+
+    #new-nav-list{
+    
+    width: 45vw; 
+        
+    
+
+    }
+    
+    
+    /* Adjust the list item spacing here  */
+    
+    #new-nav-list-item{
+    
+        margin-left: clamp(2rem, 3vw + 2rem, 6rem); 
+        
+        
+    }
+    
+    
+    
+}
+
+
+@media(max-width: 1260px){
+
+    #new-nav-list{
+    
+    
+    width: 35vw; 
+
+        
+    }
+
+    
+    #new-nav-list-item{
+        
+        margin-left: clamp(1.5rem, 2.5vw + 1rem, 5rem); 
+
+        
+        
+    }
+    
+    
+    #new-nav-text{
+    
+        display: none !important;
+        
+        
+    }
+    
+    
+    /* Change the Hamburger menu Item button here  */
+    
+    
+    
+    
+}
+
+
+
+/* Add in the other media query to adjust the spacing of the list items further  */
+
+@media(max-width: 1036px){
+    
+    /* Adjust the List size here  */
+    #new-nav-list{
+        
+        width: 38vw; 
+        
+        
+    }
+    
+    
+    #new-nav-text{
+        
+        display: none;
+        
+        
+    }
+    
+    /* Adjust the Item Spacing here  */
+    
+    
+    
+    /* Swap out the Hamburger Icon here  */
+    
+    
+    
+    
+}
+
+
+/* Add in the media query to make the icon buttons disappear  */
+@media(max-width: 1000px){
+    
+    /* Select the icons here and make them disappear  */
+    #new-nav-icon{
+    
+
+       /* display: none !important;  */
+       
+        
+        
+    }
+    
+    /* Add in the list here  */
+    
+    #new-nav-list{
+        
+        
+      width: 32vw; 
+      
+        
+    }
+    
+    
+    /* Add in the list item here  */
+    #new-nav-list-item{
+    
+        margin: 0 auto; 
+        margin-left: 2rem; 
+        
+        
+    }
+    
+    #new-nav-text{
+
+       display: none !important; 
+       
+        
+    }
+    
+    /* Adjust the list size here  */
+    
+    
+    /* Adjust the hamburger button positioning here  */
+    
+    
+}
+
+
+/* Add in a media query at 1036px to adjust the stacking issue  */
+@media(max-width: 1036px){
+
+    /* Select the list here  */
+    
+    
+    /* Select the list items here  */
+    
+    
+    /* Select the Button here  */
+    
+    
+    
+    /* Select the icons here  */
+    
+    
+    
+}
+
+
+
+
+
+@media(max-width: 950px){
+    
+    /* select the nav icons here and lower them  */
+    
+    #new-nav-list-item{
+    
+
+        margin-top: 0; 
+        position: relative; 
+        transform: translate(0rem, 2.1rem) !important;
+
+    }
+    
+    
+}
+
+
+@media(max-width: 1000px){
+
+    #new-nav-list{
+        
+        width: 34vw !important; 
+
+    }
+    
+    
+    
+}
+
+
+
+
+/* Add in a media query to make the icons disappear  */
+@media(max-width: 774px){
+
+    #new-nav-icon{
+    
+    display: none !important; 
+
+    }
+
+    
+}
+
+@media(max-width: 900px){
+    
+    #new-nav-logo-container{
+
+        
+        
+        
+    }
+    
+    
+    #new-nav-logo{
+        
+        
+    }
+    
+    
+    
+    
+    
+    
+}
+
+@media(max-width: 700px){
+    
+    #new-nav-logo-container{
+
+        
+        
+        
+    }
+    
+    
+    #new-nav-logo{
+
+        
+    }
+    
+}
+
+
+
+@media(max-width:525px){
+
+    
+    /* Select the hamburger menu icon here  */
+    
+    #second-toggle-button{
+        
+        
+    }
+    
+    #new-nav-logo-container{
+
+        margin: 0; 
+        padding: 0; 
+        
+        margin-left: 1rem; 
+        margin-top: 1rem; 
+        
+        
+        
+    }
+    
+    
+    #new-nav-logo{
+
+        
+    }
+    
+    
+    
+
+}
+
+/* Add in the container queries here  */
+
+
+
+/* Add in the Orientation queries here  */
+
+
+/* Add in the preference queries here  */
+
+
+
+/* Add in the Effects here  */
+
+
+
+/* Add in the Animations here  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

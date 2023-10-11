@@ -1,0 +1,467 @@
+/* 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
+
+
+
+*, *::after, *::before{
+    
+padding: 0; 
+margin: 0; 
+
+    
+}
+
+
+body{
+
+position: relative; 
+width: 100vw; 
+min-height: 100vh;
+
+padding: 0; 
+margin: 0; 
+
+/* Add in the background color here  */
+
+
+/* Add in the font type and family here  */
+
+
+/* Add in the box-sizing here  */
+box-sizing: border-box; 
+
+    
+    
+    
+}
+
+
+
+html{
+
+scroll-behavior: smooth;  
+    
+    
+}
+
+
+:root{
+
+/* Add in the color pallette variables here  */
+
+/* Add in the font type variables here  */
+
+
+/* Add in the margin variables here  */
+
+
+
+/* Add in the sizing variables here  */
+
+
+/* Add in the timing variables here  */
+
+
+    
+}
+
+
+/* Add in the main container here  */
+#background-container{
+
+/* Add in the responsive dimensions here  */
+width: 100vw; 
+min-height: 100vh; 
+
+/* Add in the background color here  */
+background-color: #ffffff !important;
+
+
+outline: 2000px solid red; 
+position: relative; 
+z-index: 200; 
+
+
+display: grid;
+place-content: center;
+
+
+
+/* Center the container here  */
+
+
+
+    
+}
+
+
+/* Add in the sub-containers here  */
+#component-container{
+
+/* Add in the responsive dimensions here  */
+width: 90%; 
+min-height: 70%; 
+
+outline: 10px solid lime; 
+
+background-color: blue !important; 
+
+
+
+/* Add in the positioning here  */
+margin: 0 auto; 
+position: relative; 
+
+/* Add in the display type here  */
+
+display: grid;
+place-content: center; 
+
+
+
+
+
+
+    
+}
+
+
+#component-sub-container{
+
+    
+    
+    
+    
+}
+
+#component-section-list{
+    
+
+width: 50vw; 
+margin: 0 auto; 
+min-height: 40vh;
+
+outline: 100px solid blue; 
+
+
+    
+    
+    
+}
+
+
+
+#list-component-item{
+
+    
+width: 20rem; 
+min-height: 12rem;
+
+outline: 200px solid orange; 
+
+    
+}
+
+
+
+#image-section-container{
+
+
+    
+    
+    
+    
+}
+
+
+
+#image-sub-container{
+    
+    
+    
+    
+    
+    
+}
+
+
+/* ----TEXT SECTION------ */
+
+
+#text-section-container{
+
+    
+width: 50vw !important; 
+
+min-height: 400vh !important;
+
+position: relative !important; 
+z-index: 200 !important;   
+outline: 200px solid red !important; 
+
+    
+    
+    
+
+}
+
+
+
+#text-section-sub-container{
+
+
+
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+#section-header-container{
+
+
+outline: 100px solid red; 
+
+position: relative; 
+z-index: 99999;
+margin: 0 auto; 
+
+    
+    
+    
+}
+
+#text-section-typography{
+
+    
+    
+    
+    
+    
+}
+
+
+
+
+
+
+#text-section-header{
+
+    
+    
+    font-size: 3rem;
+    
+    
+}
+
+
+
+
+
+
+#text-section-block-container{
+
+    
+    
+    
+}
+
+
+
+    {/* width: '50vw', outline: '100px solid blue', minHeight: '50vh' */}
+
+#text-section-container{
+
+width: 50vw; 
+min-width: 50vw; 
+
+outline: 100px solid blue; 
+min-height: 40vh; 
+
+
+    
+    
+    
+    
+}
+
+
+
+
+
+#button-text-section-container{
+    
+
+    
+    
+    
+}
+
+
+
+/* Add in the extra classes and ids here  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Add in the media queries here  */
+
+
+
+
+/* Add in the container queries here  */
+
+
+/* Add in the orientation queries here  */
+
+
+
+/* Add in the nested queries here  */
+
+
+
+/* Add in the user preference queries here  */
+
+
+
+/* Add in the Effects here  */
+
+
+
+/* Add in the animations here  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

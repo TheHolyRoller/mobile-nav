@@ -1,0 +1,583 @@
+
+
+/* 
+
+Okay so let's just talk things through. 
+
+
+First of all I have a background image that is decently okay in it's size and 
+
+the way it responds to different screen sizes. 
+
+Now I have two sections of text on the screen and these are placed in the middle of the 
+
+image. 
+
+This is done through absolute positioning. 
+
+The only problem is that I want to be able to place the items on the page without 
+
+absolute positioning and then give them responsive margins from the side of the page 
+
+
+through use of the cal function as well as min and max function paired with 
+
+media queries. 
+
+Okay so one idea is to place several containers on the page. 
+
+One main container will take up the whole width of the page. 
+
+This container will be placed over the page with absolute positioning. 
+
+This will be accomplished by giving the page container a position of relative. 
+
+Then once that has been done another child-container that is the same size as it's 
+
+parent will be placed within the parent container. 
+
+Once that has been done this child container will be given a position of 
+
+relative so that this child container is positioned relative to it's parent 
+
+container which is positioned absolutely within the relative position of it's parent 
+container. Giving it a position of relative will also mean that all it's 
+
+
+children even if their positioning is absolutely will be positioned relatively to 
+
+the parent container which is positioned relative to it's parent container. 
+
+
+Which in turn is positioned absolutely within the relative positioning of it's parent and 
+
+that parent container is positioned relatively to it's parent. 
+
+
+Okay so just to recap. 
+
+What I need to do now is to give the image container a position of relative and the 
+
+
+place a child container in it the same size as it absolutely in the center of the 
+
+parent container. This way it will take up the full size of the parent container. 
+
+Then within that child container we will add in another child container that will be the 
+
+same dimensions as it's parent container. We will then give this child container 
+
+a position of relative so that it's children will be 
+
+
+positioned relatively to their parent. 
+
+Okay so that's good. 
+
+Once we have this relatively positioned parent container then we can move onto filling 
+
+it with the child containers that we can use to position the different elements in. 
+
+
+Okay so let's talk through how we're going to use these nested containers to position 
+
+the child elements in the main container in such a way that we will not have to use 
+
+absolute positioning and then we can add in responsive margins. 
+
+
+Okay well first of all there is one main container 
+and this container is positioned absolutely over the image container which is positioned 
+
+relatively. 
+
+Then there is a container within the absolute container that is positioned relatively. 
+
+This container is positioned within the center of it's parent container and 
+
+this container contains all the elements that make up the text section of this component. 
+
+This container takes up 90% of the width of it's parent container and is 
+
+placed in the center of it's parent container. 
+
+Then the items are then placed within this container that takes up 90% of the width 
+
+of it's parent container. 
+
+Okay so that's good. 
+
+Then the first item is given it's position and placed at the top left hand side of the container 
+
+Then the text container is placed in and it is given it's dimensions and display type 
+
+of flex and it's child components are given a display of flex-end. 
+
+
+This container is placed at the top right hand side of the main container. 
+
+
+Then when the screen reduces in width the display type of the container changes and it's 
+
+width also changes. 
+
+This places the container below the other text container in the main container. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
+
+
+
+
+
+
+*, *::after, *::before{
+
+    
+padding: 0; 
+margin: 0; 
+
+    
+    
+}
+
+
+
+
+
+body{
+
+position: relative; 
+
+width: 100vw; 
+min-height: 100vh;
+
+/* Add in the font family here */
+
+/* Add in the font size and type here  */
+
+
+/* Add in the background color here  */
+
+
+
+    
+    
+    
+}
+
+
+
+
+
+html{
+
+scroll-behavior: smooth;
+
+    
+    
+    
+    
+}
+
+
+
+
+:root{
+
+
+/* Add in the color variables here  */
+
+
+/* Add in the font variables here  */
+
+
+
+/* Add in the margin variables here  */
+
+
+
+
+/* Add in the sizing variables here  */
+    
+
+/* Add in the timing variables here  */
+    
+}
+
+
+
+
+
+
+
+
+
+#cta-component-container{
+
+    
+    
+
+
+
+width: 100vw; 
+min-height: 60vh;
+
+position: relative; 
+
+
+
+
+
+    
+    
+    
+}
+
+
+
+
+/* ------Image Section ------ */
+
+
+
+#cta-image-container{
+    
+
+
+position: relative;
+
+
+
+
+
+
+
+    
+}
+
+
+
+#cta-text-section{
+
+
+
+
+position: absolute; 
+
+top: 50%; 
+
+left: 50%; 
+
+transform: translate(-50%, -50%);
+
+width: 100vw; 
+
+margin: 0 auto; 
+
+
+    
+    
+    
+    
+    
+    
+}
+
+
+
+#cta-text-sub-container{
+
+
+    
+    width: 90%; 
+    margin: 0 auto; 
+    
+    outline: 20px solid red; 
+    
+    
+    
+    
+}
+
+
+
+
+
+
+#cta-image{
+
+width: 100vw; 
+min-height: 59vh;
+max-height: 65vh; 
+
+
+
+    
+}
+
+
+
+
+
+
+
+
+#cta-text{
+    
+
+    
+    
+    
+
+}
+
+
+
+#cta-button-container{
+    
+
+outline: 10px solid lime; 
+
+position: relative; 
+
+
+
+
+    
+    
+}
+
+
+#button-sub-container{
+    
+    outline: 10px solid red; 
+
+    
+}
+
+
+
+
+
+
+
+#cta-button{
+
+
+    
+    
+    
+}
+
+
+#cta-button-text{
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+#cta-header-container{
+
+    
+    
+    
+    
+    
+    
+}
+
+
+#cta-header{
+
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+#text-cta-container{
+
+    
+    
+    
+    
+}
+
+
+#cta-button-container{
+
+    
+    
+margin-top: 3rem; 
+
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Add in the Effects here  */
+
+
+
+/* Add in the media queries here  */
+
+
+
+@media(min-width: 1200px){
+    
+
+    
+    /* Add in the button container here  */
+    #cta-text{
+        
+        
+        width: 20vw !important; 
+        min-height: 100vh !important; 
+        
+        /* outline: 10px solid blue;  */
+        
+        
+        
+    }
+    
+ 
+    
+    #cta-text-block{
+        
+        /* max-width: 20vw !important; 
+        display: flex;
+        flex-wrap: wrap;
+        min-height: 40vh !important;
+        
+        outline: 20px solid red;  */
+        
+        
+    }
+    
+#cta-button-container{
+    
+    outline: 10px solid blue; 
+    width: 50vw; 
+    margin-top: 0; 
+    
+    margin-left: 70vw; 
+    transform: translate(0rem, -6rem);
+
+}
+    
+    
+    
+    
+}
+
+
+
+
+
+
+@media(max-width: 600px){
+    
+    /* Add in the CTA text container here   */
+    
+    
+    
+    /* Add in the CTA text here  */
+
+    
+    
+    /* Add in the CTA button here  */
+    
+    
+
+    
+    
+}
+
+/* Add in the container queries here  */
+
+
+/* Add in the orientation queries here  */
+
+
+
+/* Add in the nested media queries here  */
+
+
+
+/* Add in the animations here  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
