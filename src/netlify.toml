@@ -25,8 +25,9 @@
 
 # The plugins to use during the build
 
-  [[plugins]]
-  package = "netlify-plugin-one"
+ [[plugins]]
+  package = "@netlify/plugin-nextjs"
+
 # The redirects to apply to the site
 [[redirects]]
   # Redirect all requests to HTTPS
