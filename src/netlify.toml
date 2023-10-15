@@ -1,0 +1,51 @@
+[build]
+  # The build command to run
+  command = "npm run build"
+
+
+  # The directory that contains the output of the build command
+  publish = "out"
+
+  # The environment variables to use during the build
+  [build.environment]
+    # The Node.js version to use
+    NODE_VERSION = "16.13.0"
+
+    # The Next.js version to use
+    NEXT_VERSION = "13.0.1"
+
+    # The TypeScript version to use
+    TYPESCRIPT_VERSION = "4.5.2"
+
+    # The ESLint version to use
+    ESLINT_VERSION = "8.3.0"
+
+    # The Prettier version to use
+    PRETTIER_VERSION = "2.5.0"
+
+# The plugins to use during the build
+[[plugins]]
+  # The Netlify plugin for Next.js
+  package = "@netlify/plugin-nextjs@4.0.0-beta.10"
+
+# The redirects to apply to the site
+[[redirects]]
+  # Redirect all requests to HTTPS
+  from = "http://*"
+  to = "https://:splat"
+  status = 301
+  force = true
+
+# The headers to apply to the site
+[[headers]]
+  # Apply these headers to all paths
+  for = "/*"
+    [headers.values]
+      # Enable HSTS (HTTP Strict Transport Security)
+      Strict-Transport-Security = "max-age=31536000; includeSubDomains; preload"
+      # Enable XSS protection
+      X-XSS-Protection = "1; mode=block"
+      # Prevent MIME type sniffing
+      X-Content-Type-Options = "nosniff"
+      # Referrer policy
+      Referrer-Policy = "strict-origin-when-cross-origin"
