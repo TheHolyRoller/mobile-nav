@@ -24,10 +24,9 @@
     PRETTIER_VERSION = "2.5.0"
 
 # The plugins to use during the build
-[[plugins]]
-  # The Netlify plugin for Next.js
-  package = "@netlify/plugin-nextjs@4.0.0-beta.10"
 
+  [[plugins]]
+  package = "netlify-plugin-one"
 # The redirects to apply to the site
 [[redirects]]
   # Redirect all requests to HTTPS
