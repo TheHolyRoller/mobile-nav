@@ -7,6 +7,7 @@ export const AcmeLogo = () => (
       width="36"
       xmlns="http://www.w3.org/2000/svg"
     >
+    
       <rect fill="var(--secondary)" height="100%" rx="16" width="100%" />
       <path
         clipRule="evenodd"

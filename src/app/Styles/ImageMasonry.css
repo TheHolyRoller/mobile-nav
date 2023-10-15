@@ -1,0 +1,60 @@
+*, *::after, *::backdrop, *::before{
+
+    padding: 0 !important; 
+    margin: 0 !important; 
+    
+        
+        
+        
+    }
+    
+    html{
+    
+    scroll-behavior: smooth;    
+        
+    }
+    
+    
+    body{
+    
+    padding: 0; 
+    margin: 0; 
+    position: relative; 
+    width: 100vw; 
+    min-height: 100vh;
+    box-sizing: border-box;
+    
+    
+        
+    }
+    
+    
+    :root{
+        
+    /* Add in the root variables here  */
+        
+        
+    }
+    
+    
+    
+    /* Add in the main container here  */
+    
+    
+    
+    
+    /* Add in the sub-containers here  */
+    
+    
+    
+    
+    /* Add in the media queries here  */
+    
+    
+    
+    
+    
+    /* Add in the Effects here  */
+    
+    
+    /* Add in the animations here  */

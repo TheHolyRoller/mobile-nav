@@ -1,11 +1,11 @@
-// import React from 'react'
-
 
 import { LocationCity } from "@mui/icons-material"; 
 
 import { FaSearchLocation } from "react-icons/fa";
 import { FaLocationArrow } from "react-icons/fa";
-// import { FaLoca } from "react-icons/fa";
+
+
+
 
 import { Grid } from "@nextui-org/react";
 import { Card, Row, Text } from "@nextui-org/react";
@@ -23,7 +23,7 @@ import React from 'react'
 
 
 
-import Link from 'next/link';
+// import Link from 'next/link';
 import { TypeFormatFlags } from 'typescript';
 
 import { Typography } from '@mui/material';
@@ -31,19 +31,18 @@ import { Typography } from '@mui/material';
 import { Facebook } from '@mui/icons-material';
 import FacebookIcon from '@mui/icons-material/Facebook';
 import InstagramIcon from '@mui/icons-material/Instagram';
+import YouTube from "@mui/icons-material/YouTube";
+import Link from "next/link";
 
 
-// import the stylesheet here 
-// import '../Styles/content.css'; 
 import '../Styles/footer.css'; 
-
-
 
 function Footer() {
   return (
-      
-  
-  <div id="footer-main-container" style={{outline: '20px solid lime', padding: '0', margin: '0'}}  >
+
+    
+    
+  <div id="footer-main-container" >
     
   <footer id="footer-container"   >
   
@@ -51,34 +50,42 @@ function Footer() {
   {/* Add in the Section container here  */}
   
   
+  
   <section id="footer-section-container" >
+  
   
   
   {/* ------GRID CONTAINER!#!!---------- */}
   <div id="section-list-container" >
   
- 
+    
   
   {/* Add in the list here  */}
   <div id='list-container' >
   <ul id="section-list" >
     {/* Add in the first list item here  */}
-    <li id='section-list-item' >
+    <li id='section-list-item'    >
     
     <div id="headline-container" >
-  <text id="section-headline" >
+  <text id="section-headline" style={{pointerEvents: 'none', cursor: 'none'}}  >
     Contact Us 
-    
+
   </text>
   </div>
 
+
     {/* Add in the Anchor Tag here  */}
     {/* Add in the phone number here  */}
-    <text id="list-phone-text" >
+    <text id="list-phone-text" style={{pointerEvents: 'auto'}}  >
+    <Link href='tel:+355762053987' >
     0121 711 7300
+    </Link>
     </text>
     
     {/* Add in the Phone number here  */}
+      
+      {/* Add in the social media list here  */}
+      
       
       
     </li>
@@ -86,35 +93,16 @@ function Footer() {
     <li className='email-contact'  id='section-list-item' >
     
     <text className='email-contact'  id='list-text' >
+    <Link href='mailto:wakeleyfamily@gmail.com' >
     hello@renewalcc.com
+    </Link>
     </text>
       
-      
-      
     </li>
     
-    
-    {/* add in the newsletter signup element here  */}
-    <li id="section-list-item" >
-    
-    <div id='signup-container' >
-      
-      <h1 id='signup-header' >Sign up to our Newsletter! </h1>
-      
-    <input id='signup-input'  type="text" style={{borderRadius: '10px'}} >
-    
-    </input>
-      
-      
-      
-      
-    </div>
-      
+    <li>
     </li>
-    
-    
-    {/* Add in the social media list item here  */}
-    
+
     <li id="social-media-item" >
     
     {/* Add in the social media list here  */}
@@ -122,9 +110,12 @@ function Footer() {
     <ul id='social-list' >
     
     <li id='social-item' >
+    
+    <Link href='https://www.facebook.com/' target="_blank" >
+    
+      <Facebook id='footer-social-icon' style={{fontSize: '2rem', color: 'white'}}/>
       
-      {/* <Facebook style={{fontSize: '2rem'}} /> */}
-      
+    </Link>
 
       
     </li>
@@ -133,9 +124,12 @@ function Footer() {
     
     
     
+    
     <div id="icon-container" >
-
-    <InstagramIcon style={{ fontSize: '2rem', marginBottom: '-5px'}} />
+    
+    <Link href='https://www.instagram.com/' target="_blank" >
+    <InstagramIcon id='footer-social-icon'  style={{ fontSize: '2rem', marginBottom: '-5px'}} />
+    </Link>
       
     </div>
     
@@ -143,7 +137,11 @@ function Footer() {
     
     <li id='social-item' > 
       {/* Add in the icon and anchor tag here  */}
-      <YouTubeIcon style={{fontSize: '2.3rem'}} />
+      
+      
+      <Link href='https://www.youtube.com/' target="_blank">
+      <YouTubeIcon id='footer-social-icon'  style={{fontSize: '2.3rem', transform: 'scale(1.15)'}} />
+      </Link>
     </li>
     </ul>
     </li>
@@ -163,15 +161,16 @@ function Footer() {
     <div id="second-section-text" >
 
     
-    <text id='location-icon' >
+    <text id='location-icon'  style={{pointerEvents: 'auto', cursor: 'pointer'}}   >
+    <Link href='https://maps.app.goo.gl/as1QU93MeDEDWxxB7' target="_blank" >
+    <LocationOnIcon id='location-icon-fa'  style={{color: "#6465ff"}} />
+    </Link>
 
-    <LocationOnIcon style={{color: "#6465ff"}} />
-    
-    {/* <FaLocationArrow/> */}
-    
     </text>
-    <text id='meeting-location' >
+    <text id='meeting-location'>
       Cerrik 
+
+
     </text>
     
     {/* Add in the time and day information here  */}
@@ -190,11 +189,11 @@ function Footer() {
     <div id='section-item-container' >
     
     <text id='location-icon' >
-      {/* Add in the location icon here  */}
-      <LocationOnIcon style={{color: "#6465ff"}} />
+    <Link href='https://maps.app.goo.gl/as1QU93MeDEDWxxB7' target="_blank">
 
-      {/* Location  */}
-      
+      <LocationOnIcon id='location-icon-fa'  style={{color: "#6465ff"}} />
+    </Link>
+
     </text>
     
     <text id='meeting-location' >
@@ -216,10 +215,10 @@ function Footer() {
     
     <li id='second-section-item' >
       <text id='location-icon' >
-      <LocationOnIcon style={{color: "#6465ff"}} />
-
-        {/* Location  */}
-        {/* Add in the location icon here  */}
+      
+    <Link href='https://maps.app.goo.gl/as1QU93MeDEDWxxB7' target="_blank" >
+      <LocationOnIcon id='location-icon-fa'  style={{color: "#6465ff"}} />
+    </Link>
         
       </text>
       
@@ -243,13 +242,17 @@ function Footer() {
     <li id='second-section-item' >
     
     <text id='location-icon' >
-    <LocationOnIcon style={{color: "#6465ff"}} />
+    <Link href='https://maps.app.goo.gl/rEhVhSwnYHoWGyqRA' target="_blank" >
+    <LocationOnIcon id='location-icon-fa'  style={{color: "#6465ff"}} />
+    </Link>
 
       
     </text>
     
     <text id='meeting-location' >
+      <Link href='./live'>
       Online 
+      </Link>
     </text>
     
     <text id='meeting-info' >
@@ -268,36 +271,41 @@ function Footer() {
  
   
   </div>
-  
-  
-  {/* Add in the bottom section in here  */}
-  
-  
     
   </section>
   
-  <div id="bottom-section-container" >
+  <div id="bottom-section-container">
+  
   
   <ul id="bottom-section-list" >
     
   {/* Add in the list items here  */}
   <li id="bottom-section-item" >
+  <Link href='./contact'>
   CONTACT 
+  </Link>
   
 
   </li>
   <li id="bottom-section-item" >
+  <Link href='./live'>
   LIVE 
+   </Link>
   
 
   </li>
   <li id="bottom-section-item" >
-  MISSION STATEMENT  
-  
-
-  </li>
-  <li id="bottom-section-item" >
+  <Link href='./ministries' >
   PROJECTS  
+  </Link>
+  
+
+  </li>
+  {/*  */}
+  <li  className='mission-statement-item' id="bottom-section-item" >
+  <Link href='./mission' >
+  MISSION STATEMENT  
+  </Link>
   
 
   </li>
@@ -307,27 +315,25 @@ function Footer() {
   </div>
   
   
-  {/* Add in the copyright information here  */}
+
+  <div id="copyright-info-container" 
   
-  <div id="copyright-info-container" >
+  
+  
+  >
 
+  <div id="copyright-info" style={{backgroundColor: '#161822'}} >
     
-  <div id="copyright-info">
-
   © 2023 Renewal Christian Centre Ltd | All Rights Reserved | Charity No. 1117019 | Registered in England & Wales No. 5996380.   
-    
-    
-  </div>
-  </div>
-  
-  
-  {/* Add in the ministry tag line here  */}
-  
-  
-  <div id="tagline-container" >
 
+
+  </div>
+  </div>
+  
+  
+  <div id="tagline-container" style={{backgroundColor: '#161822'}} >
     
-  <div id="ministry-tagline" > 
+  <div id="ministry-tagline" style={{backgroundColor: '#161822'}} > 
 
   renewal. 
     
@@ -338,6 +344,7 @@ function Footer() {
   
 </div> 
   );
+  
   
   
 }

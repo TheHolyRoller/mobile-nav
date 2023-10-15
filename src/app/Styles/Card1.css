@@ -1,0 +1,80 @@
+*, *::after, *::before{
+    
+    
+    
+    
+    
+}
+
+
+body{
+
+    
+    
+    
+}
+
+
+
+html{
+
+    
+    
+}
+
+
+
+
+:root{
+
+    
+    
+    
+}
+
+
+/* Add in the id for the Card here  */
+
+
+/* Add in the media query here  */
+@media(max-width: 959.5px) and (min-width: 590.5px){
+    
+    #my-card{
+    
+    
+        max-width: 80vw !important; 
+        margin: 0 auto !important; 
+        padding: 0 !important; 
+        transform: translate(0,0) !important;
+        position: relative !important; 
+        
+        
+    /* max-width: 800px !important; */
+    
+    
+    }
+    
+    
+}
+
+/* Add in another media query to limit the  */
+@media(max-width: 589.5px) and (min-width: 500px ) {
+
+    
+      #my-card{
+    
+    
+        max-width: 80vw !important; 
+        margin: 0 auto !important; 
+        padding: 0 !important; 
+        transform: translate(0,0) !important;
+        position: relative !important; 
+        
+        
+    /* max-width: 800px !important; */
+    
+    
+    }
+    
+    
+}

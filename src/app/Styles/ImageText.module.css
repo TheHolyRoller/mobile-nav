@@ -1,0 +1,541 @@
+
+
+
+#backgroundcontainer{
+    box-sizing: border-box; 
+    
+    width: 100vw; 
+    min-height: 100vh; 
+    /* Add in the background color here  */
+    background-color: #ffffff !important;
+    
+    
+
+    position: relative; 
+    z-index: 200; 
+    
+    
+    display: grid;
+    place-content: center;
+    
+    
+    
+    /* Center the container here  */
+    
+    
+    
+        
+    }
+    
+
+    #componentcontainer{
+    
+    
+    
+
+    background-color: white; 
+    color: black; 
+    width: 90vw; 
+    min-height: 100vh;
+    margin: 0 auto !important; 
+    
+    
+    
+    
+    
+        
+    }
+    
+    
+    #componentsubcontainer{
+    
+        
+        
+        
+        
+    }
+    
+    
+    
+    #componentsectionlist{
+        
+
+
+
+    margin: 0 auto ; 
+    margin-top: 20vh !important; 
+    
+    
+        
+    }
+    
+
+    
+    #listcomponentitem{
+    
+        display: inline-block;
+
+        
+    }
+    
+    
+    
+    #textlistitem{
+
+
+    display: inline-block !important;
+    
+
+    margin-top: 0; 
+    margin-left: 0 !important; 
+    transform: translate(3rem, -17vh) !important ;
+    
+        
+    }
+    
+    
+    
+    #imagesectioncontainer{
+
+        
+    }
+    
+    
+    
+    #imagesubcontainer{
+        
+        
+        border-radius: 40px; 
+        margin: 0 auto !important; 
+        
+        display: grid;
+        justify-content: center;
+
+        
+        
+        
+        
+    }
+    
+    
+    /* Adjust the height of the image here and make it responsive  */
+    
+    #image{
+    
+    
+    /* Use a clamp to make the height responsive as well as view port width units 
+    to make the height adjust to the width of the viewport 
+    */
+
+/* ----- ADD IN A CALC FUNCTION ----- */
+    height: clamp(24rem, 34vw, 29rem); 
+    
+    }
+    
+    
+    /* ----TEXT SECTION------ */
+    
+    
+    #textsectioncontainer{
+    
+        
+    position: relative;
+    
+    max-width: 800px; 
+    
+    
+    }
+    
+    
+    #textsectionsubcontainer{
+    
+    
+    height: 20vh;   
+    transform: translate(0rem, 0vh);
+        
+        
+        
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    #section-header-container{
+    
+
+        
+        
+    }
+    
+    #text-section-typography{
+    
+        
+        
+        
+        
+        
+    }
+    
+    
+
+    
+    #textsectionheader{
+    
+        font-size: clamp(1.5rem, 2.4vw + 1rem, 3rem);
+        
+
+        letter-spacing: -0.12rem;
+        width: 30vw; 
+        position: relative; 
+        z-index: 200;   
+        font-weight: 700;   
+
+        
+    }
+    
+    
+    
+    
+    
+    
+    #textsectionblockcontainer{
+    
+
+        
+    }
+
+
+
+
+    #text-section-container{
+    
+        
+        
+    }
+    
+    /* Add in the text sub-division containers here  */
+    
+    
+    /* Add in the inline style template here  */
+    
+    
+    #toptextcontainer{
+        
+        
+        margin-top: 0.54rem;
+        font-size: 1rem;
+        font-weight: 450;
+        line-height: 1rem;
+        color: lightslategray; 
+        width: 30vw; 
+
+        
+        
+        
+        
+        
+    }
+    
+    #image{
+        
+        /* max-width: 860px !important;  */
+        
+        
+    }
+    
+    /*  style={{marginTop: '0.9rem'}}  */
+    
+    #bottomtextcontainer{
+
+        max-width: 650px; 
+        
+        
+    }
+    
+    
+    
+    
+    /* -----Button Section ------ */
+    
+    
+    
+    /* style={{ marginTop: '2rem', 
+    color: 'white', fontWeight: '600', textTransform: 'uppercase', 
+    paddingTop: '1rem', paddingBottom: '1rem', 
+    borderRadius: '10px', display: 'grid',
+    placeContent: 'center', transform:"translate(0rem, 2.3vh)", 
+    minHeight: '9.625', backgroundColor: '#ecb61f', width: '10rem'}}  */
+    
+    #valuesbutton{
+    
+    
+    margin-top: 2rem;
+    color: white; 
+    font-weight: 600;   
+    text-transform: uppercase;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 10px; 
+    display: grid;
+    place-content: center;
+    transform: translate(0rem, 2.3vh);
+    width: 10rem; 
+    background-color: #ecb61f;
+    
+        
+        
+    }
+    
+    #buttontextsectioncontainer{
+        
+        
+    }
+    
+    
+    
+    /* Add in the extra classes and ids here  */
+    
+    
+    
+    /* Add in the media queries here  */
+    
+    @media(max-width: 1200px){
+        
+        /* Add in the Text container here  */
+        #textlistitem{
+
+            display: inline-block !important;
+
+            margin: 0 auto !important; 
+            
+            width: 90vw; 
+            
+            margin-left: 5% !important; 
+
+            transform: translate(0vw, 0vh) !important ;
+            
+            /*  */
+            
+        }
+            
+            
+            /* Add in the lime bordered text block here  */
+            #toptextcontainer{
+                
+            
+            width: 80vw !important; 
+            max-width: 800px; 
+            
+
+                
+            }
+            
+            
+            /* Increase the width of the image here  */
+            
+            #listcomponentitem{
+                
+                display: block !important; 
+
+            }
+            
+            #image{
+                
+            
+            width: 82.7vw !important; 
+            
+            border-radius: 40px; 
+            
+            /*---- ADD IN A CALC FUNCTION ----- */
+            height: clamp(20rem, 63vw, 44.8rem); 
+
+            
+            
+                
+            }
+            
+            
+        
+        
+        
+    }
+    
+
+    
+    
+    
+    
+    
+    @media(max-width: 900px){
+        
+    #image{
+        
+        
+    }
+    
+    
+    #text-list-item{
+    }
+        
+        #valuesbutton{
+            
+            
+            
+            margin-top: 0.5rem !important; 
+            
+            
+        }
+        
+        
+        
+        
+        
+        
+        
+    }
+    
+    
+    @media(max-width: 375px){
+        
+        
+        #image{
+                
+            }
+            
+            
+            #textlistitem{
+
+                margin: 0 auto !important; 
+
+                }
+
+    }
+    
+    
+    
+    
+    
+    /* Add in the container queries here  */
+    
+    
+    /* Add in the orientation queries here  */
+    
+    
+    
+    /* Add in the nested queries here  */
+    
+    
+    
+    /* Add in the user preference queries here  */
+    
+    
+    
+    /* Add in the Effects here  */
+    
+    
+    
+    /* Add in the animations here  */
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

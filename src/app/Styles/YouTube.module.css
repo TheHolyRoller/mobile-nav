@@ -1,0 +1,515 @@
+
+    #live-hero{
+        
+        
+    }
+        
+    #componentcontainer{
+    
+        background: white !important; 
+        
+        
+        
+    }
+    
+
+    /* Add in the sub-containers here  */
+
+    #component-sub-container{
+        
+        
+
+        
+    }
+    
+    
+
+
+    #textsectioncontainer{
+
+
+        display: grid;
+        place-content: center;
+
+        margin: 0 auto !important; 
+
+        text-align: left;
+
+
+        width: 61vw; 
+        
+    }
+    
+    
+
+
+    #headlinecontainer{
+
+        margin-top: 3.5rem; 
+
+        
+    }
+
+
+    #textsectionheadline{
+
+        font-size: clamp(1.75rem, 2vw + 1rem, 3rem);
+        
+        
+        /* font-size: 2.8rem; */
+        font-weight: 700; 
+        
+        margin-bottom: 5rem; 
+        
+        
+        
+    }
+
+    
+
+    
+    
+    #main-text-container{
+
+    
+
+        
+
+        
+        
+        
+    }
+    
+    
+    
+    #main-text{
+        
+        
+                
+        
+        
+        
+    }
+    
+    
+    #secondary-text-container{
+
+        
+        
+        
+        
+        
+    }
+    
+    
+    
+    #secondary-text{
+
+        
+    }
+    
+    
+    
+    #info-text-container{
+
+        
+        
+        
+    }
+    
+    #infotext{
+    
+        color: #a2a19f;
+        
+        margin-bottom: 1.4rem; 
+        
+        font-size: 1.2rem; 
+        font-weight: 500;
+        
+
+    }
+    
+    
+    #ctaTextContainer{
+    
+    /* outline: 10px solid lime;  */
+    
+    width: max-content; 
+    margin: 1rem auto !important; 
+    font-size: clamp(1.1rem, 1vw + 1rem, 1.5rem) !important; 
+    font-weight: 700;
+
+        
+    }
+    
+    
+    #ctaText{
+
+        
+        
+    }
+    
+    
+    
+    
+    #livelinksectioncontainer{
+        
+        
+
+        margin: 0 auto; 
+        display: grid;
+        place-content: center;
+        
+        
+        
+    }
+    
+    #live-link-list-container{
+    
+
+        
+        
+    }
+    
+    #live-link-list{
+        
+        
+        
+        
+    }
+    
+    #livelistitem{
+
+        display: inline-block;
+        margin-right: 2rem; 
+        font-size: 1.9rem;
+        
+    }
+    
+    
+    #youtubelink{
+    font-size: 2.2rem;
+    color: rgb(26, 25, 25);
+    position: relative;
+    z-index: 2;
+   
+}
+    
+    #youtubelink:hover{
+        transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        -webkit-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        -moz-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        -ms-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        -o-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+    #youtubelink:hover{
+        
+        
+        
+        /* transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55); */
+        transform: rotate(360deg) scale(1.2); /* Rotate and scale the icon */
+        
+        /* filter: hue-rotate(180deg); Change the color of the icon */
+        
+        /* background-color: #00c670;  */
+        color: #0fdf27; 
+/*               
+        box-shadow: inset 5px 5px 10px rgba(25, 242, 5, 0.817), 
+              0 0 20px lime;  */
+              
+        
+        /* Add in the box shadow here  */
+        
+        
+        
+        transition-delay: 0.2s; 
+        
+        
+        
+    }
+    
+    #facebooklink{
+
+        
+        font-size: 2rem; 
+        color: rgb(26, 25, 25); 
+     
+        position: relative; 
+        z-index: 2;
+        
+        
+          
+      
+        
+    }
+    
+    #facebooklink:hover{
+        
+        transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        -webkit-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        -moz-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        -ms-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        -o-transition: all 0.5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+        
+        
+    }
+    #facebooklink:hover{
+        /*Changethecoloroftheicon*/
+        
+        /* box-shadow: inset 5px 5px 20px rgba(255,255,255,0.5), Add some inner glow                    0 0 20px lime; */
+        /*Addsomegreenglow*/transition-delay: 0.2s;
+        -webkit-transform: rotate(360deg) scale(1.2);
+        -moz-transform: rotate(360deg) scale(1.2);
+        -ms-transform: rotate(360deg) scale(1.2);
+        -o-transform: rotate(360deg) scale(1.2);
+        transform: rotate(360deg) scale(1.2);
+
+        color: #0fdf27; 
+        
+}
+    
+    
+    #livelinkbtn{
+    
+       width: 7rem; 
+       height: 3rem; 
+       background-color: white; 
+       
+       /* background-color: #00c670;  */
+       display: grid;
+       place-content: center;
+       border-radius: 7px;
+      border: 4px solid #00c670;
+       
+       
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    /* ----YouTube Section---- */
+    
+    #youtubesectioncontainer{
+
+        padding-bottom: 4rem !important;
+        
+        
+    }
+    
+    
+    
+    #youtubesection{
+        
+        
+        
+        
+    }
+
+
+    
+    
+    #youtubevideo{
+        
+
+        max-width: 501px; 
+        width: 40vw; 
+        min-width: 400px; 
+        
+
+        
+        min-height: 45vh;
+        margin: 3rem auto; 
+        background-color: blue; 
+        
+        
+        
+        
+    }
+    
+    
+
+    
+
+    /* Add in the media queries here  */
+    
+    
+    /* Add in the media query here for the Headline Text  */
+    
+    @media(max-width: 768.10px) and (min-width: 500.10px) {
+
+        /* Select the main container here */
+        #componentcontainer{
+            
+            /* Reduce the width of the component container here  */
+            
+            
+        }
+        
+        #textsectioncontainer{
+            
+            margin-top: -30% !important;
+            
+
+            
+            
+            
+        }
+        
+        /* Add in the headline container here  */
+        #textsectionheadline{
+            
+            margin-top: -5%;
+            
+        }
+
+        
+    }
+    
+    
+    
+    @media(max-width: 500px){
+        
+        
+        #textsectioncontainer{
+            
+            margin-top: -20% !important;
+
+        }
+     
+        
+        #textsectionheadline{
+        
+            transform: translate(0, 2rem);
+
+        
+        }
+        #textsectionheadline{
+            
+            margin-top: -5%;
+            
+            
+        }
+    
+    
+    }
+
+
+    /* Add in the container queries here  */
+
+
+
+    /* Add in the orientation queries here  */
+
+
+    /* Add in the nested queries here  */
+
+
+    /* Add in the user preference queries here  */
+
+
+    /* Add in the effects here  */
+
+
+
+    /* Add in the animations here  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

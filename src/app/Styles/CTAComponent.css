@@ -170,6 +170,8 @@ position: relative;
 
 width: 100vw; 
 min-height: 100vh;
+box-sizing: border-box;
+
 
 /* Add in the font family here */
 
@@ -290,16 +292,9 @@ left: 50%;
 
 transform: translate(-50%, -50%);
 
-width: 100vw; 
+width: 90vw; 
 
 margin: 0 auto; 
-
-
-    
-    
-    
-    
-    
     
 }
 
@@ -312,7 +307,7 @@ margin: 0 auto;
     width: 90%; 
     margin: 0 auto; 
     
-    outline: 20px solid red; 
+    /* outline: 20px solid red;  */
     
     
     
@@ -356,7 +351,7 @@ max-height: 65vh;
 #cta-button-container{
     
 
-outline: 10px solid lime; 
+/* outline: 10px solid lime;  */
 
 position: relative; 
 
@@ -370,7 +365,7 @@ position: relative;
 
 #button-sub-container{
     
-    outline: 10px solid red; 
+    /* outline: 10px solid red;  */
 
     
 }
@@ -384,7 +379,11 @@ position: relative;
 #cta-button{
 
 
-    
+width: 10.3rem; 
+background-color: #ecb61f; 
+border-radius: 10px; 
+height: 3.3rem; 
+
     
     
 }
@@ -392,12 +391,14 @@ position: relative;
 
 #cta-button-text{
     
-    
-
-    
-    
-    
-    
+  color: white; 
+  text-transform: uppercase;
+  
+  font-weight: 650; 
+  /* font-size:  */
+  
+  /* font-size: 0.91rem;  */
+  
     
     
     
@@ -415,16 +416,33 @@ position: relative;
 
     
     
-    
-    
-    
-    
 }
 
 
 #cta-header{
 
+
+/* Adjust the clamp here  */
+font-size: clamp(0.9rem, 2vw + 1rem, 2.4rem); 
+
+/* font-size: 2.1rem; */
+
+font-weight: 785;
+
+
     
+    
+    
+}
+
+
+#cta-span-one{
+
+    color: white; 
+    font-size: 1.12rem; 
+    font-weight: 500; 
+    
+
     
     
     
@@ -433,6 +451,20 @@ position: relative;
 
 
 
+#cta-span-two{
+
+display: block;
+margin-top: 0.6rem; 
+
+color: white; 
+font-size: 1.12rem; 
+    font-weight: 500;
+    /* outline: 20px solid blue;  */
+    
+    width: 40%; 
+    
+    
+}
 
 
 
@@ -441,6 +473,7 @@ position: relative;
 
 #text-cta-container{
 
+    
     
     
     
@@ -504,20 +537,14 @@ margin-top: 3rem;
     
     #cta-text-block{
         
-        /* max-width: 20vw !important; 
-        display: flex;
-        flex-wrap: wrap;
-        min-height: 40vh !important;
-        
-        outline: 20px solid red;  */
+
         
         
     }
     
 #cta-button-container{
     
-    outline: 10px solid blue; 
-    width: 50vw; 
+
     margin-top: 0; 
     
     margin-left: 70vw; 
@@ -532,13 +559,99 @@ margin-top: 3rem;
 
 
 
+@media(min-width: 1200px){
 
+     #cta-button-container{
+
+        
+        transform: translate(0, -7.7rem) !important;
+        
+        
+    }
+    
+    
+}
 
 
 @media(max-width: 600px){
     
     /* Add in the CTA text container here   */
+    #cta-text{
     
+
+        
+        
+    }
+    
+    
+    #cta-header-container{
+    transform: translate(0rem, 1rem) !important;
+
+        
+    }
+    
+    #cta-header{
+
+        
+        
+    }
+    
+    
+    #cta-text-block{
+
+        
+        
+    }
+
+    #cta-span-one{
+
+    
+    width: 83vw; 
+    /* Adjust the font size clamp here  */
+    font-size: clamp(0.7rem, 1.5vw +  0.5rem, 2rem);
+    
+        
+        
+    }
+    
+    #cta-span-two{
+        
+        
+       width: 83vw; 
+    font-size: clamp(0.7rem, 1.5vw +  0.5rem, 2rem);
+       
+        
+        
+    }
+    
+    #cta-button-container{
+
+        
+        margin-top:  1.8rem; 
+        
+        
+    }
+    
+    #button-sub-container{
+        
+        
+        
+        
+    }
+    
+    #cta-button{
+
+        
+        
+        
+    }
+    
+    #cta-button-text{
+        
+        
+        
+        
+    }
     
     
     /* Add in the CTA text here  */
@@ -552,6 +665,115 @@ margin-top: 3rem;
     
     
 }
+
+
+/* Add in the media query to adjust the CTA text and placement her  */
+
+@media(max-width: 500px){
+    
+    
+    #cta-text{
+    
+
+        
+        
+    }
+    
+    
+    #cta-header-container{
+
+        
+        
+        
+    }
+    
+    #cta-header{
+
+        
+        
+    }
+    
+    
+    #cta-text-block{
+
+        
+        
+    }
+
+    #cta-span-one{
+
+        
+        
+        
+    }
+    
+    #cta-span-two{
+        
+        
+        
+        
+    }
+    
+    #cta-button-container{
+
+        
+        
+        
+    }
+    
+    #button-sub-container{
+        
+        
+        
+        
+    }
+    
+    #cta-button{
+
+        
+        
+        
+    }
+    
+    #cta-button-text{
+
+        
+        
+        
+    }
+    
+}
+
+
+@media(max-width: 463px){
+    
+    
+    #cta-component-container{
+        
+        
+        /* margin-bottom: -15vw !important;  */
+        outline: 20px solid lime !important; 
+        transform: translate(0, 10vw) !important; 
+        
+        
+        
+    }
+    
+    
+}
+
+@media(max-width: 882px){
+    
+    #cta-component-container{
+        
+        display: none !important; 
+        
+        
+    }
+    
+    
+}
+
 
 /* Add in the container queries here  */
 

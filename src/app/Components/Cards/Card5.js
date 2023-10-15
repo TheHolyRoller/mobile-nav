@@ -1,9 +1,21 @@
 import { Card, Col, Row, Button, Text } from "@nextui-org/react";
 
+
+import '@/app/Styles/Card1.css'; 
+
+
 export const Card5 = () => (
-  <Card isHoverable isPressable css={{ w: "100%", h: "400px" }}>
-    <Card.Header style={{position: "absolute", bottom: "0%", transform:"translate(10rem, 8.6rem )", margin: "0 auto"}} css={{ position: "absolute", zIndex: 1, top: 5 }}>
+  <Card  
+  // style={{position: 'relative', maxWidth: '850px', outline: '0px solid lime', margin: '0 auto'}}
+  id='my-card'
+  isHoverable isPressable 
+  // css={{ w: "100%", h: "400px" }}
+  
+  >
+    {/* style={{position: "absolute", bottom: "0%", transform:"translate(10rem, 8.6rem )", margin: "0 auto"}}  */}
+    <Card.Header css={{ position: "absolute", zIndex: 1, top: 5 }}>
       <Col>
+      
         <Text size={12} weight="bold" transform="uppercase" color="#9E9E9E">
           Your day your way
         </Text>
@@ -21,7 +33,7 @@ export const Card5 = () => (
         alt="Relaxing app background"
       />
     </Card.Body>
-    {/* <Card.Footer
+    <Card.Footer
       isBlurred
       css={{
         position: "absolute",
@@ -73,6 +85,6 @@ export const Card5 = () => (
           </Row>
         </Col>
       </Row>
-    </Card.Footer> */}
+    </Card.Footer>
   </Card>
 );

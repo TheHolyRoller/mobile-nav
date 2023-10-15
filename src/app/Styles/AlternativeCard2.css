@@ -1,0 +1,46 @@
+*, *::after, *::before{
+    
+    padding: 0; 
+    margin: 0; 
+    
+}
+
+body{
+
+padding: 0; 
+margin: 0; 
+
+box-sizing: border-box;
+
+
+width: 100vw;
+max-width: 100vw; 
+min-height: 100vh;
+position: relative; 
+
+    
+}
+
+html{
+
+scroll-behavior: smooth;
+
+}
+
+
+:root{
+
+/* Add in the root variables here  */
+    
+}
+
+
+/* add in the main container here  */
+
+#alternative-card-two-container{
+    
+width: 92vw; 
+
+    
+    
+}

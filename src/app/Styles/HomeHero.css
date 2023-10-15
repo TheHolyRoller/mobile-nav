@@ -1,0 +1,384 @@
+/*  */
+
+
+
+*, *::after, *::before{
+    
+    
+    padding: 0; 
+    margin: 0; 
+    
+        
+        
+    }
+    
+    
+    body{
+    
+    padding: 0; 
+    margin: 0; 
+    position: relative;
+    width: 100vw; 
+    min-height: 100vh;
+    overflow-x:  hidden !important; 
+    
+    
+    /* Add in the font family here  */
+    
+    
+    /* Add in the font type here  */
+    
+    
+    /* Add in the background color and font color here  */
+    
+        
+    }
+    
+    
+    html{
+    
+    scroll-behavior: smooth;
+    
+    
+        
+    }
+    
+    :root{
+    
+    /* Add in the root variables here  */
+    
+    
+    /* Add in the dimension variables here  */
+    
+    
+    /* Add in the color pallette variables here  */
+    
+    
+    
+    /* Add in the margin variables here  */
+    
+    
+    /* Add in the timing variables here  */
+    
+    
+    
+    }
+    
+    
+    /* Add in the main container here  */
+    
+    
+    #giving-hero-main-container{
+    
+    
+    /* Add in the responsive positioning here  */
+    width: 99.999vw; 
+    max-width: 99.999vw; 
+    
+    min-height: 80vh;
+
+    
+    position: relative; 
+    
+        
+    }
+    
+    
+    
+    #giving-hero-sub-container{
+    
+    
+    
+    }
+    
+    
+    
+    
+    #giving-hero-image-container{}
+    
+    #giving-hero-image-container::after{
+    
+        
+        /* content: ""; 
+        background-color: rgb(53, 64, 74);  */
+        
+        
+        
+    }
+    
+    #giving-hero-image{
+        
+    
+        
+        
+    }
+    #giving-hero-image{
+        
+    /* background-image: url('../assets/BluePrints.jpg') !important; */
+    background-image: url('../assets/BluePrints.jpg') !important; 
+        
+    
+    background-color: rgba(0, 0, 0, 0.2); 
+    background-blend-mode: darken;
+    
+    
+    width: 99.999vw !important; 
+    
+    position: relative; 
+    background-repeat: no-repeat; 
+    background-position: center center;
+    background-size: cover;
+    
+    
+        
+    }
+    
+    
+    
+    
+    
+    #giving-hero-text-container{
+    
+    
+    
+    font-size: 3rem;
+    color: white !important; 
+    
+    
+    
+    
+    }
+    
+    
+    
+    #giving-hero-text-sub-container{
+    
+    position: absolute; 
+    
+    left: 8.5% !important;
+    
+    top: 60% !important;
+    
+    
+    color: white !important; 
+    
+    font-weight: 700;   
+    
+    
+    }
+    
+    
+    #giving-hero-text{
+    
+        
+        
+        
+    }
+    
+    
+    /* Add in the media queries here  */
+    @media(max-width: 1700px){
+        
+    #giving-hero-image{
+        
+        min-height: 93.4vh;
+    
+        
+    }
+    
+    #giving-hero-text-sub-container{
+    
+        
+    
+    font-size: clamp(1.85rem, 1vw + 1rem, 3rem) !important; 
+    
+    position: absolute; 
+    
+    left: 12%; 
+    top:68.99%; 
+    
+    color: white !important; 
+    
+    
+    font-weight: 800;   
+    
+    
+    
+    
+    
+    
+    }
+    
+    #giving-hero-text-sub-container{
+        
+    font-size: 3rem !important;
+    
+    
+        
+        
+    }
+    
+    
+    
+    
+    
+    /* Reposition the text here  */
+    
+    #giving-hero-text-container{
+    
+    
+    
+        
+        
+        }
+    
+    
+    
+    }
+    
+    
+    
+    @media(max-width: 1000px){
+    
+        #giving-hero-text-sub-container{
+        left: 5%;
+        top: 72%; 
+    
+    }
+        
+    }
+    
+    
+    @media(max-width: 768.5px){
+    
+        
+        #giving-hero-image{
+    
+            min-height: 49vh;
+    
+        }
+        
+        /* Change the positioning of the text here  */
+        #giving-hero-text-sub-container{
+    
+        font-size: clamp(1.85rem, 1vw + 1.9rem, 3rem) !important; 
+        position: absolute; 
+    
+        left: 5%; 
+        top:39%; 
+        z-index: 2000000000000 !important;
+        color: white !important; 
+    
+        font-weight: 700;   
+    
+    }
+        
+    }
+    
+    
+    @media(max-width: 500px){
+        
+        #giving-hero-image{
+        
+            min-height: 70.5vh;
+    
+        }
+        
+        
+    #giving-hero-text-container{
+    
+        font-size: 3rem;
+        color: white !important; 
+        z-index: 999999999999999 !important; 
+        
+        }
+        
+        
+        
+        #giving-hero-text-sub-container{
+    
+        position: absolute; 
+        
+        left: 4.5%; 
+        top: 65%; 
+    
+    
+        color: white !important; 
+        
+        font-size: clamp(1.6rem, 1vw + 1rem, 3rem) !important; 
+        font-weight: 700;   
+    
+        }
+    
+    }
+    /* Add in the container queries here  */
+    
+    
+    
+    
+    /* Add in the orientation queries here  */
+    
+    
+    
+    /* Add in the Effects here  */
+    
+    
+    
+    /* Add in the animations here  */
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

@@ -1,0 +1,165 @@
+    
+    /* Add in the main container here  */
+    #historymaincontainer{
+    
+        box-sizing: border-box; 
+        color:rgb(88, 85, 85); 
+        padding: 0; 
+        margin: 0; 
+        position: relative; 
+    
+    }
+    
+    #historysubcontainer{
+    
+    width: 85vw;
+    
+    
+    }
+    
+
+    #history-first-text-section{
+    
+    
+    
+    
+    }
+    
+    
+    
+    #history-first-headline-container{
+
+    
+    }
+    
+    
+    
+ #historyfirstheadline{
+ 
+    
+    font-size: 2rem;
+    font-weight: 600;   
+    color: rgb(30, 29, 29);
+    
+    
+ 
+ }   
+    
+    
+ #history-first-text-container{
+ 
+ 
+ 
+ }   
+    
+    
+    
+ #history-first-text{
+ 
+ 
+ 
+ 
+ }   
+    
+    
+    
+#history-second-headline-container{
+
+
+
+}    
+    
+    
+    
+    
+#historysecondheadline{
+
+    font-size: 2rem;
+    color: rgb(30, 29, 29);
+
+
+    font-weight: 600;  
+
+}    
+    
+    
+#history-second-text-container{
+
+
+}    
+    
+    
+#history-second-text{
+
+
+}    
+    
+    
+#history-second-headline-container{
+
+
+
+}    
+    
+    
+#history-second-headline{
+
+
+
+}    
+    
+    
+#history-second-text-container{
+
+
+
+
+
+}    
+    
+    
+    
+#history-second-text{
+
+
+
+}    
+    
+    
+#historythirdheadlinecontainer{
+
+ font-size: 2rem;
+    font-weight: 600;  
+    color: rgb(30, 29, 29);
+    
+
+
+}    
+    
+    
+    
+#historythirdheadline{
+
+    font-size: 2rem;
+    font-weight: 600;  
+    color: rgb(30, 29, 29);
+    
+
+}    
+    
+#history-third-text-container{
+
+
+
+}    
+    
+    
+    /* Add in the media queries here  */
+    
+    
+    
+    
+    /* Add in the Effects here  */
+    
+    
+    /* Add in the animations here  */

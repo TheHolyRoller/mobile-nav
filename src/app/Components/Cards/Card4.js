@@ -1,7 +1,13 @@
 import { Card, Col, Row, Button, Text } from "@nextui-org/react";
+import '@/app/Styles/Card1.css'; 
 
 export const Card4 = () => (
-  <Card isPressable isHoverable css={{ w: "100%", h: "400px" }}>
+  <Card 
+  id='my-card'
+  // style={{position: 'relative', maxWidth: '800px', outline: '0px solid lime', margin: '0 auto'}}
+
+  isPressable isHoverable css={{ w: "100%", h: "400px" }}>
+    {/* style={{position: "absolute", bottom: "0%", transform:"translate(3.3rem, 6.7rem )", margin: "0 auto"}}  */}
     <Card.Header style={{position: "absolute", bottom: "0%", transform:"translate(14.3rem, 8.7rem )", margin: "0 auto"}}  css={{ position: "absolute", zIndex: 1, top: 5 }}>
       <Col>
         <Text size={12} weight="bold" transform="uppercase" color="#ffffffAA">

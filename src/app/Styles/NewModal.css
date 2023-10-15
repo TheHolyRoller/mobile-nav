@@ -1,62 +1,15 @@
 
-        /* 
-    
-        Okay so let's just talk things through. 
-        
-        So first of all there is still some polishing to do on the navbar and the hero 
-        
-        Then these components need to be changed so that they can work in 
-        
-        landscape mode. 
-        
-        
-        section. 
-        
-        
-        Then once that is done then the CTA section needs polishing 
-        
-        then it's just the contact and footer than are the major pieces that 
-        
-        need to be polished. 
-        
-        Once those components are done then I can add some effects 
-        routing and then some animations. 
-        
-        Once that is done I can add in the functional components and then 
-        
-        create the rest of the needed functional components and add them in 
-        
-        then after some more polishing I can launch the website. 
-        
-        
-        So that's basically the plan. 
-        
-        So what I need to do now is finish off the hero and navbar section. 
-        
-        
-
-
-        */
 
         *, *::after, *::before{
-
-
         padding: 0; 
         margin: 0; 
 
-            
         }
-
-
 
         html{
-
         scroll-behavior: smooth;
 
-            
-            
         }
-
 
         body{
 
@@ -68,18 +21,7 @@
 
         padding: 0; 
         margin: 0; 
-
-
-        /* Add in the font type and family here  */
-
-        /* Add in the font color and size here  */
-
-        /* Add in the  */
-            
-            
         }
-
-
 
         :root{
         
@@ -103,8 +45,8 @@
         #modal-open-button{
 
             z-index: 20000;
-            
-            
+            transition: color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+
         }
 
 
@@ -120,8 +62,6 @@
 
         box-sizing: border-box; 
 
-            
-            
         }
 
         #modal-overlay{
@@ -170,14 +110,17 @@
         font-size: 2.3rem;
         
         color: white; 
+        
+        /* color: rgb(142, 136, 136);  */
 
         }
         
         #modal-logo-container{
         
             
-        /* outline: 10px solid lime;  */
         margin-top: 1.25rem; 
+        transition: color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+
 
             
         }
@@ -192,7 +135,10 @@
 
         
         font-size: clamp(1.5rem, 1.77vw + 1rem, 2.7rem); 
+            
+        transition: color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
 
+        
         }
 
 
@@ -287,6 +233,8 @@
         margin-left: -2.6vw !important; 
 
         padding: 0 !important; 
+        transition: color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+        
 
         
         }
@@ -320,6 +268,8 @@
         display: grid;
         place-content: center;
         padding-top: 5%;
+
+        
         
             
         }
@@ -328,6 +278,8 @@
         #menu-list-item{
 
         height: 5.5rem; 
+        transition: color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+
 
             
         }
@@ -338,8 +290,12 @@
         #list-item-content{
 
             font-size: 2.4rem;
+            
             font-weight: 680; 
             color: white; 
+            
+            transition: color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+
 
         }
 
@@ -365,6 +321,9 @@
 
         #social-media-footer-list{
             margin-left: -7%; 
+            
+            transition: color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+
 
         }
 
@@ -374,18 +333,27 @@
             
         display: inline-block;
         margin-right: 2rem;
+        transition: color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+
             
         }
 
 
 
         #social-footer-icon-container{
+        
+        
+            transition: color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+
             
         }
         
         
         #footer-icon{
             font-size: 2rem;
+            
+            transition: color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+
             
         }
         
@@ -449,21 +417,60 @@
         #open-btn-container{
             
         /* margin-top: -0.5rem;  */
-        margin-top: 1rem; 
+        transform: translate(0rem, -1.55rem) !important;
+        /* 
         
-            
-            
-            
-            
-            
-        }
+        style={{display: 'block', 
+        width: '8.1rem', 
+        height: '3.4rem', display: 'grid', \
+        alignContent: 'center', 
+        backgroundColor: 'white', borderRadius: '10px'}}
+        *//*display: block;
+        */width: 8.1rem;
+        height: 3.4rem;
+        display: grid;
+        align-content: center;
+        background-color: white;
+        
+        
+        border-radius: 10px;                ;
+        -webkit-border-radius: 10px               ;
+        -moz-border-radius: 10px               ;
+        -ms-border-radius: 10px               ;
+        -o-border-radius: 10px               ;
+}
         
         #toggle-button{
             
-            
+            transition: color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+
 
             
         }
+        
+        #toggle-button-text{
+        
+        /* 
+        
+        style={{marginTop: '-1.69rem', 
+        transform: 'translate(0rem, 0rem)', position: 'relative', 
+        textTransform: 'uppercase', 
+        fontWeight: '550', 
+        marginLeft: '2.3rem'}}
+        */margin-top: -1.69rem !important;
+        -webkit-transform: translate(0rem, 0rem) !important  ;
+        -moz-transform: translate(0rem, 0rem) !important  ;
+        -ms-transform: translate(0rem, 0rem) !important  ;
+        -o-transform: translate(0rem, 0rem) !important  ;
+        transform: translate(0rem, 0rem) !important  ;
+        position: relative;
+        font-weight: 550;
+        margin-left: 2.3rem;
+        transition: color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+}
+        
+        
+        
         
         #modal-open-button{
         
@@ -471,23 +478,24 @@
             
         /* margin-top: 0.5rem !important;  */
         
-        transform: translate(0.88rem, -0.75rem) !important;
-        margin-top: 0.5rem !important;
+        transform: translate(0.88rem, 1.8rem) !important;
+        /* margin-top: 0.5rem !important; */
         
             
             
         }
-        
-        
-        
+
         
         #second-toggle-button{
         
             
             display: none;
             color: white; 
-            font-size: 2.7rem !important; 
+            font-size: 2.3rem !important; 
             border-radius: 10px; 
+            
+            transition: color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+
 
         }
 
@@ -612,7 +620,7 @@
         
         position: relative; 
         
-        /* outline: 10px solid lime;  */
+
         
             
             
@@ -637,7 +645,7 @@
         #second-menu-btn-container{
             
             
-            /* outline: 20px solid lime;  */
+
             
             
             
@@ -646,6 +654,24 @@
             
             
         }
+        
+        
+        
+        @media(max-width: 880px){
+        
+            #second-toggle-button{
+
+                display: inline-block !important;
+                font-size: 3.5rem;
+
+                
+            }
+        
+            
+            
+            
+        }
+        
         
         
         /* Add in a media query to move the hamburger menu icon further left here  */
@@ -653,15 +679,12 @@
         @media(max-with: 540px){
 
             #open-btn-container{
-            
                     
                 }
                 
                 #toggle-button{
                     
                     outline: none !important; 
-                    
-        
                     
                 }
                 
@@ -670,7 +693,8 @@
                     display: inline-block !important;
                     font-size: 3.5rem;
                     
-                    margin-top: 0 !important; 
+
+
                     
                     margin-left: 0; 
                     
@@ -700,12 +724,97 @@
             
         }
         
+        @media(max-width: 489px){
+
+            
+            
+        }
+        
+        @media(max-width: 525px){
+            
+            #second-toggle-button{
+            
+            /* margin-top: -1rem !important; 
+            margin-left: -2rem !important;  */
+            
+            
+            }
+            
+            #second-menu-btn-container{
+
+                
+
+                
+                
+                
+            }
+            
+            
+        }
+        
+           
+        @media(max-width: 710px){
+            
+            
+            
+            #second-menu-btn-container{
+
+                margin: 0 !important; 
+                padding: 0 !important; 
+                transform: translate(0rem, 0rem) !important;
+
+                
+                
+                
+            }
+            
+            #second-toggle-button{
+
+           
+                /* margin-left: -2vw;  */
+                
+                
+            }
+            
+            
+        }
+        
+        @media(max-width: 600px){
+            
+            
+            
+            #second-menu-btn-container{
+
+                margin: 0 !important; 
+                padding: 0 !important; 
+                transform: translate(0rem, 0rem) !important;
+                
+                
+                
+            }
+            
+            #second-toggle-button{
+
+               margin: 0 !important; 
+               padding: 0 !important; 
+               transform: translate(0rem, 0rem,) !important; 
+                
+                
+            }
+            
+            
+            
+        }
+        
+        
+        
+        
         
         @media(max-width: 490px){
             
             #second-menu-btn-container{
 
-                
+            
                 
             }
             
@@ -715,40 +824,286 @@
                 display: inline-block !important;
                 font-size: 3.5rem;
                 
-                margin-top: -3.97rem; 
-
-                
-                margin-left: 0; 
-                
             }
             
             
             
+
         }
+        
+        
+        @media(max-width: 773.5px) and (min-width: 566px){
 
+            /* Select the Modal container button here  */
+            #second-menu-btn-container{
+                
+                margin: 0 !important; 
+                padding: 0 !important; 
+                transform: translate(4vw,0) !important;
 
-        /* Add in the orientation queries here  */
+                
+                
+                
+                
+            }
+            
+            /* Move it right  */
+            
+            
+        }
+        
+        
+        @media(max-width: 556.10px) and (min-width: 438.10px) {
 
+             /* Select the Modal container button here  */
+            #second-menu-btn-container{
+                
+                margin: 0 !important; 
+                padding: 0 !important; 
+                transform: translate(9.5vw,0) !important;
+                /* margin-right: -1vw !important;  */
+            color: white !important; 
 
-        /* Add in the nested queries here  */
+                
+                
+                
+            }
+            
+            
+        }
+    
+    
+    
 
+        
+        /* Add in the hover effects here  */
+        
+        
+        #modal-open-button:hover{
+            /*color: black !important;
+            *//*background: black !important;
+            */
+            /* -webkit-transform: scale(1.02);
+            -moz-transform: scale(1.02) !important ;
+            -ms-transform: scale(1.02) !important ;
+            -o-transform: scale(1.02) !important ;
+            -webkit-transform: scale(1.02) !important ;
+            transform: scale(1.02) !important ; */
+            color: white !important; 
+            
+}
+        
+        
+        
+        #open-btn-container:hover{
+           
+            /* -webkit-transform: scale(1.02);
+            -moz-transform: scale(1.02) !important ;
+            -ms-transform: scale(1.02) !important ;
+            -o-transform: scale(1.02) !important ;
+            -webkit-transform: scale(1.02) !important ;
+            transform: scale(1.02) !important ; */
+            /* transform: scale(1.02); */
+            color: white !important; 
+            
+        }
+        
+        
+        
+        
+        #toggle-button:hover{
+        
+            /* color: white !important;  */
+            /* background: black !important; */
+            /* -webkit-transform: scale(1.02);
+            -moz-transform: scale(1.02) !important ;
+            -ms-transform: scale(1.02) !important ;
+            -o-transform: scale(1.02) !important ;
+            -webkit-transform: scale(1.02) !important ;
+            transform: scale(1.02) !important ; */
+            
+            color: white !important; 
+            
+        }
+        
+        
+        
+        #toggle-button-text:hover{
+        /*color: white !important;
+        *//*background: black !important;
+        *//*-webkit-transform: scale(1.02);
+        -moz-transform: translate(0rem, -0.5rem) !important  ;
+        -ms-transform: translate(0rem, -0.5rem) !important  ;
+        -o-transform: translate(0rem, -0.5rem) !important  ;
+        -webkit-transform: translate(0rem, -0.5rem) !important  ;
+        transform: scale(1.02) !important ;
+        */color: white !important;
+        /* transform: translate(0rem, -0.5rem) !important  ; */
+}
+        
+        
+#toggle-button-text{
 
+    margin-top: -1.69rem !important; 
+    
 
-        /* Add in the container queries here  */
+}
+        
+        /* Hover Effects for Hamburger Menu  */
+        
+        
+        #menu-list-item:hover{
+        transform: scale(1.05);
+        -webkit-transform: scale(1.05);
+        -moz-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        -o-transform: scale(1.05);
+        
+        -webkit-transform: translate(0, 3deg) ;
+        -moz-transform: translate(0, 3deg) ;
+        -ms-transform: translate(0, 3deg) ;
+        -o-transform: translate(0, 3deg) ;
+        transform: translate(0, 3deg) ;
+        
+        color: white; 
+        
+}
+        
+        
+        
+        #list-item-content:hover{
+            -webkit-transform: translate(0, 3deg) ;
+            -moz-transform: translate(0, 3deg) ;
+            -ms-transform: translate(0, 3deg) ;
+            -o-transform: translate(0, 3deg) ;
+            transform: translate(0, 3deg) ;
+}
+        
+        /* #social-media-footer-section:hover{
+            
+            transform: scale(1.05);
+            -webkit-transform: scale(1.05);
+            -moz-transform: scale(1.05);
+            -ms-transform: scale(1.05);
+            -o-transform: scale(1.05);
+            
+            -webkit-transform: translate(0, 3deg) ;
+            -moz-transform: translate(0, 3deg) ;
+            -ms-transform: translate(0, 3deg) ;
+            -o-transform: translate(0, 3deg) ;
+            transform: translate(0, 3deg) ;
+            
+            color: white; 
+            
+            
+        } */
+        
+        
+        
+        /* #social-media-footer-list:hover{
 
-
-        /* Add in the Effects here  */
-
-
-        /* Add in the animations here  */
-
-
-
-
-
-
-
-
-
-
-
+            transform: scale(1.05);
+            -webkit-transform: scale(1.05);
+            -moz-transform: scale(1.05);
+            -ms-transform: scale(1.05);
+            -o-transform: scale(1.05);
+            
+            -webkit-transform: translate(0, 3deg) ;
+            -moz-transform: translate(0, 3deg) ;
+            -ms-transform: translate(0, 3deg) ;
+            -o-transform: translate(0, 3deg) ;
+            transform: translate(0, 3deg) ;
+            
+            color: white; 
+            
+        } */
+        
+        /* #social-media-item-footer:hover{
+            
+            transform: scale(1.05);
+            -webkit-transform: scale(1.05);
+            -moz-transform: scale(1.05);
+            -ms-transform: scale(1.05);
+            -o-transform: scale(1.05);
+            
+            -webkit-transform: translate(0, 3deg) ;
+            -moz-transform: translate(0, 3deg) ;
+            -ms-transform: translate(0, 3deg) ;
+            -o-transform: translate(0, 3deg) ;
+            transform: translate(0, 3deg) ;
+            
+            color: white; 
+            
+        } */
+        
+        
+        #social-footer-icon-container:hover{
+            
+            
+            transform: scale(1.05);
+            -webkit-transform: scale(1.05);
+            -moz-transform: scale(1.05);
+            -ms-transform: scale(1.05);
+            -o-transform: scale(1.05);
+            
+            -webkit-transform: translate(0, 3deg) ;
+            -moz-transform: translate(0, 3deg) ;
+            -ms-transform: translate(0, 3deg) ;
+            -o-transform: translate(0, 3deg) ;
+            transform: translate(0, 3deg) ;
+            
+            color: white; 
+            
+            
+        }
+        
+        
+        #footer-icon:hover{
+            
+            transform: scale(1.05);
+            -webkit-transform: scale(1.05);
+            -moz-transform: scale(1.05);
+            -ms-transform: scale(1.05);
+            -o-transform: scale(1.05);
+            
+            -webkit-transform: translate(0, 3deg) ;
+            -moz-transform: translate(0, 3deg) ;
+            -ms-transform: translate(0, 3deg) ;
+            -o-transform: translate(0, 3deg) ;
+            transform: translate(0, 3deg) ;
+            
+            color: white; 
+            
+            
+        }
+        
+        #open-btn-container:hover{
+            
+            background: black !important;
+            
+            
+            
+            
+            
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        

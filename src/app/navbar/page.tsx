@@ -1,7 +1,6 @@
 'use client'
 import React from 'react'
 
-// import '../Styles/nav.css';
 
 
 import { Navbar } from "@nextui-org/react";
@@ -17,6 +16,7 @@ import  NewModal  from '../Components/NewModal';
 import { FaHeart, FaShoppingCart } from 'react-icons/fa';
 
 
+
 function Nav() {
 
   return (
@@ -26,19 +26,6 @@ function Nav() {
 <Navbar style={{backdropFilter: "transparent", width: '100vw' }}  css={{
 
       $$navbarBackgroundColor: "transparent",
-      // $$navbarBlurBackgroundColor: "transparent",
-      // $$navbarBlurBackgroundColor:  
-      // $$navbarBackdropFilter: "transparent",
-      
-      // $$navbarBackgroundFilter: "transparent", 
-      // $$navbarMinWidth: '100%',
-
-      
-      // $$navbarHeight: '7rem',
-      
-      
-      
-      
       
 }}
 className="navbar"    shouldHideOnScroll  variant="sticky">

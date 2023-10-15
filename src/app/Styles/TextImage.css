@@ -1,0 +1,654 @@
+/* 
+
+
+
+Okay so things are working out quite well. 
+
+
+
+First of all I have the basic functionality and responsiveness of the component. 
+
+But a lot of work still needs to be done. 
+
+First of all when the screen becomes smaller and the text section goes down to the 
+
+bottom left hand side then I need to increase the width of the text section. 
+
+Then I also need to ensure that the image is centered. 
+
+It does become centered in smaller screen sizes but I need to ensure this 
+
+for small tablet sized screens. 
+
+
+
+Then once those things are done I can focus on getting all the spacing 
+
+margin and sizing right and then once that is done things will be pretty much done for 
+the day. 
+
+I would like to work or at least plan out my Give CTA and my Youtube CTA. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
+
+
+
+*, *::after, *::before{
+    
+    padding: 0; 
+    margin: 0; 
+    
+        
+    }
+    
+    
+    body{
+    
+    position: relative; 
+    width: 100vw; 
+    min-height: 100vh;
+    
+    padding: 0; 
+    margin: 0; 
+    
+    /* Add in the background color here  */
+    
+    
+    /* Add in the font type and family here  */
+    
+    
+    /* Add in the box-sizing here  */
+    box-sizing: border-box; 
+    
+        
+        
+        
+    }
+    
+    
+    
+    html{
+    
+    scroll-behavior: smooth;  
+        
+        
+    }
+    
+    
+    :root{
+    
+    /* Add in the color pallette variables here  */
+    
+    /* Add in the font type variables here  */
+    
+    
+    /* Add in the margin variables here  */
+    
+    
+    
+    /* Add in the sizing variables here  */
+    
+    
+    /* Add in the timing variables here  */
+    
+    
+        
+    }
+    
+    /* 
+    
+    style={{marginTop: '30vh', marginBottom: '30vh'}}  
+    
+    */
+    /* Add in the main container here  */
+    #background-container{
+    
+    /* Add in the responsive dimensions here  */
+    /* margin-top: 30vh; */
+    /* margin-bottom: 30vh; */
+    
+
+    /* outline: 20px solid lime;  */
+    
+    
+    width: 99.99vw !important; 
+    margin: 0 auto !important; 
+    
+    /* width: 100vw;  */
+    min-height: 100vh; 
+    
+    /* Add in the background color here  */
+    background-color: #ffffff !important;
+    
+    
+
+    position: relative; 
+    z-index: 200; 
+    
+    
+    display: grid;
+    place-content: center;
+    
+    
+    
+    /* Center the container here  */
+    
+    
+    
+        
+    }
+    
+
+    #component-container{
+    
+    
+    
+
+    background-color: white; 
+    color: black; 
+    width: 90vw; 
+    min-height: 100vh;
+    margin: 0 auto !important; 
+
+    /* outline: 20px solid blue;  */
+    display: grid;
+    justify-content: center;
+    
+    
+    
+    
+    
+        
+    }
+    
+    
+    #component-sub-container{
+    
+        
+
+        /* outline: 30px solid red;  */
+        
+        
+        
+    }
+    
+    
+    
+    #component-section-list{
+        
+
+
+
+    margin: 0 auto ; 
+    margin-top: 20vh !important; 
+    /* place-self: center; */
+    
+    outline: 50px solid red !important; 
+    
+    
+        
+    }
+    
+
+    
+    #list-component-item{
+    
+        display: inline-block;
+
+        
+        
+    }
+    
+    
+    
+    #text-list-item{
+
+
+    display: inline-block !important;
+    
+    margin: 0 auto !important; 
+    position: relative !important; 
+    
+    padding: 0 !important; 
+    transform: translate(20%, 20%) !important;
+
+        
+    }
+    
+    
+    
+    #image-section-container{
+
+        
+    }
+    
+    
+    
+    #image-sub-container{
+        
+        
+        border-radius: 40px; 
+        margin: 0 auto !important; 
+        
+        display: grid;
+        justify-content: center;
+
+        
+        
+        
+        
+    }
+    
+    
+    /* Adjust the height of the image here and make it responsive  */
+    
+    #image{
+    
+    
+    /* Use a clamp to make the height responsive as well as view port width units 
+    to make the height adjust to the width of the viewport 
+    */
+
+/* ----- ADD IN A CALC FUNCTION ----- */
+    /* height: clamp(20rem, 31vw, 29rem);  */
+    max-width: 600px !important;
+    /* outline: 2px solid blue;  */
+    
+    
+    }
+    
+    
+    /* ----TEXT SECTION------ */
+    
+    
+    #text-section-container{
+    
+        
+    position: relative;
+    
+    max-width: 750px;
+    transform: translate(0, -15.5%);
+    width: 70%; 
+
+    
+    }
+    
+    
+    #text-section-sub-container{
+    
+    
+    height: 20vh;   
+    transform: translate(0rem, 0vh);
+    
+        
+        
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    #section-header-container{
+    
+
+        
+        
+    }
+    
+    #text-section-typography{
+    
+        
+        
+        
+        
+        
+    }
+    
+    
+
+    
+    #text-section-header{
+    
+        font-size: clamp(1.5rem, 2.4vw + 1rem, 3rem);
+        
+
+        letter-spacing: -0.12rem;
+        width: 30vw; 
+        position: relative; 
+        z-index: 200;   
+        font-weight: 700;   
+
+        
+    }
+    
+    
+    
+    
+    
+    
+    #text-section-block-container{
+    
+
+        
+    }
+
+
+
+
+    #text-section-container{
+    
+        
+        
+    }
+    
+    /* Add in the text sub-division containers here  */
+    
+    
+    /* Add in the inline style template here  */
+    
+    
+    #top-text-container{
+        
+        
+        margin-top: 0.54rem;
+        font-size: 1rem;
+        font-weight: 450;
+        line-height: 1rem;
+        color: lightslategray; 
+        width: 22vw; 
+
+        text-align: left;
+
+        /* outline: 4px solid lime;  */
+        
+        
+        
+        
+        
+        
+    }
+    
+    #image{
+        
+        /* max-width: 860px !important;  */
+        
+        
+    }
+    
+    /*  style={{marginTop: '0.9rem'}}  */
+    
+    #bottom-text-container{
+
+        max-width: 650px; 
+        margin-top: 0.7rem; 
+        
+        
+    }
+    
+    
+    
+    
+    /* -----Button Section ------ */
+    
+    #values-button{
+    
+    
+    margin-top: 2rem;
+    color: white; 
+    font-weight: 600;   
+    text-transform: uppercase;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 10px; 
+    display: grid;
+    place-content: center;
+    transform: translate(0rem, 2.3vh);
+    width: 10rem; 
+    background-color: #ecb61f;
+
+    }
+   
+   
+   #text-list-item-backup{
+    
+    /* outline: 30px solid blue !important; */
+    
+    
+    
+    
+   }
+   
+    
+    @media(max-width: 1700px) and (min-width: 1200.5px){
+        
+        #text-list-item-backup{
+            display: none;
+            
+            
+            
+        }
+        
+        /* Add in the image here  */
+        #image{
+            
+            max-width: 50vw !important;
+
+            
+            width: 31vw !important; 
+            height: 50vh !important; 
+
+        }
+        
+        
+        
+    }
+    
+ 
+    
+    @media(max-width: 1200px){
+        
+        /* Add in the Text container here  */
+        #text-list-item{
+
+          display: none !important; 
+          
+          
+        }
+            
+            #text-section-container{
+            
+            
+             /* outline: 50px solid orange !important;  */
+             transform: translate(0,0) !important;
+             
+                
+                
+            }
+
+            
+            
+            
+            /* Add in the lime bordered text block here  */
+            #top-text-container{
+                
+            
+            width: 80vw !important; 
+            max-width: 800px; 
+                
+                
+            }
+            
+            #text-list-item-backup{
+
+                
+
+            display: inline-block !important;
+
+            margin: 0 auto !important; 
+            position: relative;
+            
+            
+            /* width: 90vw;  */
+            
+
+            transform: translate(0vw, 0vh) !important ;
+
+            /* outline: 20px solid lime;  */
+            
+                
+                
+                
+            }
+            
+            
+            /* Increase the width of the image here  */
+            
+            #list-component-item{
+                
+                display: block !important; 
+
+            }
+            
+            #image{
+                
+            
+            width: 82.7vw !important; 
+            
+            border-radius: 40px; 
+            
+            /*---- ADD IN A CALC FUNCTION ----- */
+            height: clamp(20rem, 63vw, 44.8rem); 
+
+                
+            }
+        
+    }
+    
+    
+    @media(max-width: 1200px) and (min-width:777px){
+    
+        #text-list-item-backup{
+
+            margin-left: 10% !important; 
+            
+            
+            
+        }
+        
+        
+        
+    }
+    
+    @media(max-width: 900px){
+        
+    #image{
+
+        
+        
+    }
+    
+    
+    #text-list-item{
+            
+        }
+        
+        #values-button{
+            margin-top: 0.5rem !important; 
+            
+        }
+        
+    }
+    
+    @media(max-width: 670px){
+        
+        #image{
+        
+            /* Add in a max height here  */
+            max-height: 400px;
+            
+            
+        }
+        
+        
+        /* Adjust the placement of the text here  */
+       
+        
+        
+        
+    }
+    
+    
+    @media(max-width: 375.5px){
+        
+        
+        #image{
+                
+                
+                
+            }
+            
+            
+            #text-list-item{
+                margin: 0 auto !important; 
+                    
+                }
+                
+                #text-list-item-backup{
+            
+            
+                    margin-left: 6.6% !important;
+                    
+                    /* outline: 20px solid lime;  */
+                    
+                    
+                }
+                
+                #image{
+
+                    
+                max-height: 350px; 
+                }
+                
+    }
+    
+    /* Add in the container queries here  */
+    
+    
+    /* Add in the orientation queries here  */
+    
+    
+    
+    /* Add in the nested queries here  */
+    
+    
+    
+    /* Add in the user preference queries here  */
+    
+    
+    
+    /* Add in the Effects here  */
+    
+    
+    
+    /* Add in the animations here  */
+    
+    

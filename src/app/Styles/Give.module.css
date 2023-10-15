@@ -1,0 +1,427 @@
+
+    #maincontainer{
+
+        box-sizing: border-box; 
+        position: relative;
+
+
+      font-size: clamp(1.1rem, 1vw + 0.3rem, 1.45rem); 
+      color: #a09e9c; 
+      font-weight: 550;
+      background: white !important; 
+      padding-bottom: 5.5rem;
+      
+        
+    }
+
+
+    /* Add in the sub-containers here  */
+    #componentcontainer{
+    
+    
+
+    
+    width: 80vw; 
+    margin: 3.5rem auto;
+    
+    
+    /* Add in a media query here to increase the view width on narrower screens  */
+    
+    
+    
+        
+    }
+
+
+
+
+    #component-sub-container{
+
+        
+        
+        
+        
+    }
+
+
+
+    #top-text-section{
+
+        
+        
+        
+        
+    }
+
+
+    #top-text-container{
+    
+    
+    
+
+    
+        
+        
+        
+    }
+    
+    
+
+    #main-text-section{
+
+        
+        
+        
+    }
+    
+    
+    #main-headline-container{
+    
+
+        
+        
+        
+    }
+    
+    
+    #headline-container{
+    
+
+        
+        
+        
+    }
+    
+    
+    
+    #giveheadline{
+
+        
+        margin-bottom: 0.2rem; 
+        
+        
+    }
+    
+    
+    
+    #give-options-container{
+
+        
+        
+        
+    }
+    
+    
+    #give-options-list{
+
+        
+        
+        
+    }
+    
+    
+    #give-list-item{
+
+        
+        
+        
+    }
+    
+    
+    
+    #title-container{
+
+        
+        
+        
+        
+    }
+    
+    #toptextcontainer{
+        
+        
+        /* outline: 20px solid lime;  */
+        /* margin-top: -45%;  */
+        
+        
+        
+    }
+    
+    
+    #givetitle{
+
+        
+        
+    margin-bottom: 0.2rem;
+    
+    color: rgb(19, 19, 19); 
+    font-weight: 660;
+    font-size: clamp(1.1rem, 1vw + 1rem, 1.5rem); 
+    
+    /* font-size: 1.5rem; */
+    
+            
+        
+    }
+    
+    
+    
+    #give-details-container{
+
+        
+        
+        
+    }
+    
+    #toptextcontainer{
+        
+        
+        
+        
+    }
+    
+    
+    #givedetails{
+    
+    /* margin-bottom: 3rem;  */
+    font-style: italic;
+    
+        
+        
+    }
+    
+    
+    
+    
+    /* ----Button Section  */
+    
+    
+    #button-section-container{
+        
+        
+        
+        
+        
+        
+    }
+    
+    
+    
+    #buttonsectionsubcontainer{
+
+        
+
+        display: grid;
+        place-content: center;
+        
+        
+    }
+    
+    .givebtncta{
+            
+    margin-bottom: 2rem !important;
+
+            
+    }
+    
+    
+    #givedetailsbtn{
+            
+    margin-bottom: 2rem; 
+    
+            
+    }
+    
+    #btn-sub-container{
+            
+    
+    
+            
+    }
+    
+    
+    
+    
+    #buttoncontainer{
+    background: #00c670;
+    padding:1rem 3rem;
+    border-radius: 20px;
+    margin-top: 3rem;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    height: 4.625rem;
+    display: flex;
+    align-items: center;
+    -webkit-transition: transform 1s cubic-bezier (0.175, 0.885, 0.32, 1.275);
+    -moz-transition: transform 1s cubic-bezier (0.175, 0.885, 0.32, 1.275);
+    -ms-transition: transform 1s cubic-bezier (0.175, 0.885, 0.32, 1.275);
+    -o-transition: transform 1s cubic-bezier (0.175, 0.885, 0.32, 1.275);
+    transition: transform 1s cubic-bezier (0.175, 0.885, 0.32, 1.275);
+}
+    
+    #givebtn{
+
+
+    /* width: 9rem;  */
+    width: 9.438rem; 
+    
+    color: white; 
+    font-weight: 700;
+    
+    text-transform: uppercase;
+    margin-top: -2rem; 
+    
+            
+            
+    }
+    
+    
+    #givedetailscontainer{
+        
+        
+        
+    }
+    
+    
+    #options-container{
+
+        
+        
+        
+    }
+    
+    
+    #options-sub-container{
+
+        
+        
+        
+        
+    }
+    
+    
+    
+    #options-list{
+
+        
+        
+        
+        
+    }
+    
+    
+    
+    #options-list-item{
+        
+    }
+    
+    
+    @media(max-width: 768.50px) and (min-width: 500.10px) {
+        
+        
+    #toptextcontainer{
+        
+    margin-top: -28%; 
+    
+        
+        
+        
+    }
+    
+        
+    }
+    
+    @media(max-width: 580px) and (min-width: 500px) {
+        
+        
+    #toptextcontainer{
+        
+        
+    margin-top: -34%; 
+    
+        
+        
+        
+    }
+    
+    
+        
+    }
+    
+    @media(max-width: 500px){
+    
+    
+    #toptextcontainer{
+    
+    margin-top: -15%; 
+    
+        
+        
+        
+    }
+    
+    #toptextcontainer{
+        
+        /* text-align: center; */
+        
+        
+        
+    }
+    
+    }
+    
+    
+    /* Add in the effects here  */
+    
+    #givebtn:hover{
+       
+}
+
+#buttonsectioncontainer{
+    
+    /* outline: 20px solid blue;  */
+    
+    
+    
+}
+
+#buttonsectionsubcontainer{
+    
+    /* outline: 30px solid red;  */
+    
+    
+    
+}
+
+#buttoncontainer{
+    
+    
+}
+#buttoncontainer:hover{
+    -webkit-transform: scale(1.01) ;
+    -moz-transform: scale(1.01) ;
+    -ms-transform: scale(1.01) ;
+    -o-transform: scale(1.01) ;
+    transform: scale(1.01) ;
+    
+    /* change the color h   ere */
+    
+    color: #d4dfda !important; 
+    
+    
+    
+}
+
+#givebtn:hover{
+    
+    
+}
+
+
+#buttoncontainer:hover{
+    
+    background: #08df82;    
+    
+}

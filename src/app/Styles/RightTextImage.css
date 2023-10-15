@@ -1,0 +1,667 @@
+
+*, *::after, *::before{
+    
+    padding: 0; 
+    margin: 0; 
+    
+        
+    }
+    
+    
+    body{
+    
+    position: relative; 
+    /* width: 100vw;  */
+    /* min-height: 100vh; */
+    
+    padding: 0; 
+    margin: 0; 
+    
+    /* Add in the background color here  */
+    
+    
+    /* Add in the font type and family here  */
+    
+    
+    /* Add in the box-sizing here  */
+    box-sizing: border-box; 
+    
+        
+        
+        
+    }
+    
+    
+    
+    html{
+    
+    scroll-behavior: smooth;  
+        
+        
+    }
+    
+    
+    :root{
+    
+    /* Add in the color pallette variables here  */
+    
+    
+    /* Add in the font type variables here  */
+    
+    
+    /* Add in the margin variables here  */
+    
+    
+    
+    /* Add in the sizing variables here  */
+    
+    
+    /* Add in the timing variables here  */
+    
+    
+        
+    }
+    
+   
+    #right-background-container{
+    
+    
+    width: 99.99vw !important; 
+    margin: 0 auto !important; 
+
+    /* min-height: 100vh;  */
+    
+    background-color: #ffffff !important;
+
+    position: relative; 
+    z-index: 200; 
+    
+    
+    display: grid;
+    place-content: center;
+
+
+        
+    }
+    
+
+    #right-component-container{
+    
+    
+    
+
+    background-color: white; 
+    color: black; 
+    width: 90vw; 
+    
+    margin: 2rem auto !important; 
+
+    display: grid;
+    justify-content: center;
+    
+    height: min-content !important;
+
+    outline: 20px solid blue;
+
+        
+    }
+    
+    
+    #right-component-sub-container{
+    
+        
+
+        
+        
+        
+    }
+    
+    
+    
+    #right-component-section-list{
+
+    margin: 4rem auto ; 
+    margin-top: 20vh !important; 
+    
+    outline: 20px solid lime; 
+    position: relative !important; 
+   
+
+    
+    }
+    
+
+    
+    #right-list-component-item{
+    
+        display: inline-block;
+
+        
+        
+    }
+    
+    
+    
+    #right-text-list-item{
+    display: inline-block !important;
+    margin: 5rem auto !important;
+    padding: 0 !important;
+    
+    transform: translate(0, -30%) !important;
+    /*height: max-content !important;
+      */          
+    -webkit-transform: translate(0, -30%) !important;
+    -moz-transform: translate(0, -30%) !important;
+    -ms-transform: translate(0, -30%) !important;
+    -o-transform: translate(0, -30%) !important;
+}
+    
+    
+    
+    #right-image-section-container{
+    
+    
+
+    
+        
+
+        
+    }
+    
+    
+    
+    #right-image-sub-container{
+        
+        
+        border-radius: 40px; 
+        margin: 0 auto !important; 
+        
+        display: grid;
+        justify-content: center;
+        
+        
+        
+        
+        
+        
+    }
+    
+    
+    /* Adjust the height of the image here and make it responsive  */
+    
+    #right-image{
+    
+    
+    /* Use a clamp to make the height responsive as well as view port width units 
+    to make the height adjust to the width of the viewport 
+    */
+
+/* ----- ADD IN A CALC FUNCTION ----- */
+    height: clamp(14rem, 23vw, 29rem) !important;
+    width: 33vw !important; 
+
+    max-width: 800px !important;
+    
+    
+    }
+    
+    
+    /* ----TEXT SECTION------ */
+    
+    
+    #right-text-section-container{
+    
+        
+    /* position: relative; */
+    
+    max-width: 800px;
+    
+    /* transform: translate(2%, -90%) !important;  */
+    
+
+    /* display: grid; */
+    /* justify-content: center; */
+    
+    /* place-content: center; */
+    /* position: absolute;  */
+    
+    
+    
+    
+    
+    
+    }
+    
+    
+    #right-text-section-sub-container{
+    
+    
+    height: 20vh;   
+    transform: translate(0rem, 0vh);
+    
+        
+        
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    #right-section-header-container{
+    
+
+        
+        
+    }
+    
+    #right-text-section-typography{
+
+        width: 90%; 
+        margin-left: -1.5rem;
+
+    }
+    
+    
+    #right-text-section-header{
+    
+        font-size: clamp(1.5rem, 2.4vw + 1rem, 3rem);
+        
+
+        letter-spacing: -0.12rem;
+        width: max-content !important; 
+        /* width: 30vw;  */
+        position: relative; 
+        z-index: 200;   
+        font-weight: 700;   
+        margin: 0 auto !important; 
+        place-self: center;
+        
+        
+    }
+    
+    
+    
+    
+    
+    
+    #right-text-section-block-container{
+    
+
+        
+    }
+
+
+
+
+    #right-text-section-container{
+    
+        
+        
+    }
+    
+    /* Add in the text sub-division containers here  */
+    
+    
+    /* Add in the inline style template here  */
+    
+    
+    #right-top-text-container{
+        
+        
+        
+        font-size: 1rem;
+        font-weight: 450;
+        line-height: 1rem;
+        color: lightslategray; 
+        width: 27vw; 
+
+        text-align: left;
+
+        transform: translate(0, 7%) !important; 
+        margin-left: 2.5rem;
+
+    }
+
+    
+    #right-lorem-container{
+        
+    margin: 0 auto !important; 
+    
+    
+        
+        
+    }
+    
+    #right-image{
+        
+        /* max-width: 860px !important;  */
+        
+        
+        
+    }
+    
+    /*  style={{marginTop: '0.9rem'}}  */
+    
+    #right-bottom-text-container{
+
+        max-width: 650px; 
+        margin-top: 0.7rem; 
+        
+        
+    }
+    
+    
+    
+    
+    /* -----Button Section ------ */
+    
+    #right-values-button{
+    
+    
+    margin-top: 2rem;
+    color: white; 
+    font-weight: 600;   
+    text-transform: uppercase;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 10px; 
+    display: grid;
+    place-content: center;
+    transform: translate(0rem, 2.3vh);
+    width: 10rem; 
+    background-color: #ecb61f;
+
+    }
+    
+    /* #button-text-section-container{
+        
+    } */
+    
+    @media(max-width: 1700px) and (min-width: 1200.5px){
+        
+        #right-text-list-item-backup{
+            display: none;
+            
+            
+            
+        }
+        
+        #right-text-section-typography{
+
+            margin-top: 3.5rem; 
+
+        }
+        
+        #right-component-section-list{
+            
+            display: flex; 
+            justify-items: space-around;    
+            
+            
+            
+        }
+
+    }
+    
+    @media(max-width: 1200px) and (min-width: 1105.5px){
+        
+        #right-text-section-block-container-backup{
+        
+            margin-left: 3.7% !important; 
+            
+            
+        }
+        
+    }
+    
+    @media(max-width: 1200px){
+        
+        /* Add in the Text container here  */
+        #right-text-list-item{
+
+          display: none !important; 
+
+        }
+
+            #right-top-text-container{
+
+            width: 80vw !important; 
+            max-width: 500px !important; 
+            margin: 0 auto; 
+
+            
+            }
+            #right-text-section-block-container-backup{
+                
+                outline: 20px solid hotpink; 
+                width: 50vw; 
+                
+                
+            }
+            
+            #right-component-section-list{
+                
+            
+            width: 50vw; 
+            outline: 30px solid red !important; 
+            position: relative; 
+            
+
+                
+            }
+            
+            
+            #right-text-section-header-backup{
+    
+            font-size: clamp(1.5rem, 2.4vw + 1rem, 3rem);
+
+
+            letter-spacing: -0.12rem;
+            
+            
+            position: relative; 
+            z-index: 200;   
+            font-weight: 700;   
+            /* margin: 0 auto !important;  */
+            /* place-self: center; */
+            
+            /* transform: translate(-44%, 0) !important; */
+            margin-left: 2.2%; 
+            
+
+            }
+                    
+            #right-top-text-container-backup{
+            
+        
+            
+        
+            }
+            
+            #right-text-list-item-backup{
+
+
+            display: inline-block !important;
+
+            margin: 0 auto !important; 
+            
+            width: 90vw; 
+            
+            margin-left: 5% !important; 
+
+            transform: translate(0vw, 0vh) !important ;
+                
+            }
+            #right-list-component-item{
+                
+                display: block !important; 
+
+            }
+            
+            #right-image{
+                
+            
+            width: 82.7vw !important; 
+            
+            border-radius: 40px; 
+            
+            
+            
+            /*---- ADD IN A CALC FUNCTION ----- */
+            height: clamp(20rem, 63vw, 44.8rem); 
+            max-width: 500px !important;
+            
+            
+
+                
+            }
+        
+    }
+    
+    @media(max-width: 1070px) and (min-width: 601px){
+        
+    
+        /* Add in the red outline container here  */
+        #right-component-section-list{
+            
+            /* Add in a fixed width the same as the image here  */
+            width: 500px !important; 
+            
+            
+        }
+        
+        
+        
+    }
+    
+    @media(max-width: 995px) and (min-width:600px){
+        
+        /* Select the text container here  */
+        #right-text-section-block-container-backup{
+
+            width: 500px !important; 
+
+        }
+        
+        
+        
+    }
+    
+    
+    
+    @media(max-width: 900px){
+        
+    #right-image{
+
+        
+        
+    }
+    
+    
+    #right-text-list-item{
+            
+        }
+        
+        #right-values-button{
+            margin-top: 0.5rem !important; 
+            
+        }
+        
+    }
+    
+    @media(max-width: 600px){
+        
+        
+        #right-text-section-block-container-backup{
+        
+            
+        }
+        
+        #right-component-section-list{
+            
+            width: 77vw; 
+
+
+            
+        }
+        
+        #right-text-section-block-container-backup{
+            
+        outline: 20px orange !important; 
+        width: 77vw !important; 
+
+        
+        padding: 0 !important;
+        transform: translate(0,0) !important;
+
+        
+        }
+        
+        
+        /* Add in the pink section container here  */
+        
+        #right-text-section-container{
+
+        outline: 20px orange !important; 
+
+            
+        }
+        
+        #top-right-text-backup{
+            
+
+            margin-left: -1rem; 
+
+        }
+        
+        
+        #right-bottom-text-container{
+            margin-left: -1rem; 
+
+        }
+        
+        
+        
+        #right-text-section-typography{
+            
+            outline: 20px orange !important; 
+
+        }
+        
+    }
+    
+    
+    @media(max-width: 375px){
+
+            #right-text-list-item{
+                margin: 0 auto !important; 
+
+            }
+    }
+    
+    /* Add in the container queries here  */
+    
+    
+    /* Add in the orientation queries here  */
+    
+    
+    
+    /* Add in the nested queries here  */
+    
+    
+    
+    /* Add in the user preference queries here  */
+    
+    
+    
+    /* Add in the Effects here  */
+    
+    
+    
+    
+    /* Add in the animations here  */
+    
+    

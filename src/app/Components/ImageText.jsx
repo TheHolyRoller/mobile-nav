@@ -1,14 +1,3 @@
-/** 
-
-
-
-
-
-
-
-*/
-
-
 'use client'
 
 import Image from 'next/image';
@@ -16,38 +5,40 @@ import React from 'react'
 
 import BluePrints from '../assets/BluePrints.jpg'; 
 import { Typography } from '@mui/material';
+import m from '../Styles/ImageText.module.css';
 
 
 
 function ImageText() {
   return (
-  
-//   Add in the main background container here 
-    <div id='background-container' >
+
+    <div id={m.backgroundcontainer} >
     
     {/* Add in the main component container here  */}
     
-    <div id='component-container' >
+    <div id={m.componentcontainer} >
     
-    <div id='component-sub-container' >
+    <div id={m.componentsubcontainer}>
     
     {/* Add in the list to organise and arrange the component */}
-    <ul id='component-section-list' >
+    <ul id={m.componentsectionlist}>
     
     
-    <li id='list-component-item' style={{display: 'block'}}  >
+    <li id={m.listcomponentitem}>
     
     
-    <div id='image-section-container' >
+    {/* No styling so far  */}
+    <div id={m.imagesectioncontainer}>
     
-    {/* Add in the sub-container here  */}
-    <div id='image-sub-container' >
+    {/* Add in the subcontainer here  */}
+    <div id={m.imagesubcontainer}>
     <Image
     src={BluePrints}
-    
+    id={m.image}
     width={700}
-    height={400} 
+    height={1200} 
     alt='alt'
+    
     /> 
 
     
@@ -62,61 +53,73 @@ function ImageText() {
     
     
     
-    <li style={{display: 'block'}} >
+    <li id={m.textlistitem}>
     
     {/* Add in the text section container here  */}
-    <div id='text-section-container' >
+    <div id={m.textsectioncontainer}>
      
-    <div id='text-section-sub-container' >
+    <div id={m.textsectionsubcontainer}>
     
-    {/* Add in the header container here  */}
     
-    <div id='section-header-container' >
     
-
-    <Typography id='text-section-typography' >
-    <h1 id='text-section-header' style={{fontSize: '3rem'}} >
+    {/* Add in the Text container here  */}
+    <div id={m.textsectionblockcontainer}>
+    
+    {/* Add in the container for the text block here  */}
+    
+    {/*  */}
+    <div id={m.textsectioncontainer}> 
+    
+    {/* Add in the container for the text here  */}
+       
+    {/* Add in the container for the Header here  */}
+    <Typography id={m.textsectiontypography}>
+    <h1 id={m.textsectionheader}>
         Our Values 
         
+      
         
     </h1>
         
         
     </Typography>
 
-    
-        
+
+    <div id={m.toptextcontainer}>
+    Renewal’s values are what we do alongside what we believe. 
+    <div id={m.bottomtextcontainer}>
+    Read more about our values here.
+    </div>
     </div>
     
+    <span> 
+    <button id={m.valuesbutton}> 
     
-    {/* Add in the Text container here  */}
-    <div id='text-section-block-container' >
+    Our Values 
     
-    {/* Add in the container for the text block here  */}
-    
-    {/*  */}
-    <div id='text-section-container' style={{width: '50vw', outline: '100px solid blue', minHeight: '50vh', margin: '0 auto', display: 'block'}} > 
-    
-    {/* Add in the container for the text here  */}
-       
-    {/* Add in the container for the Header here  */}
-    Renewal’s values are what we do alongside what we believe. Read more about our values here.
+      
+      
+    </button>
+    </span>
+   
+  
+        
+    </div>  
+    {/* <div id='buttontextsectioncontainer' style={{marginBottom: '20vh'}}   >
+
+<button> <h1>Hi </h1></button> 
+ 
+ 
+</div>  */}
     
    
-        
-    </div>    
         
     </div>
     
     
     {/* Add in the button section container here  */}
 
-    <div id='button-text-section-container'  >
-
-        
-        
-        
-    </div> 
+   
 
     
     {/* Text Sub Container  */}
@@ -142,8 +145,8 @@ function ImageText() {
     {/* Component Container  */}
     </div>
 
-    <div id='visible-text' style={{fontSize: '4rem', outline: '20px solid lime'}}  >
-      {/* Image Text  */}
+    <div id={m.visibletext}>
+
     </div>
       
       {/* Background Container  */}

@@ -34,12 +34,27 @@ body{
     
 }
 
+#main-form-container{
 
-
-
-.headlineContainer{
-
+ 
+    background-color: #00c670; 
+    width: 100vw; 
+    margin-left: -1.9rem; 
+    min-height: 110vh;
+    display: flex;
+    justify-items: flex-start; 
+    position: relative;
     
+    
+}
+
+#form{
+
+/* style={{outline: '10px solid lime', \
+position: 'absolute', left: '5%', top: '20%'}}   */
+    position: absolute;
+    left: 5%; 
+    top: 20%; 
     
     
     
@@ -47,29 +62,237 @@ body{
 
 
 
+#headline-container{
 
-.headlineContainer{
+    
+    
+    
+}
 
+#contact-header-text{
+    
+    
     
     
     
 }
 
 
+#contact-headline-text{
 
 
-.form{
-
+    
     
     
 }
 
+#form-group{
+
+    /* style={{outline: '10px solid blue'}} */
+    
+    
+}
 
 .form-group{
 
+
     
     
 }
+
+
+
+
+
+
+#title-selection{
+    
+    
+/*  style={{display: "inline-block", marginRight: "2rem"}}   */
+    display: inline-block;  
+    margin-right: 2rem; 
+    
+    
+}
+
+
+#input-title-label{
+    
+    
+    
+    
+}
+
+
+#title-selection-dropdown{
+    
+    /* style={{color: "black", minWidth: '3rem', display: "inline-block"}}   */
+    display: inline-block;
+    min-width: 3rem; 
+    color: black; 
+    
+    
+    
+}
+
+
+
+#title-option{
+
+    
+    
+    
+}
+
+
+
+
+#first-name-text{
+
+    
+    
+    
+    
+}
+
+
+#name-input{
+
+    /* style={{ outline: '0px solid lime', marginRight: "2rem", marginBottom: "3rem", 
+    color: 'black'}}
+ */
+    margin-right: 2rem;
+    margin-bottom: 3rem;
+    color: black; 
+    
+    
+    
+    
+}
+
+
+#last-name-text{
+
+/* style={{transform: "translate(0rem, -1.4rem)"}} */
+
+    transform: translate(0, -1.4rem);
+    
+    
+}
+
+
+
+#last-name-input{
+
+    
+    color: black;  
+    position: relative; 
+    z-index: 5; 
+    display: inline-block;
+    
+    
+    
+}
+
+
+#background-section{
+    
+
+    background-color: white; 
+    width: 14.3rem; 
+    min-height: 4rem;
+    border-radius: 8%; 
+    transform: translate(0, -3rem);
+    position: relative; 
+    z-index: 0; 
+    
+    
+    
+    
+}
+
+#form-group{
+
+    
+    
+}
+
+#email-form-group{
+
+
+    
+    
+}
+
+
+#email-input{
+
+    /* style={{color: 'black'}} */
+    color: black; 
+    
+    
+}
+
+
+#form-input{
+
+    
+    
+    
+}
+
+
+
+
+
+
+#phone-input{
+    
+/*   style={{color: 'black'}} */
+    color: black; 
+    
+    
+}
+
+
+
+#form-group{
+
+    
+    
+    
+}
+
+
+
+#message-input{
+
+    color: black; 
+    
+}
+
+
+#submit-button{
+
+    
+    
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 .input{

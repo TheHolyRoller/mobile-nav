@@ -1,0 +1,813 @@
+
+
+#ministrymaincontainer{
+
+
+    box-sizing: border-box;
+    overflow-x: hidden;
+    
+    margin: 0 auto !important; 
+    background: white !important; 
+    
+        
+    }
+    
+    
+    #ministrysubcontainer{
+    
+    width: 80vw; 
+    margin: 4rem auto !important;
+    
+    
+    
+        
+    }
+    
+    
+    
+    #ministrytopsectioncontainer{
+    
+    
+        
+    
+        
+    }
+    
+    
+    
+    
+    #ministrymainheadlinecontainer{
+    
+    width: 75.5vw; 
+    
+    color: #00c670; 
+    
+    /* color: #00ff00;  */
+    font-size: clamp(1.9rem, 2vw + 1rem, 2.9rem); 
+    
+    /* font-size: 2rem;  */
+    font-weight: 700; 
+    text-align: center;
+    
+    
+    
+    
+    
+        
+    }
+    
+    
+    
+    #ministrymainheadline{
+    
+    
+        
+        
+    }
+    
+    
+    #ministrycardsheadlinecontainer{
+    
+    
+    position: relative; 
+    z-index: 2;
+    margin: 2rem auto; 
+    width: max-content; 
+    color: #9b9997; 
+    
+    
+    font-weight: 700;
+    font-size: 1rem !important;
+    
+        
+        
+    }
+    
+    
+    #ministrycardsheadline{
+    
+        
+        
+        
+    }
+    
+    
+    
+    
+    #ministrycardscontainer{
+    
+    
+    
+        display: grid;
+        place-content: center;
+        
+        
+    }
+    
+    
+    #ministrycardsgridcontainer{
+        
+        
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem; 
+        
+        
+    
+    
+        
+        
+        
+    }
+    
+    
+    
+    #ministrygriditemcard{
+    
+        
+        
+        
+    }
+    
+    
+    
+    
+    #ministry-grid-card{
+    
+        
+        
+        
+    }
+    
+    
+    
+    #ministry-grid-item-card{
+    
+        
+        
+        
+        
+    }
+    
+    
+    
+    #ministry-grid-card{
+    
+        
+        
+        
+    }
+    
+    
+    
+    /* Ministry Text Section ----- */
+    
+    
+    #ministrytextsectioncontainer{
+    
+        
+
+        margin-top: 4rem; 
+        
+        
+    }
+    
+    #ministrytextsectionsubcontainer{
+    
+    
+
+    
+    
+        
+    }
+    
+    
+    
+    
+    #ministrytextheadlinecontainer{
+    
+        
+
+        margin-left: 6.37%; 
+        margin-bottom: 1rem; 
+    
+        
+        
+        
+        
+    }
+    
+    
+    
+    #ministry-text-headline{
+    
+        
+        
+        
+        
+    }
+    
+    
+    
+    
+    #ministrytextgridcontainer{
+        
+    
+    
+        margin: 0 auto; 
+        
+        width: min-content; 
+        
+        
+        
+        
+        
+    }
+    
+    
+    
+    
+    
+    #ministry-grid-item-one{
+    
+        
+        
+        
+        
+    }
+    
+    
+    
+    
+    #ministry-grid-list-container{
+    
+        
+        
+        
+        
+    }
+    
+    
+    #ministrygridlist{
+    
+    padding: 0; 
+    margin: 0; 
+    
+    width: 70vw; 
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 3rem;  
+    
+    
+    place-content: center;
+    place-content: center; 
+    
+    
+    
+    
+    
+        
+    }
+    
+    #ministrygridlistitemone{
+    
+        
+    
+    
+        /* width: 50%;  */
+        display: inline-block !important;
+    
+        
+    }
+    
+    
+    #ministryfirsttextheadline{
+    
+        
+        color: black; 
+        font-weight: 700;   
+        
+        
+    
+    }
+    
+    
+    #ministryheadlinedash{
+    
+        
+        
+    }
+    
+    
+    
+    #ministrygridlistitemtwo{
+    
+        
+    
+    
+        display: inline-block;
+        margin: 0 auto !important; 
+        
+        
+        
+        
+    }
+    
+    
+    
+    
+    #ministryitemtwotextcontainer{
+    
+        position: relative; 
+        
+        
+        
+    }
+    
+    
+    #ministryitemtwoheadline{
+    
+        color: black; 
+        font-size: 1rem;
+        font-weight: 700;   
+        
+        
+        
+    }
+    
+    
+    #ministryitemtwodash{
+    
+        color: black; 
+    
+        position: absolute;
+        top: 0; 
+        right: 90%; 
+        
+        z-index: 4;
+    
+        
+    }
+    
+    #ministryitemtwotext{
+        
+        color: black; 
+        margin: 0 auto !important; 
+        
+        
+        
+    }
+    
+    
+    
+    #ministryitemtwosecondtextcontainer{
+    
+    /* 
+    style={{marginTop: '5rem', color: 'black'}} 
+    
+    */
+    
+    margin: 2rem auto; 
+    color: black; 
+    
+        
+        
+    }
+    
+    
+    
+    
+    
+    #ministry-item-two-second-text-container{
+    
+        
+        
+    }
+    
+    
+    #ministryitemsecondtwoheadline{
+    
+        
+        font-weight: 700;   
+        color: black; 
+        
+        
+    }
+    
+    
+    #ministry-item-second-two-dash{
+    
+        
+        
+        
+    }
+    
+    
+    #ministry-item-two-second-text{
+    
+        
+        
+    }
+    
+    
+    #ministryitemtwothirdtextcontainer{
+    
+        color: black; 
+        
+        
+    }
+    
+    
+    #ministryheadlinethirdtext{
+        
+        
+        color: black; 
+        font-weight: 700; 
+        
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    #ministryfirsttext{
+    
+        
+        color: black; 
+        
+        
+        
+    }
+    
+    
+    #ministryfirsttextlower{
+        
+        
+        margin: 2rem auto; 
+        color: black; 
+        
+        
+        
+    }
+    
+    #ministryfirsttextlowertwo{
+    
+        
+        color: black; 
+        margin: 2rem auto; 
+    
+        
+    }
+    
+    
+    #ministryfirsttextlowerthree{
+        
+        color: black; 
+        
+        
+        
+    }
+    
+    #ministryheadlinelowerthree{
+    
+        font-weight: 700;   
+        
+        
+    }
+    
+    
+    
+    #ministryfirsttextlowerfour{
+        
+        color: black; 
+        margin: 2rem auto; 
+        
+        
+    }
+    
+    
+    
+    
+    #ministryheadlinelowerfour{
+    
+        
+        font-weight: 700;   
+        
+        
+    }
+    
+    
+    
+    
+    
+    
+    /*----- Second Grid Item ---- */
+    
+    #ministry-grid-item-two{
+        
+    
+        
+        
+    }
+    #ministryfirstcardimage{
+        
+    
+    
+        height: 303px; 
+        width: 456px; 
+        position: relative; 
+        z-index: 4;
+    
+    }
+    
+    
+    #ministrygriditemcard{
+            
+        /* display: inline-flex;  */
+        display: inline-block  !important;
+    
+    
+        
+    
+    
+        
+        
+    }
+    
+     /* Select both the image containers here  */
+     #ministrycardsheadlinecontainer{
+    
+    
+    
+        position: relative; 
+        z-index: 2;
+        margin: 2rem auto; 
+        width: max-content; 
+        color: #9b9997; 
+        
+        
+        font-weight: 700;
+        font-size: 1rem !important;
+        
+            
+            
+        }
+        
+        #ministrytextheadline{
+    
+            
+            color:#00ff00; 
+            position: relative; 
+            font-size: 1.3rem;
+            font-weight: 700;   
+            
+            
+        }
+        
+        #ministry-span{
+    
+            
+            
+            
+        }
+        
+        #ministryfirsttext{
+    
+            color: black; 
+            
+            
+        
+            
+        }
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    
+    @media(max-width: 1273px){
+    
+    
+        /* Add in the list container here  */
+        
+        #ministry-cards-container{
+            
+    
+    
+            
+            
+            
+            
+            
+        }
+        
+         /* Select both the image containers here  */
+            #ministrycardsheadlinecontainer{
+    
+    
+    
+                position: relative; 
+                z-index: 2;
+                margin: 2rem auto; 
+                width: 60vw; 
+    
+                font-weight: 700;
+                font-size: 1rem !important;
+                    
+                }
+        
+        #ministryfirstcardimage{
+    
+            height: 303px; 
+            width: 30vw !important; 
+            position: relative; 
+            z-index: 4;
+            margin: 0 auto !important; 
+            min-width: 228px; 
+            
+            
+        } 
+        
+        
+    }
+    
+    @media(max-width: 1165px){
+        
+        
+        /* Add in the Text grid container here  */
+        
+        
+        /* Add in the grid item containers here  */
+        
+        
+        
+            
+        /* Adjust the Grid gap here  */
+        
+        
+     
+    
+        
+    }
+    
+    
+    
+    
+    
+    
+    /* Add in the media queries here  */
+    @media(max-width: 1700px) and (min-width: 640.10px){
+        
+        
+        
+        #ministrygriditemcard{
+    
+            display: inline-block  !important;
+            margin-left: 5%; 
+    
+            
+        }
+        
+        
+        
+    
+        
+        
+        
+    }
+    
+    @media(max-width: 768.1px) and (min-width: 500px) {
+    
+        #ministrysubcontainer{
+        
+        
+        margin-top: -8% !important;
+
+        
+        
+        
+        
+
+            
+        }
+        
+    }
+    
+    
+    @media(max-width: 640px){
+        
+    #ministrycardsgridcontainer{
+    
+        grid-template-columns: 1fr;
+        gap: 0 !important; 
+        
+        
+    }
+    
+    #ministrygridlist{
+        
+        grid-template-columns: 1fr !important;
+        gap: 0 !important; 
+        
+        
+        
+        
+        
+    }
+    
+    
+    
+    
+    
+    /* Crease the Card with here  */
+    #ministryfirstcardimage{
+        
+        width: 80vw !important; 
+        margin-top: 3rem !important; 
+        
+        
+        
+        
+    }
+    
+    
+    #ministrycardsheadlinecontainer{
+    
+    
+    
+        position: relative; 
+        z-index: 2;
+        margin: 2rem auto; 
+        width: 80vw; 
+        margin-bottom: -0.5rem; 
+        
+        
+        
+        font-weight: 700;
+        font-size: 1rem !important;
+        
+            
+            
+        }
+        
+    #ministrygriditemcard{
+        
+        margin: 0 auto !important; 
+        
+        
+        
+        
+    }
+        
+    }
+    
+    
+    @media(max-width: 465px){
+    
+    #ministrysubcontainer{
+
+        margin-top: -4% !important;
+        
+        
+        
+    }
+    
+    
+    }
+    
+    /* Add in the container queries here  */
+    
+    
+    
+    
+    /* Add in the orientation queries here  */
+    
+    
+    
+    /* Add in the nested orientation queries here  */
+    
+    
+    
+    /* Add in the user preference queries here  */
+    
+    
+    
+    /* Add in the Effects here  */
+    
+    
+    
+    /* Add in the animations here  */
+    
+    
+    
+    
+    
+    
+    

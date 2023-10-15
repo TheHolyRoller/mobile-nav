@@ -35,6 +35,7 @@ height of that element. It also needs to be fully responsive.
 
 
 
+
 */
 
 
@@ -54,25 +55,18 @@ import '../Styles/CTAComponent.css';
   return (
     <div id='cta-component-container'>
 
+
     
     <div id='cta-image-container'   >
       {/* Add in the Image here  */}
       
     
       {/* <img id='cta-image'  src='https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8WW91dGglMjBwYXN0ZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=1700&h=600&q=60' alt='alt' style={{}} /> */}
-      <Image width={1700} height={50} src={Youth} style={{maxHeight: '70vh'}}  />
-      
-      
-      {/* Add in the text here  */}
-      
+      <Image width={1700} height={50}   src={Youth} style={{maxHeight: '70vh', objectFit: 'cover'}}  />
       
       <div id='cta-text-section' >
         
       <div id='cta-text-sub-container' >
-
-        
-        
-        
         
       
       <text id='cta-text' > 
@@ -86,10 +80,10 @@ import '../Styles/CTAComponent.css';
       
       <div id='cta-text-block' >
       <span id='cta-span-one' >
-      Alpha is an incredible place to explore Christianity.”
+      "Alpha is an incredible place to explore Christianity.”
       </span>
 
-      <span id='cta-span-two' style={{display: 'block', marginTop: '0.6rem'}}  >
+      <span id='cta-span-two'     >
 See when our next Alpha courses are running and register your place
       </span>
       </div>
@@ -106,16 +100,12 @@ See when our next Alpha courses are running and register your place
      
      <div id='button-sub-container'>
       
-      
-      
-      
         
       <button id='cta-button' > 
       
       <h1 id='cta-button-text' >
         Learn more 
-        
-      </h1>
+               </h1>
       
       </button>
       </div>

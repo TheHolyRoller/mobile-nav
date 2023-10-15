@@ -1,0 +1,343 @@
+
+
+
+/* add in the main container here  */
+#onlineCTAmaincontainer{
+
+    background-color: azure;        
+    color: black; 
+    box-sizing: border-box;
+    padding: 0;
+    outline: 4px solid red;
+    
+        
+    width: 100vw;
+    max-width: 100vw; 
+    min-height: 80vh;
+    
+    
+    
+    }
+    
+    
+    
+    /* Add in the sub-containers here  */
+    #onlinebackgroundmaincontainer{
+    
+    height: min-content; 
+    align-self: center;
+    display: grid; 
+    place-content: center;
+    
+    margin: 0 auto;
+    
+    
+    width: 99.9999vw;
+    min-height: 80vh;
+    
+    
+    background-image: url('https://renewalcc.com/app/uploads/2019/01/Mission-Message-3-Carousel-Images-2000x1500-1800x550.jpg'); 
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+        
+    }
+    
+    
+    
+    #onlinebackgroundsubcontainer{
+        
+    }
+    
+    
+    
+    #online-text-main-container{}
+    
+    
+    #onlinetextcontainer{
+    
+        
+        color: white; 
+        margin: 0 auto; 
+    
+        
+        
+    }
+    
+    #online-headline-main-container{}
+    
+    
+    #onlineheadlinecontainer{
+    
+    
+    
+    width: max-content; 
+    margin: 0 auto !important; 
+    place-self: center;
+    
+    /* Only clamp with font size in media queries  */
+    
+    font-size: 2.2rem;
+    font-weight: 800;   
+    
+    
+        
+        
+        
+    }
+    
+    
+    #onlinedetailscontainer{
+        
+    
+    /* outline: 20px solid lime;  */
+    width: 35.026vw; 
+    text-align: center;
+    font-weight: 600;   
+        
+    }
+    
+    
+    
+    #onlinedetailstext{}
+    
+    
+    
+    #onlinebuttonmaincontainer{}
+    
+    
+    #onlinebuttoncontainer{
+    
+    width: max-content; 
+    place-self: center;
+    margin: 2rem auto !important; 
+    }
+    
+    
+    
+    #onlinebutton{
+    
+        
+    background-color: #ecb61f;  
+    height: 3.563rem; 
+    width: 11.438rem; 
+    border-radius: 11px;
+    
+    text-transform: uppercase;  
+    font-weight: 750; 
+    font-size: 0.79rem; 
+    
+        
+        
+    }
+    
+    
+    
+    /* Add in the media queries here  */
+    @media(max-width: 1030.5px){
+    
+    /* Select the text container here  */
+    
+    /* Select the main text section container here  */
+    #onlinetextmaincontainer{
+    
+        outline: 20px solid blue; 
+        display: grid;
+        place-content: center;
+        position: relative; 
+    
+    }
+    
+    
+    #onlineCTAmaincontainer{
+        
+        height: 10vh !important; 
+        min-height: 69.88vh !important; 
+    
+    
+        
+    }
+    
+    #onlineheadlinemaincontainer{
+    
+        transform: translate(0, 4rem) !important;
+    
+    }
+    
+        #onlinedetailscontainer{
+    
+            outline: 30px solid lime; 
+            position: absolute; 
+            left: 50%; 
+            transform: translate(-50%, -50%);
+            top: 50%; 
+            width: 60% !important; 
+            
+            
+            
+        }
+        
+        
+        #onlinedetailstext{
+    
+            outline: 20px solid blue; 
+    
+        }
+    
+        #onlinebuttonmaincontainer{
+    
+        outline: 20px solid hotpink; 
+        margin-top: 14rem !important; 
+        width: 99.999vw; 
+            
+        }
+        
+        
+    }
+    
+    
+    /* Add in another media query here to change the size of the text box and the adjust the margin  */
+    @media(max-width: 600px){
+        
+        
+        #onlineheadlinemaincontainer{
+        
+        font-size: clamp(0.9rem, 1vw + 0.5rem, 3.563rem) !important;
+    
+    
+            
+        }
+        
+        
+        #onlineCTAmaincontainer{
+        
+    
+            min-height: 60vh !important; 
+            
+            
+            
+        }
+        
+        #onlineheadlinecontainer{
+    
+        font-size: clamp(1rem, 1vw + 1rem, 3.563rem) !important;
+            
+            
+            
+        }
+        
+        
+        
+        
+        /* Change the width of the text container here  */
+        
+        #onlinedetailscontainer{
+    
+            
+        width: 83% !important; 
+        text-align: center;
+        
+            
+        }
+        
+    }
+    
+    
+    
+    
+    /* Add in the nested media queries here  */
+    
+    
+    
+    
+    /* Add in the container queries here  */
+    
+    
+    
+    
+    /* Add in the orientation queries here  */
+    
+    
+    
+    
+    /* Add in the preference queries here   */
+    
+    
+    /* Add in the effects here  */
+    
+    
+    
+    /* Add in the animations here  */
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    

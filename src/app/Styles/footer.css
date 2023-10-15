@@ -1,16 +1,92 @@
 
+/* 
 
 
-*, *::after, *::before{
-    
-    padding: 0px; 
-    margin: 0px; 
-    
-    
-}
+Okay so let's just talk things through. 
+
+First of all I have most of the things sorted. 
+
+There are quite a few things that I need to do before the website is actually 
+
+ready like polishing up some pages and components and adding a rotation lock 
+
+or just adding a min and a vmin and max to all the padding margins and percentages 
+as well as view width units that will help keep it responsive if the user. 
+
+Rotates their screen. 
+
+Okay so that's the polishing. Then there is getting the domain name and the hosting. 
+
+Then there is fixing the build errors and uploading it onto the hosting server. 
+
+Then there is also developing the add on features. 
+
+It might also be good to design, create and styling some extra pages. Like outreach or 
+kids ministry or something. 
+
+But that is for another day. 
+
+So there is the polishing now. The adding of content, and the adding the of extra 
+features as well as launching and fixing the errors. 
 
 
-body{
+
+I think now the best course of action would be to start the adding in the right 
+
+colors to all the backgrounds so that everything is not black. 
+
+Once that is done then I'll try and fix the build errors and the hydration errors. 
+
+Once that is done then I can assemble a general layout with the routes in place. 
+
+Then once that is done I can add in the hover effects and the rest of the routes 
+
+and links. 
+
+Okay so that sounds good. Do the background now and then the layout and routes 
+
+and then the hover effects and then the links and routes and then I'll 
+
+do the hydration and build errors. 
+
+Then I can do the adding in of content and polishing another day and then I 
+
+can add in the extra pages and features another day after that. 
+
+Okay so that's great, background, layout, routes, effects, and links then errors 
+now. 
+
+So let's get started. 
+
+So just to make sense of things. 
+First of all I either want all my components to have a background color of white 
+
+or I want the pages where my components are rendered to have a white background. 
+
+Okay so that's great. 
+
+I think I'll go with the background of components for now then I can always 
+change it and it also means that I have more control of the background sections 
+
+in general later when that is needed. 
+
+
+Okay so that's great. 
+
+Let's create a root variable and add that color variable into the main component 
+container background but do check for other background colors that could be clashing. 
+
+
+
+
+
+*/
+
+
+
+
+
+/* body{
 
 
 width: 100vw; 
@@ -21,43 +97,36 @@ padding: 0;
 margin: 0; 
 
     
-}
+} */
 
 
-
-
-:root{
-    
-    
-
-}
-
-
-html{
-
-    
-scroll-behavior: smooth;
-
-
-
-    
-    
-}
 
 
 #footer-container{
+    background: #161822;
+    background-color:  #161822;
     
-    
+    position: relative !important;
+    width: 99.9vw !important;
+    margin: 0 auto !important;
+    padding: 0 !important;
+    min-height: 75vh;
+    -webkit-transform: translate(0,0) !important;
+    -moz-transform: translate(0,0) !important;
+    -ms-transform: translate(0,0) !important;
+    -o-transform: translate(0,0) !important;
+    transform: translate(0,0) !important;
+
     
 }
+
 
 #background-container{
 
     min-width: 100vw !important; 
     
     position: absolute; 
-
-    
+    background-color:  #161822;
     left: 0; 
     right: 0; 
     
@@ -76,38 +145,14 @@ scroll-behavior: smooth;
     position: absolute; 
     top: 13%; 
     left: 50%;
-    
     transform: translate(-50%, 50%);    
     
 }
-
-
-#footer-content-section{
-
-    position: absolute; 
-    
-    top: 29.9%; 
-    
-    left: 50%;
-    
-    transform: translate(-50%, -9%);
-    
-    
-}
-
-#footer-content-container{
-    
-
-}
-
 
 #footer-list{
     
     
     text-align: center;
-    
-
-    
     
     
 }
@@ -220,6 +265,11 @@ font-size: 2.5rem;
 
 font-size: 2.5rem;  
 
+color: white; 
+transition: color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+
+cursor: pointer !important; 
+
 
 
 
@@ -302,15 +352,24 @@ min-height: 5rem;
 
 #footer-main-container{
 
-        
-    min-height: 127vh; 
+
+    /* position: relative;  */
+    background: #161822 !important;
+    background-color:  #161822 !important;
+    position: absolute; 
+    bottom: 0 !important;
     
+    left: 0 !important; 
+    
+     
     
 }
 
 
 #footer-container{
 
+    
+    
     
     
     
@@ -323,6 +382,19 @@ min-height: 5rem;
 
     
     display: grid;
+    
+    position: relative !important;
+    
+
+    width: 99.5vw; 
+    margin: 0 auto !important; 
+    transform: translate(0,0) !important;
+    padding: 0 !important; 
+    /* overflow: hidden; */
+    
+
+    
+    
     
 }
 
@@ -342,11 +414,8 @@ margin-right: 5%;
 min-height: 50vh;
 
 
-outline: 20px solid lime !important;
 
 
-
-    
 
 grid-template-columns: 4fr 2fr;
 
@@ -364,7 +433,10 @@ position: absolute;
 left: 0; 
 
 
-top: 20%; 
+
+
+top: 16% !important; 
+
 
 
 
@@ -387,6 +459,7 @@ place-content: center;
 #section-list-item{
 
 margin-bottom: 1rem; 
+/* cursor: pointer !important; */
 
 
 
@@ -394,16 +467,24 @@ margin-bottom: 1rem;
 
 
 #headline-container{
-
-
-
-
-
+    transition: all 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+    -webkit-transition: all 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+    -moz-transition: all 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+    -ms-transition: all 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+    -o-transition: all 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
 
 
 #footer-main-container{
-position: relative; 
+/* position: relative;  */
+
+
+width: 99.9vw !important; 
+position: relative !important; 
+
+margin: 0 auto !important; 
+padding: 0 !important; 
+
 
 }
 
@@ -424,8 +505,10 @@ margin-bottom: 2rem;
 
 font-size: 1rem !important;
 
+cursor: pointer !important; 
 
 font-weight: 500; 
+  transition: color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
 
 
 
@@ -461,27 +544,41 @@ font-weight: 500;
     right: 0; 
     top: 0%; 
     
+
+    
+    
     
     
 }
 
+/* Beginning! */
+
 #second-section-list{
 
-    width: 100%; 
+
+    min-height: 37vh; 
+    margin-top: 5.5% !important; 
     
-    min-height: 40vh; 
-    margin-top: 5%; 
     
-    margin-left: -25%; 
+    margin-left: -10% !important; 
+    
+
+    
+
+    
     
     display: grid;
 
     justify-content: center;
     
-    padding-top: 1rem; 
+    padding-top: 0.6rem; 
     
-    gap: 10%;
-    width: 38vw; 
+    /* gap: 1% !important; */
+    
+    width: 33vw !important;
+    
+    
+    /* width: 38vw;  */
     grid-template-columns: 1fr 1fr;
     
 }
@@ -523,6 +620,7 @@ font-weight: 500;
     font-size: 1.2rem; 
     font-weight: 700; 
     
+    color: white; 
     
     
     
@@ -537,8 +635,14 @@ font-weight: 500;
     font-weight: 500; 
     
     color: grey; 
-
-    margin-top: 0.9rem; 
+    margin-top: 5.5px !important; 
+    /* margin-right: -10px !important; */
+    transform: translate(4.5px, 0);
+    
+    
+    /* margin-top: -0.05rem !important; */
+    
+    
 
     
 }
@@ -581,6 +685,12 @@ font-weight: 500;
     font-size: 1.2rem !important;
     
     color: #00c56f; 
+    /* pointer-events: auto; */
+    
+    
+    transition: color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+    cursor: pointer !important; 
+    
     
 }
 
@@ -592,11 +702,19 @@ font-weight: 500;
    
    font-weight: 400; 
     color: #00c56f;
+    
+    transition: color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+    cursor: pointer !important; 
+    
 }
 
 .email-contact{
     margin-bottom: 2rem !important; 
     margin-top: -5px; 
+    
+    transition: color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+
+    
 }
 
 
@@ -618,9 +736,6 @@ place-content: center;
 
 #signup-header{
 
-
-/* outline: 4px solid blue;  */
-
 font-size: 1.3rem; 
 
 font-weight: 400; 
@@ -637,10 +752,6 @@ margin-top: 1rem;
 margin-bottom: 3rem; 
 
 margin-left: 13.5%; 
-
-
-    
-    
     
 }
 
@@ -655,33 +766,6 @@ margin-left: 13.5%;
 }
 
 
-#section-list{
-
-    
-    
-}
-
-
-
-
-
-#section-list-item{
-
-    
-    
-}
-
-
-
-
-
-#social-media-item{
-
-    
-    
-    
-}
-
 
 #social-list{
     
@@ -689,9 +773,6 @@ margin-left: 13.5%;
     align-items: baseline; 
     
 }
-
-
-
 
 
 #social-item{
@@ -704,21 +785,29 @@ margin-left: 13.5%;
     
 }
 
-
 #icon-container{
     
     font-size: 2rem; 
+    
+    transition: color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+    cursor: pointer !important; 
+    
+
 }
 
 
 #bottom-section-container{
     position: absolute;
     
-    bottom: 8%; 
+    bottom: 9% !important; 
+    
     left: 5%; 
     
     display: flex;
     justify-items: center;
+    
+
+    
     
 }
 
@@ -728,41 +817,67 @@ margin-left: 13.5%;
 
     
     display: flex; 
-    place-items: center;
+    place-items: center;    
     margin: 0 auto; 
+    color: white; 
+
+    
 
     
 }
 
 
 
-#bottom-section-item{
+#bottom-section-item{ 
 
-display: inline-block;
+display: inline-block; 
 margin-right: 2rem; 
-
 font-size: 0.75rem; 
+cursor: pointer !important; 
 
-
-
+transition: all  0.5s cubic-bezier(0.25, 0.1, 0.25, 1); -webkit-transition: all  0.5s cubic-bezier(0.25, 0.1, 0.25, 1); -moz-transition: all  0.5s cubic-bezier(0.25, 0.1, 0.25, 1); -ms-transition: all  0.5s cubic-bezier(0.25, 0.1, 0.25, 1); -o-transition: all  0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
 }
-
+/* transition: all cubic-bezier() */
+/* all  */
 
 #copyright-info{
 
 margin-top: 5%; 
 
-position: absolute;
+position: absolute !important;
 bottom: 8%; 
 right: 9%; 
 
 width: 35vw; 
+
 
 font-size: 0.84rem; 
 font-weight: 500; 
 
 display: grid; 
 justify-content: center;
+
+color: #535357; 
+
+
+}
+
+#copyright-info-container{
+
+/* 
+style={{backgroundColor: '#161822', 
+position: 'relative', zIndex:'22000'}} 
+
+
+
+*/
+
+
+width: 100vw; 
+margin: 0 auto;
+background-color: #161822 !important;
+
+
 
 
 
@@ -771,9 +886,6 @@ justify-content: center;
 
 
 #ministry-tagline{
-
-
-/* outline: 10px solid lime;  */
 
 position: absolute; 
 
@@ -785,11 +897,440 @@ right: 5%;
 display: grid;
 place-content: center;
 margin-top: 2rem; 
+color: white; 
+
 
 
 }
 
+/* Make the secondary social media list invisible here but only up to a certain point  */
 
+    
+    /* Add in the media query here to change the placement of the bottom Section of the footer  */
+
+@media(max-width: 1800px) and (min-width: 1435.1px){
+
+    /* Select the  */
+    
+    #bottom-section-container{
+        /*Movethewholelistrightbyapercentage*/
+        
+        /* -webkit-transform: translate(33%, 0) !important;
+        -moz-transform: translate(33%, 0) !important;
+        -ms-transform: translate(33%, 0) !important;
+        -o-transform: translate(33%, 0) !important;
+        transform: translate(33%, 0) !important; */
+    }
+    
+    
+    /* Select the copyright info here  */
+    #copyright-info-container{
+        margin: 0 auto !important;
+        /* -webkit-transform: translate(2.7vw, 3.5rem) !important;
+        -moz-transform: translate(2.7vw, 3.5rem) !important;
+        -ms-transform: translate(2.7vw, 3.5rem) !important;
+        -o-transform: translate(2.7vw, 3.5rem) !important;
+        transform: translate(2.7vw, 3.5rem) !important; */
+}
+    /* Select the tagline container here  */
+    #tagline-container{
+        margin-top: 1rem !important;
+        position: absolute  !important;
+        bottom: 5%;
+        right: 15%;
+        width: 5rem;
+        
+        /* -webkit-transform: translate(-10.3%, 4%) !important;
+        -moz-transform: translate(-10.3%, 4%) !important;
+        -ms-transform: translate(-10.3%, 4%) !important;
+        -o-transform: translate(-10.3%, 4%) !important;
+        transform: translate(-10.3%, 4%) !important; */
+}
+    
+    
+    
+    
+}
+
+
+
+
+@media(max-width: 1435px){
+
+
+    /* Add in a container for the copyright info here  */
+    #copyright-info-container{
+        
+    
+        
+        width: 50vw !important;
+        margin: 0 auto !important; 
+        
+        
+        display: grid;
+        place-content: center;
+        
+        
+        
+        
+    }
+    
+    
+    #copyright-info{
+    
+    
+        
+        position: relative !important;
+        
+        width: 90vw; 
+        display: grid;
+        place-content: center;
+        margin-top: 2.3rem; 
+        
+        
+
+        /* transform: translate(8.2vw, 0rem);  */
+        
+    }
+    
+    /* Select the bottom section list here  */
+    #bottom-section-container{
+    
+    left: 25%;
+    bottom: 5%;
+    transform: translate(-50%, -50%);
+    width: 20vw;
+    padding: 0 !important;
+    display: grid;
+    place-content: center;
+    margin: 4rem auto !important;
+    margin-top: 5rem;
+    -webkit-transform: translate(0,0) !important;
+    -moz-transform: translate(0,0) !important;
+    -ms-transform: translate(0,0) !important;
+    -o-transform: translate(0,0) !important;
+    transform: translate(0,0) !important;
+    
+    
+}
+    
+    /* Select the tagline here  */
+    
+    #ministry-tagline{
+    
+        position: relative !important; 
+    
+    
+    }
+    
+    
+    #tagline-container{
+    
+
+        
+        width: 50vw; 
+        margin: 0 auto !important; 
+        padding: 0 !important; 
+        transform: translate(0,0) !important;
+        position: relative !important; 
+        
+        
+    }
+    
+    
+    /* For the grid template to work you need to reset all the sub-containers below  */
+    #list-container{
+    
+    position: relative; 
+    
+        
+    }
+    
+    
+    #second-section-container{
+    
+        position: relative; 
+        
+        
+        
+        
+        
+        
+    }
+    
+    #second-section-list{
+        
+        
+        margin: 0 auto; 
+        
+        margin-top: 15vh; 
+        
+        
+    }
+    
+    
+    
+    #section-list-container{
+            
+        grid-template-columns: 1fr !important; 
+        
+    }
+    
+
+    
+    
+    }
+    
+    
+
+
+@media(max-width: 1435px){
+    
+    #section-list-item{
+
+        
+        text-align: center;
+        
+    }
+    
+    #section-list{
+        
+        text-align: center; 
+        
+        
+    }
+    /* My Query  */
+    #second-section-container{
+
+        position: relative !important; 
+        margin: 0 !important; 
+        padding: 0 !important; 
+        display: grid;
+        place-content: center;
+
+        
+    }
+    
+    #second-section-list{
+        
+        margin: 0 auto !important; 
+        padding: 0 !important; 
+        margin-top: 4rem !important; 
+        grid-template-columns: 1fr !important; 
+        width: min-content !important; 
+        
+        
+        
+    }
+    
+    
+    /* Remove the main social media here  */
+    #social-list{
+        /* display: none !important;  */
+        margin: 0 auto !important; 
+
+    }
+    
+    #social-media-item{
+        
+        margin: 0 auto !important; 
+
+    }
+    
+    #copyright-info-container{
+        width: 60vw; 
+
+        margin: 0 auto !important; 
+        padding: 0 !important; 
+        transform: translate(0,0) !important;
+        position: relative !important; 
+        display: grid; 
+        place-content: center;
+
+        /* overflow: hidden; */
+        
+        
+        
+    }
+    
+    
+    #copyright-info{
+        
+        width: 50vw !important; 
+
+        position: absolute !important; 
+        left: 0 !important; 
+        top: 0 !important; 
+
+        
+        margin: 0 auto !important; 
+        padding: 0 !important; 
+        transform: translate(0,0) !important;
+        z-index: 20 !important; 
+
+        
+        
+        
+    }
+    
+    
+    #bottom-section-container{
+    
+
+    width: 50vw; 
+    margin: 0 auto !important; 
+    transform: translate(0,0) !important;
+    padding: 0 !important; 
+    margin-bottom: 3rem !important; 
+    display: grid;
+    place-content: center;
+    
+        
+        
+        
+    }
+    
+ 
+    
+    
+    
+    #bottom-section-list{
+
+        
+
+        margin: 0 auto !important; 
+        padding: 0 !important; 
+        transform: translate(0,0) !important;
+        position: relative !important; 
+        
+
+    }
+    
+    #tagline-container{
+        margin-bottom: 3rem;
+        
+        
+        
+        
+    }
+    
+    
+}
+
+
+@media(max-width: 1434.4px){
+    
+
+/* Increase the tagline top margin here  */
+#tagline-container{
+    
+    
+    margin-top: 6rem !important; 
+    
+    
+}
+
+/* Increase the copyright info top margin and bottom margin here  */
+#copyright-info-container{
+    
+    margin-top: 5.5rem !important; 
+    margin-bottom: 7rem;
+    
+    
+    
+}
+/* Add some top margin to the contact list container or at least lower it's positioning  */
+#bottom-section-container{
+    
+
+
+bottom: 1.9% !important; 
+
+    
+    
+}
+    
+    
+}
+
+
+
+
+@media(max-width: 960px){
+    
+    #copyright-info-container{
+            
+        /* margin: 0 auto !important;  */
+        text-align: center !important; 
+
+        
+    }
+    
+    #bottom-section-list{
+        
+        margin: 0 auto !important; 
+
+        /* transform: translate(7.7vw, 0) !important; */
+        
+    }
+    
+    #tagline-container{
+        
+        /* transform: translate(14%, 0) !important; */
+        
+    }
+    
+    
+    
+}
+
+@media(max-width: 620px){
+    
+    /* Select the location list here and move it right  */
+    #second-section-list{
+        
+        
+        
+    }
+    /* Move the everything right here  */
+    #footer-main-container{
+        
+        /* transform: translate(9.5vw, 0) !important; */
+
+        
+        
+        
+    }
+    
+    #copyright-info-container{
+
+        /* transform: translate(-7vw,0) !important; */
+        margin: 0 auto !important; 
+        padding: 0 !important; 
+        
+        
+        
+    }
+    
+    
+}
+
+@media(max-width: 665px){
+    /* Select the whole footer here and move it right  */
+    
+    /* Make the copyright info disappear here  */
+    #copyright-info-container{
+        
+        display: none;
+        
+        
+        
+    }
+    
+    
+    
+    
+}
 
 
 @media screen and (max-width: 480px) {
@@ -798,16 +1339,177 @@ margin-top: 2rem;
         
         margin-left: -1.5rem;
         
+    }
+    
+    #copyright-info-container{
+        
+
+        /* margin: 0 auto !important;  */
+        text-align: center !important; 
+
+    }
+    
+    
+    
+    #footer-section-container{
+    
+    transform: translate(0vw, 0) !important;
+    
+    
+    
+    
+    }
+    
+    #second-section-item{
+        
+        
+        margin-top: 3.5rem !important;
         
         
     }
     
+    
+    #list-container{
+    
+    
+    
+        }
+        
+        #section-list-container{
+            
+            transform: translate(0, 3rem) !important; 
+
+
+        }
+        
+        
+        
+        #section-list{
+            
+            margin: 0 auto; 
+
+            
+            
+        }
+        
+        
+        #bottom-section-list{
+            
+            flex-wrap: wrap;
+            justify-content: center;
+            
+
+            /* transform: translate(3%, 0); */
+            color: white !important; 
+
+            
+        }
+        
+        .mission-statement-item{
+            
+            margin-top: 1rem !important; 
+            
+            
+        }
+        
+        #bottom-section-container{
+            
+            margin-top: 7rem !important;
+
+            
+        }
+    
+    #bottom-section-list{
+
+
+        width: 80vw !important; 
+        
+
+        
+        
+    }
     
     #section-list-container{
-    
-        
-        
+
+        margin: 0 auto !important; 
+
     }
+    #section-list{
+
+        margin: 0 auto !important; 
+
+    }
+    
+    #list-container{
+
+        position: absolute; 
+        left: 0; 
+
+        
+        position: relative; 
+        margin: 0 auto !important; 
+        
+        top: 22% !important; 
+
+        
+        }
+        
+        #second-section-list{
+
+
+            min-height: 37vh; 
+            /* margin-top: 79% !important;  */
+            
+            
+        }
+        
+        
+        #tagline-container{
+
+            margin: 0 auto !important; 
+            width: 50vw; 
+            font-weight: 400;   
+            /* margin-top: -0.9rem !important; */
+            margin-top: 13rem !important;
+            margin-bottom: 2rem !important;
+            
+            
+        }
+        
+        #ministry-tagline{
+            
+        }
+        
+        
+        #social-item{
+            
+            margin-right: 1.4rem;   
+            transition: color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
+
+            
+        }
+        
+        #copyright-info-container{
+            
+            margin: 0 auto !important; 
+            text-align: center !important; 
+            
+        }
+        
+        #bottom-section-list{
+            
+            margin: 0 auto !important; 
+
+            /* transform: translate(7.7vw, 0) !important; */
+            
+            
+            
+            
+        }
+        
+        
+   
+
    
   }    
 #hero-text-container{
@@ -820,140 +1522,49 @@ z-index: 20;
 
 }
 
+@media(max-width: 390px){
 
+    /* Add in the footer content container here  */
+    #footer-section-container{
+        
 
-
-/* Add in the media query here to change the placement of the bottom Section of the footer  */
-
-
-@media  (max-width: 1435px){
-
-
-/* Add in a container for the copyright info here  */
-#copyright-info-container{
+        
+        
+        
+    }
     
-    /* outline: 10px solid lime;  */
-    
-    width: 100vw; 
-    display: grid;
-    place-content: center;
-    
-    
-    
-    
-}
-
-
-#copyright-info{
-
-    /* outline: 10px solid blue !important;  */
-    
-    position: relative !important;
-    
-    width: 90vw; 
-    display: grid;
-    place-content: center;
-    margin-top: 2.3rem; 
-    
-    
-    transform: translate(8.2vw, 0rem); 
-    
-}
-
-/* Select the bottom section list here  */
-#bottom-section-container{
-
-
-position: relative !important; 
-
-width: 100vw; 
-outline: 10px solid blue; 
-display: grid;
-place-content: center;
-
-/* margin: 0 auto !important;  */
-margin-left: -5vw; 
-
-/* margin-left: -8vw;  */
-margin-top: 5rem; 
-    
-}
-
-/* Select the tagline here  */
-
-#ministry-tagline{
-
-    position: relative !important; 
+    #social-list{
+        transform: translate(2.8vw, 0) !important;
+        -webkit-transform: translate(2.8vw, 0) !important;
+        -moz-transform: translate(2.8vw, 0) !important;
+        -ms-transform: translate(2.8vw, 0) !important;
+        -o-transform: translate(2.8vw, 0) !important;
+        
+        transition: color 0.5s cubic-bezier(0.25, 0.1, 0.25, 1);
 
 }
+    
 
-
-#tagline-container{
-
-
-    
-    
-}
-
-
-/* For the grid template to work you need to reset all the sub-containers below  */
-#list-container{
-
-position: relative; 
-
-    
-    
-    
-    
-}
-
-
-#second-section-container{
-
-    position: relative; 
-    
-    outline: 20px solid blue; 
-    
-    /* overflow: hidden; */
-    
-    
-    
-    
-    
-}
-
-#second-section-list{
-    
-    
-    margin: 0 auto; 
-    
-    margin-top: 15vh; 
-    
     
 }
 
 
 
-#section-list-container{
-    
-    
+@media(max-width: 1435.5px) and (min-width: 480px) {
+    #footer-main-container{
     
         
-    grid-template-columns: 1fr !important; 
-    
-    outline: 10px solid lime !important; 
-
-    
-    
+        
 }
-
-
 
 #footer-section-container{
 
-
-/* grid-template-columns: 1fr !important; */
     
+
+    
+
+    
+}
     
     
     
@@ -961,20 +1572,11 @@ position: relative;
 
 
 
-}
+
 
 
 /* Add in the media query here to reduce negative left margin and to create a mobile layout  */
 
-@media (max-width: 500px){
-
-
-
-
-
-
-
-}
 
 
 
@@ -1041,6 +1643,198 @@ position: relative;
 
 
 /* Add in the Effects here  */
+
+#icon-container:hover{ 
+
+
+    -webkit-transform: scale(1.1) !important ; 
+    -moz-transform: scale(1.1) !important ; 
+    -ms-transform: scale(1.1) !important ; 
+    -o-transform: scale(1.1) !important ;
+    transform: scale(1.1) !important ; 
+    
+    
+    transform: translate(0, 3deg) !important ;
+    -webkit-transform: translate(0, 3deg) !important ;
+    -moz-transform: translate(0, 3deg) !important ;
+    -ms-transform: translate(0, 3deg) !important ;
+    -o-transform: translate(0, 3deg) !important ;
+    
+    
+    
+}
+
+#footer-social-icon:hover{
+    transform: translate(0, 3deg) !important ;
+    -webkit-transform: translate(0, 3deg) !important ;
+    -moz-transform: translate(0, 3deg) !important ;
+    -ms-transform: translate(0, 3deg) !important ;
+    -o-transform: translate(0, 3deg) !important ;
+}
+
+
+
+#social-item:hover{
+    
+    -webkit-transform: scale(1.1) !important ; 
+    -moz-transform: scale(1.1) !important ; 
+    -ms-transform: scale(1.1) !important ; 
+    -o-transform: scale(1.1) !important ;
+    transform: scale(1.1) !important ; 
+    
+    
+    transform: translate(0, 3deg) !important ;
+    -webkit-transform: translate(0, 3deg) !important ;
+    -moz-transform: translate(0, 3deg) !important ;
+    -ms-transform: translate(0, 3deg) !important ;
+    -o-transform: translate(0, 3deg) !important ;
+
+    
+}
+
+
+
+#headline-container:hover{
+    /* color: #42f5a8 !important;
+    transform: scale(1.1) !important ;
+    -webkit-transform: scale(1.1) !important ;
+    -moz-transform: scale(1.1) !important ;
+    -ms-transform: scale(1.1) !important ;
+    -o-transform: scale(1.1) !important ;
+    
+    -webkit-transform: translate(0, 3deg) !important;
+    -moz-transform: translate(0, 3deg) !important;
+    -ms-transform: translate(0, 3deg) !important;
+    -o-transform: translate(0, 3deg) !important;
+    transform: translate(0, 3deg) !important; */
+}
+
+
+#section-headline:hover{
+    /* color: #42f5a8 !important;
+    transform: scale(1.1) !important ;
+    -webkit-transform: scale(1.1) !important ;
+    -moz-transform: scale(1.1) !important ;
+    -ms-transform: scale(1.1) !important ;
+    -o-transform: scale(1.1) !important ;
+    
+    -webkit-transform: translate(0, 3deg) !important;
+    -moz-transform: translate(0, 3deg) !important;
+    -ms-transform: translate(0, 3deg) !important;
+    -o-transform: translate(0, 3deg) !important;
+    transform: translate(0, 3deg) !important; */
+}
+
+
+#list-phone-text:hover{
+
+    color: #42f5a8 !important;
+    transform: scale(1.1) !important ;
+    -webkit-transform: scale(1.1) !important ;
+    -moz-transform: scale(1.1) !important ;
+    -ms-transform: scale(1.1) !important ;
+    -o-transform: scale(1.1) !important ;
+    
+    -webkit-transform: translate(0, 3deg) !important;
+    -moz-transform: translate(0, 3deg) !important;
+    -ms-transform: translate(0, 3deg) !important;
+    -o-transform: translate(0, 3deg) !important;
+    transform: translate(0, 3deg) !important;
+    
+    
+}
+
+#section-list-item:hover{
+    
+    /* color: #42f5a8 !important;
+    transform: scale(1.1) !important ;
+    -webkit-transform: scale(1.1) !important ;
+    -moz-transform: scale(1.1) !important ;
+    -ms-transform: scale(1.1) !important ;
+    -o-transform: scale(1.1) !important ;
+    
+    -webkit-transform: translate(0, 3deg) !important;
+    -moz-transform: translate(0, 3deg) !important;
+    -ms-transform: translate(0, 3deg) !important;
+    -o-transform: translate(0, 3deg) !important;
+    transform: translate(0, 3deg) !important; */
+    
+    /* cursor: pointer !important; */
+    
+    
+    
+}
+
+
+#email-contact:hover{
+    
+    color: #42f5a8 !important;
+    transform: scale(1.1) !important ;
+    -webkit-transform: scale(1.1) !important ;
+    -moz-transform: scale(1.1) !important ;
+    -ms-transform: scale(1.1) !important ;
+    -o-transform: scale(1.1) !important ;
+    
+    -webkit-transform: translate(0, 3deg) !important;
+    -moz-transform: translate(0, 3deg) !important;
+    -ms-transform: translate(0, 3deg) !important;
+    -o-transform: translate(0, 3deg) !important;
+    transform: translate(0, 3deg) !important;
+
+    
+}
+
+
+
+#list-text:hover{
+    
+    color: #42f5a8 !important;
+    transform: scale(1.1) !important ;
+    -webkit-transform: scale(1.1) !important ;
+    -moz-transform: scale(1.1) !important ;
+    -ms-transform: scale(1.1) !important ;
+    -o-transform: scale(1.1) !important ;
+    
+    -webkit-transform: translate(0, 3deg) !important;
+    -moz-transform: translate(0, 3deg) !important;
+    -ms-transform: translate(0, 3deg) !important;
+    -o-transform: translate(0, 3deg) !important;
+    transform: translate(0, 3deg) !important;
+    
+    
+    
+}
+
+
+#bottom-section-item:hover{
+    color: white;
+    transform: scale(1.1) !important;
+    -webkit-transform: scale(1.1) !important;
+    -moz-transform: scale(1.1) !important;
+    -ms-transform: scale(1.1) !important;
+    -o-transform: scale(1.1) !important;
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

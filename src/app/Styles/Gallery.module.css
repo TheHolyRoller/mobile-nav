@@ -1,0 +1,192 @@
+
+
+
+
+#mainContainer{
+    
+  /* background: #161822 !important;  */
+  background: white !important; 
+
+    
+}
+
+
+#subContainer{
+
+    
+}
+
+
+
+
+
+#gridContainer{
+    
+    
+    
+}
+
+#galleryGrid{
+
+
+display: grid;
+grid-template-columns: 1fr 1fr ;
+width: 80vw; 
+font-size: clamp(1.1rem, 1vw + 1rem, 1.7rem) !important; 
+font-weight: 700;
+/* margin: 3rem auto !important;  */
+
+margin: 5.5rem auto !important; 
+gap: 2rem; 
+padding-bottom: 5rem !important;
+
+
+
+    
+}
+
+#masonryItem{
+
+position: relative;
+
+
+
+
+    
+}
+
+
+#titleContainer{
+    width: max-content;
+    margin: 0 auto;
+
+    margin-top: 3rem;
+    
+    /* margin-bottom: 3rem; */
+    transform: translate(0, -3rem) !important;
+    -webkit-transform: translate(0, -3rem) !important;
+    -moz-transform: translate(0, -3rem) !important;
+    -ms-transform: translate(0, -3rem) !important;
+    -o-transform: translate(0, -3rem) !important;
+}
+
+#gridItemTitle{
+
+    
+    
+}
+
+
+/* Add in the media queries here  */
+
+
+@media(max-width: 1340px){
+    
+    #galleryGrid{
+    
+        grid-template-columns: 1fr;
+
+    }
+
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+@media(max-width: 1100px){
+    
+/* Add in the grid container here  */
+    
+    #galleryGrid{
+
+        
+        
+    }
+    
+    
+}
+
+
+
+@media(max-width: 900px){
+
+  #galleryGrid{
+        
+        
+        
+    }
+    
+    
+    
+    
+}
+
+
+@media(max-width: 500px){
+
+    #galleryGrid{
+        
+     margin-left: -3% !important; 
+     gap: 3rem; 
+     
+        
+    }  
+
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,507 @@
+
+ 
+    
+
+    #valuesContainer{
+    
+        box-sizing: border-box;
+        color: #565454 !important;
+        background: white !important; 
+        
+        
+    
+    
+    }
+    
+    #valuessubcontainer{
+    
+
+    width: 91vw;
+    margin:6rem auto !important;
+    
+    
+    color: #565454 !important;
+    
+    
+    
+    }
+    
+    #valuesfirsttextsection{
+    
+        
+
+
+    
+        
+        
+    }
+    
+    
+    #valuesfirstheadlinecontainer{
+    
+        
+    
+    
+    
+    
+    }
+    
+    
+    #valuesfirstheadline{
+    
+    color: rgb(39, 39, 39); 
+    
+    font-size: clamp(1.4rem, 3vw + 1rem, 3rem) !important; 
+    font-weight: 700; 
+    
+    
+    
+    }
+    
+    
+    #values-first-text-section-container{
+    
+    
+    
+    
+    }    
+    
+    
+    #valuesfirsttext{
+    
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem !important;
+    
+    
+    
+    }
+    
+    
+    
+    #valuesfirsttextsecondrow{
+    
+        font-size: 1.2rem;
+        margin-bottom: 1.5rem !important;
+        
+    
+    
+    }
+    
+    
+    #values-second-text-section-container{
+    
+    
+    }
+    
+    
+    #values-second-headline-container{
+    
+    
+    
+    }
+
+    
+    
+    #valuessecondheadline{
+    
+        font-size: clamp(1.65rem, 2vw + 1rem, 3rem ) !important;
+
+        color: rgb(28, 27, 27); 
+        font-weight: 600;   
+        
+    
+    
+    }
+    
+    
+    #valuessecondtextsection{
+    
+    
+        font-size: 1.2rem;
+        
+        
+    }
+    
+    
+    #valuessecondtextrow{
+    
+        margin-top: 1rem !important;
+        
+        
+    
+    }
+    
+    
+    #valuesversecontainer{
+    
+        color: #00c670; 
+        font-size: 1.5rem;
+        font-weight: 500;   
+        
+        
+    
+    }
+    
+    
+    #values-icon-container{
+    
+    
+    }
+    
+    
+    #valuesfirsticon{
+        transform: translate(-86vw, 20px) rotate(180deg);
+        -webkit-transform: translate(-86vw, 20px) rotate(180deg);
+        -moz-transform: translate(-86vw, 20px) rotate(180deg);
+        -ms-transform: translate(-86vw, 20px) rotate(180deg);
+        -o-transform: translate(-86vw, 20px) rotate(180deg);
+
+        
+        
+}
+    
+    
+    #valuesverse{
+    
+        margin-left: 5% !important;
+        
+    
+    
+    }
+    
+    
+    #values-third-text-row{
+    
+    
+    
+    }
+    
+    
+    #valuesthirdheadlinecontainer{
+    
+        font-size: clamp(1.65rem, 2vw + 1rem, 3rem ) !important;
+        
+    font-weight: 600;   
+    color: rgb(25, 24, 24); 
+    
+    }
+    
+    
+    #values-third-headline{
+    
+    
+    }
+    
+    
+    #values-third-text-container{
+    
+    
+    
+    }
+    
+    
+    #values-third-text{
+    
+    
+    
+    
+    }
+    
+    
+    
+    #valuesthirdtextsubone{
+    
+    font-size: 1.2rem;
+    
+    
+    }
+    
+    #valuesthirdtextsubtwo{
+    
+        font-size: 1.2rem;
+        margin-top: 1rem !important;
+        
+        
+    
+    }
+    
+    
+    #values-second-verse-container{
+    
+        
+    
+    }
+
+    
+    #values-second-verse-icon-container{
+    
+    
+    
+    }
+    
+    
+    
+    #valuessecondverseicon{
+     transform: translate(-86vw, 20px) rotate(180deg);
+     -webkit-transform: translate(-86vw, 20px) rotate(180deg);
+     -moz-transform: translate(-86vw, 20px) rotate(180deg);
+     -ms-transform: translate(-86vw, 20px) rotate(180deg);
+     -o-transform: translate(-86vw, 20px) rotate(180deg);
+}
+    
+    #values-second-icon{
+
+        
+        
+        
+    }
+    
+    
+    #valuessecondverse{
+    
+    margin-left: 5% !important;
+    font-size: 1.6rem;
+    color:#00c670; 
+    font-weight: 500;
+    
+    
+    
+    }
+    
+    
+    
+    #values-card-section-container{
+    
+    
+    
+    }
+    
+    
+    #valuescardheadlinecontainer{
+        
+
+        width: max-content;
+        margin: 3rem auto !important;
+        font-size: clamp(1.5rem, 2vw + 1.63rem, 3.2rem); 
+        
+        /* font-size: 2.5rem; */
+        font-weight: 700;   
+        color:#00c670; 
+        
+    
+    
+    }
+    
+
+    #valuescardheadline{
+    
+
+    width: max-content;
+    margin: 0 auto !important;
+
+    
+    
+    
+    }
+
+    
+    
+    #valuescardsubheadlinecontainer{
+    
+        /* margin: 0 auto !important;  */
+        
+        margin-top: 2.5rem;
+        margin-bottom: 4rem !important; 
+        
+
+        
+        /* width: 80vw;  */
+        
+        
+        
+    
+    }
+    
+    
+    #valuescardsubheadline{
+    
+        font-size: clamp(1.3rem, 1vw + 1.4rem, 3.5rem);
+    
+        /* width: 80vw;  */
+        
+        width: max-content;
+        margin: 0 auto !important; 
+        color: #a9aaae; 
+
+        display: flex;
+        justify-items: center;
+        
+        
+        
+        
+    
+    
+    }
+    
+    
+    #valuescardcontainer{
+    
+   
+   
+
+   margin: 0 auto !important;
+   width: max-content;
+   
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   gap: 4rem; 
+   padding-bottom: 4rem !important;
+   
+   
+    
+    }
+    
+    
+    
+    #values-carditem{
+    
+    
+    
+    }
+    
+    @media(max-width: 1342px){
+    
+        #valuescardcontainer{
+        
+
+            margin: 0 auto !important;
+            width: max-content;
+            
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 3rem !important;
+            
+            
+            
+            
+        }
+        
+    
+    
+    
+    
+    }
+    
+    
+    
+    
+    
+    
+    @media(max-width: 850px ) {
+        
+        #valuessecondverseiconcontainer{
+        
+        display: none;  
+        
+        
+        }
+        
+        #valuessecondverse{
+        
+        margin-left: 0 !important;
+        margin-top: 2rem !important;
+        margin-bottom: 2rem !important; 
+        
+        
+        
+        
+        }
+        
+        
+        #valuesiconcontainer{
+        
+        display: none;
+        
+        
+        }
+
+        #valuesverse{
+        
+        margin-left: 0 !important;
+        
+        margin-top: 2rem !important;
+        margin-bottom: 2rem !important; 
+        
+        
+        
+        }
+        
+        #valuescardsubheadline{
+            
+        width: 80vw !important; 
+        
+            
+            
+            
+        }
+        
+        
+        
+    }
+    
+    @media(max-width: 768.10px) and (min-width: 530.1px) {
+        
+        
+    #valuessubcontainer{
+        
+        
+    margin-top: -10% !important; 
+    
+        
+        
+    }
+        
+    }
+    
+    @media(max-width: 530px) and (min-width: 499.10px) {
+    
+    
+        #valuessubcontainer{
+            
+            
+        margin-top: -20% !important; 
+        
+            
+            
+        }
+        
+        
+        
+    
+    
+    
+    
+    }
+    
+    @media(max-width: 499px){
+        #valuessubcontainer{
+            
+            
+            margin-top: 0.5% !important; 
+            
+            
+            
+        }
+        
+        
+        
+        
+    }
+    
+    
+    
+    
+    /* Add in the Effects here  */
+    
+    
+    /* Add in the animations here  */

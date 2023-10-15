@@ -1,0 +1,958 @@
+
+
+#textcomponentcontainer{
+
+    
+    width: 99.999vw; 
+    box-sizing: border-box;
+    padding: 0; 
+    margin: 0;  
+    background: white !important; 
+    
+    
+        
+    }
+
+    
+    #missionsubcontainer{
+
+        
+
+        width: 85vw; 
+        /* width: 75vw;  */
+        margin: 0 auto; 
+        font-size: 1.25rem; 
+        color: #9b9997; 
+        margin-top: 5rem;
+        
+        
+
+        
+        
+        
+
+        
+        
+    }
+    
+    
+    
+    #mission-headline-container{
+
+        
+    }
+    
+    
+    
+    
+    
+#missionheadline{
+
+font-size: 2.5rem; 
+font-weight: 700; 
+color: black; 
+
+    
+}    
+    
+    
+    #missionversecontainer{
+    
+
+        
+        
+    }
+    
+    
+    
+    #missionversesubcontainer{
+
+
+    width: 60vw; 
+    
+    text-align: left;
+    
+        
+        
+    }
+    
+    
+    
+    #versesvg{
+    
+
+
+    }
+    
+    
+    
+    #missionfirstverse{
+
+        
+      color: #00c670; 
+      font-size: 1.7rem; 
+    font-weight: 550;   
+      
+        
+    }
+    
+    
+    
+    
+    
+    #missiontextcontainer{
+
+        color: #9b9997; 
+        position: relative; 
+        z-index:4; 
+        /* width: 70vw;  */
+
+        
+        
+        
+    }
+    
+    
+    #mission-text-sub-container{
+    
+        
+        
+
+    }
+    
+    
+    #mission-first-text{
+
+        
+        
+    }
+    
+    
+    #quotationicon{
+
+         transform: translate(-80vw, 20px) rotate(180deg);
+         -webkit-transform: translate(-80vw, 20px) rotate(180deg);
+         -moz-transform: translate(-80vw, 20px) rotate(180deg);
+         -ms-transform: translate(-80vw, 20px) rotate(180deg);
+         -o-transform: translate(-80vw, 20px) rotate(180deg);
+}
+    #firsticon{
+        
+
+         transform: translate(-55vw, 50px) rotate(180deg);
+
+        
+        
+        
+    }
+    #thirdicon{
+        
+        /* transform: rotate(1turn) !important;
+        transform: scale(1, -1) !important; 
+        
+         */
+         transform: translate(-79.4vw, 50px) rotate(180deg);
+         /* transform: translate(0, 20px) rotate(0deg); */
+        
+        
+         /* transform: translate(0, 100%) rotate(180deg); */
+
+        
+        
+    }
+    
+    #mission-second-verse-container{
+
+        
+        
+        
+    }
+    
+    #missioncardcontainer{
+        
+        /* Add in a min function here with a view min or max height alternative here  */
+        padding-bottom: 2rem !important;
+        
+        
+    }
+    
+    
+    
+    
+    #mission-second-verse-sub{
+
+        
+        
+    }
+    
+    
+    
+    #missionsecondverse{
+        
+    color:#00c670; 
+    font-size: 1.7rem; 
+    font-weight: 550; 
+        
+        
+        
+    }
+    
+    
+    #mission-second-text-container{
+
+        
+        
+    }
+    
+    
+    #mission-second-text-sub{
+
+        
+        
+    }
+    
+    
+    
+    #mission-second-text{
+
+        
+        
+    }
+    
+    
+    
+    #mission-third-verse-container{
+
+        
+        
+        
+    }
+    
+    
+    
+    #mission-third-verse-sub{
+
+        
+        
+    }
+    
+    
+    #missionthirdverse{
+
+    color:#00c670; 
+    font-size: 1.7rem; 
+    font-weight: 550; 
+        
+    }
+    
+    
+    
+    
+    #missionthirdtextcontainer{
+
+        
+        
+        
+    }
+    
+    
+    
+    #mission-third-text-sub{
+
+        
+        
+    }
+    
+    
+    #mission-third-text{
+
+        
+        
+    }
+    
+    #mission-card-section-container{
+    
+        
+
+        
+        
+        
+    }
+    
+    #missioncardheadlinecontainer{
+        
+
+        position: relative; 
+        z-index: 2;
+        
+        
+    }
+
+    
+    #missioncardheadline{
+        
+    
+    color: #00c670;
+
+    margin: 0 auto; 
+    width: max-content; 
+    margin: 3rem auto; 
+
+    
+    font-size: 3rem;
+    font-weight: 800;   
+    
+        
+        
+        
+    }
+    
+    
+    #missioncardsubheadlinecontainer{
+        
+
+        position: relative; 
+        z-index: 3; 
+        width: 50vw;
+        display: flex;
+        justify-items: center;
+        font-size: clamp(1rem, 1vw + 1rem, 1.65rem); 
+        
+        /* font-size: 1.5rem; */
+        font-weight: 600;   
+        /* outline: 20px solid lime;  */
+        
+        margin: 0 auto;         
+        
+        
+    }
+    
+
+    #missioncardsubheadline{
+
+        
+
+    margin: 0 auto; 
+    
+        
+        
+        
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    @media(max-width: 1700px) and (min-width: 1023.4px){
+        
+        
+
+        #missioncardcontainer{
+        
+        
+            display: grid;  
+            grid-template-columns: 1fr 1fr 1fr;
+            
+            
+            
+            width: 95vw; 
+            margin: 1rem auto; 
+            margin-bottom: 5rem; 
+            
+            
+        }
+        
+        #missioncarditem{
+            
+            margin: 2rem auto; 
+            
+            /* margin-top: 2rem;  */
+            
+            
+            
+            
+        }
+    }
+    
+    @media(max-width: 1023px){
+        #missioncardcontainer{
+        
+        
+            display: grid;  
+            grid-template-columns: 1fr ;
+
+            width: 95vw; 
+            margin: 1rem auto; 
+            margin-bottom: 3rem; 
+            
+            
+        }
+        
+        #missionsubcontainer{
+        
+        
+        
+            
+        }
+        
+        #missioncarditem{
+            
+            margin: 2rem auto; 
+            
+            /* margin-top: 2rem;  */
+            
+            
+            
+            
+        }
+        
+        #missioncardheadline{
+        
+        font-size: clamp(1.7rem, 3vw + 1rem, 3rem) !important;
+        
+        
+        }
+        
+        
+        
+        
+        
+        
+    }
+
+
+    
+    /* Add in the media queries here */
+    @media(max-width: 1700px) and (min-width: 768.5px){
+        
+    /* Select the main headline container here  */
+  
+    #mission-headline-container{
+
+        
+        
+        
+        
+    }
+    
+    
+    
+    
+    
+#missionheadline{
+
+font-size: 2.5rem; 
+font-weight: 700; 
+color: black; 
+
+
+    
+}    
+
+
+#missionversecontainer{
+    
+margin-top: -20px !important; 
+
+        
+}
+
+
+
+#missionversesubcontainer{
+
+    
+width: 60vw; 
+
+text-align: left;
+
+    
+    
+}
+
+
+
+#verse-svg{
+
+
+
+}
+
+
+
+#missionfirstverse{
+
+    
+  color: #00c670; 
+  font-size: 1.7rem; 
+font-weight: 550;   
+  
+    
+}
+
+    
+#missiontextcontainer{
+
+
+margin-top: 80px; 
+
+        
+}
+
+
+#mission-text-sub-container{
+
+    
+    
+
+}
+
+
+#mission-first-text{
+
+    
+    
+}
+
+#missionfirstverse{
+
+    margin-left: 10.7%; 
+    
+
+}
+
+#missionsecondversecontainer{
+
+    margin-left: 8.5%; 
+    /* margin-top: 80px;  */
+    
+
+
+    
+}
+#missionthirdversecontainer{
+
+    margin-left: 8.5%; 
+
+
+    
+}
+
+
+#missionsecondtextcontainer{
+    
+    margin-top: 80px; 
+    
+    
+    
+}
+      
+#missionthirdtextcontainer{
+    
+    
+    
+    margin-top: 80px; 
+    
+}
+    
+    /* Select the Verse container here  */
+    
+    
+    /* select the main text container here  */
+
+    
+
+        
+    }
+    
+    @media(max-width: 774px) and (min-width: 500px ){
+    
+        #missionsubcontainer{
+        
+            margin-top: -20% !important;
+            
+            
+        }
+        
+        
+        
+    }
+    
+    @media(max-width: 773.5px){
+        /* Select the icon containers here  */
+        
+        
+        #firsticon{
+            display: none; 
+
+            
+            
+        }
+        #quotationicon{
+        
+            display: none; 
+            
+        }
+        
+        
+        
+        
+        #thirdicon{
+
+            display: none; 
+            
+            
+        }
+        
+        
+        
+        
+        #mission-first-text{
+
+    
+    
+        }
+        
+        #missionfirstverse{
+        
+        margin: 0 auto; 
+        
+        
+        }
+        
+        #missionsecondversecontainer{
+        
+            margin: 0 auto; 
+        
+        
+            
+        }
+        #missionthirdversecontainer{
+        
+            margin: 0 auto; 
+        
+        
+            
+        }
+        
+       
+        
+        
+        /* Add in the cards sub header here  */
+        #missioncardsubheadlinecontainer{
+            
+            color:#9b9997; 
+            margin: 0 auto !important;
+            
+            
+        }
+        
+        #mission-card-sub-headline{
+
+            
+            
+            
+            
+        }
+        
+        
+        
+        /* Select the verse containers here  */
+        
+        
+    }
+    
+    
+    @media(max-width: 768px) and (min-width: 499.9px){
+        
+    /* Select the main headline container  */
+    #mission-headline-container{
+        
+        
+        
+        
+        
+    }
+    
+    
+    
+    
+    
+#missionheadline{
+
+font-size: 2.1rem; 
+font-weight: 700; 
+color: black; 
+
+width: 90vw; 
+
+
+    
+}    
+
+
+#mission-verse-container{
+    
+
+        
+        
+}
+
+
+
+#missionversesubcontainer{
+
+    
+width: 60vw; 
+
+text-align: left;
+
+    
+    
+}
+
+
+
+#verse-svg{
+
+
+
+}
+
+
+
+#missionfirstverse{
+
+    
+  color: #00c670; 
+  font-size: 1.7rem; 
+font-weight: 550;   
+  
+    
+}
+
+
+
+    
+#mission-text-container{
+
+        
+        
+}
+
+
+#mission-text-sub-container{
+
+    
+    
+
+}
+
+
+#mission-first-text{
+
+    
+    
+}
+  
+        
+    /* Select the verse container here  */
+
+    
+    /* Select the main text container here  */
+    
+        
+    }
+    
+    
+    @media(max-width: 499px){
+        
+    /* Select the headline container here  */
+    #mission-headline-container{
+        
+        
+        
+        
+    }
+    
+    
+    
+    #missionsubcontainer{
+
+        margin-top: -2%; 
+
+    }
+
+    
+#missionheadline{
+
+font-size: 1.5rem; 
+font-weight: 700; 
+color: black; 
+
+    
+}    
+
+
+#mission-verse-container{
+    
+
+        
+        
+}
+
+
+/* missioncardsubheadlinecontainer */
+#missionversesubcontainer{
+
+    
+width: 60vw; 
+
+text-align: left;
+
+    
+    
+}
+
+
+
+#verse-svg{
+
+
+
+}
+
+
+
+#missionfirstverse{
+
+    
+  color: #00c670; 
+  font-size: 1.7rem; 
+font-weight: 550;   
+  
+    
+}
+    
+    /* Select the verse container here  */
+        
+        
+        
+        
+    /* Select the main text container here  */
+    
+        
+    #mission-text-container{
+
+        
+        
+    }
+    
+    
+    #mission-text-sub-container{
+    
+        
+        
+
+    }
+    
+    
+    #mission-first-text{
+
+        
+        
+    }
+    
+    #missioncardsubheadlinecontainer{
+    
+    
+    text-align: center !important;
+    
+    
+    
+
+        
+    }
+    
+    
+    
+    
+    
+        
+    }
+
+    
+    
+    
+    
+    /* Add in the container queries here  */
+
+
+
+
+/* Add in the orientation queries here  */
+
+
+
+/* Add in the nested orientation queries here  */
+
+
+
+/* Add in the user preference queries here  */
+
+
+
+/* Add in the Effects here  */
+
+
+
+/* Add in the animations here  */
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
