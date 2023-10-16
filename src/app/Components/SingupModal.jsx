@@ -120,7 +120,9 @@ const validateEmail = (email) => {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, [modalOpened]); // Include modalOpened in the dependency array
+    
+    // Might want to remove onOpen it could cause trouble 
+  }, [modalOpened, onOpen]); // Include modalOpened in the dependency array
   
       
   const sendMessage = async (e) => {

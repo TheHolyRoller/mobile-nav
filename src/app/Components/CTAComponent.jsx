@@ -62,7 +62,7 @@ import '../Styles/CTAComponent.css';
       
     
       {/* <img id='cta-image'  src='https://images.unsplash.com/photo-1438761681033-6461ffad8d80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8WW91dGglMjBwYXN0ZXJ8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=1700&h=600&q=60' alt='alt' style={{}} /> */}
-      <Image width={1700} height={50}   src={Youth} style={{maxHeight: '70vh', objectFit: 'cover'}}  />
+      <Image width={1700} height={50} alt="alt"   src={Youth} style={{maxHeight: '70vh', objectFit: 'cover'}}  />
       
       <div id='cta-text-section' >
         

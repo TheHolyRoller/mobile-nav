@@ -110,7 +110,10 @@ const productID = 'myid'
             return () => {
               document.removeEventListener("scroll", handleScroll);
             };
-          }, []);
+            
+            
+            // Remove this later it could cause some trouble!!!#####
+          }, [isOpen]);
           
         
         

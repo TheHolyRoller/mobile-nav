@@ -53,7 +53,7 @@ import { Card5 } from '../Components/Cards/Card5.js';
 
 
 // Import the Card renderer here 
-import CardRenderer from '../Components/CardRenderer.jsx'; 
+
 import AlternativeCard2 from "./Cards/AlternativeCard2.jsx";  
 
 
