@@ -1,6 +1,7 @@
 [build]
   # The build command to run
-  command = "npm run build"
+  command = "next build"
+
 
 
   # The directory that contains the output of the build command
