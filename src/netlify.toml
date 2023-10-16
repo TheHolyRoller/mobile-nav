@@ -4,11 +4,13 @@
 
 
   # The directory that contains the output of the build command
-  publish = "out"
+  publish = ".next"
+
 
   # The environment variables to use during the build
   [build.environment]
     # The Node.js version to use
+    NETLIFY_NEXT_PLUGIN_SKIP = "true"
     NODE_VERSION = "16.13.0"
 
     # The Next.js version to use
