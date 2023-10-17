@@ -1,7 +1,7 @@
-language: node_js # Node.js based project
+language: node_js 
 node_js:
-  - 13 
-cache:
+  - 13
+  cache:
   directories:
   - node_modules 
 script:
