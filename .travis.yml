@@ -1,4 +1,4 @@
-language: node_js # Node.js based project
+language: node_js 
 node_js:
   - 13 
 cache:
