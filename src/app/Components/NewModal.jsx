@@ -32,11 +32,11 @@ import {
   import FacebookRoundedIcon from '@mui/icons-material/FacebookRounded';
   import InstagramIcon from '@mui/icons-material/Instagram';
   import YouTubeIcon from '@mui/icons-material/YouTube';
-  // import InstagramRoundedIcon from '@mui/icons-material/InstagramRounded';
+
   
   import { useMediaQuery } from 'react-responsive'
   
-//   Import the stylesheet here 
+
 import '../Styles/NewModal.css'; 
 import { FaShoppingCart } from 'react-icons/fa';
 import { FaBars } from 'react-icons/fa';
@@ -48,7 +48,7 @@ const theme = extendTheme({
         dialog: {
           maxWidth: ["95%", "95%", "95%"],
           minWidth: "95%",
-          // bg: "#00ff00"
+
           bg: "#161822"
         }
       })
@@ -80,10 +80,7 @@ const theme = extendTheme({
     }
   
   
-    // 'xs', 'sm', 'md', 'lg', 'xl',
     const sizes = [ 'full'];
-    
-    // Add in the state variable for the visibility basis 
     const [open, setIsOpen] = useState('open');
     
     const [toggle, setToggle] = useState(true); 
@@ -94,7 +91,7 @@ const theme = extendTheme({
     const handleClick = () => {
 
       
-      // Toggle the visibility here 
+
       setIsOpen(!open);
       console.log("this has been toggled ")
       setToggle(!toggle); 
@@ -102,7 +99,7 @@ const theme = extendTheme({
       if (className === "class1") {
         setClassName("class2");
       }
-      // If the state is "class2", set it to "class1"
+
       else {
         setClassName("class1");
       }
@@ -113,13 +110,13 @@ const theme = extendTheme({
     
     
     useEffect(() => {
-      // Get the button element by its id
+
       const button = document.getElementById("toggle-button");
-      // If the toggle state is true, hide the button
+
       if (!toggle) {
         button.style.display = "none";
       }
-      // If the toggle state is false, show the button
+
       else {
         button.style.display = "block";
       }
@@ -127,7 +124,7 @@ const theme = extendTheme({
     
     
     const style1 = {
-      // If the state is false, set the display to "none"
+
       display: className === "class1" ? "inlineBlock" : "none",
       fontSize: '2.1rem', 
       borderRadius: '5px', 
@@ -160,7 +157,7 @@ const theme = extendTheme({
               <MenuIcon   id='toggle-button' className={className}  style={style1}  />
 
               
-          {/* This was a SPAN!!!! */}
+
             <div
             
             style={{marginTop: '-1.69rem', 
@@ -184,7 +181,7 @@ const theme = extendTheme({
         
         <FaBars id='second-toggle-button' className={className}   />
         
-        {/* <MenuIcon   id='second-toggle-button' className={className}     /> */}
+
         </div>
         
         
@@ -195,7 +192,7 @@ const theme = extendTheme({
         <Modal 
         ml={0} pl={0}
         
-        // scrollBehavior={scrollBehavior}
+
         blockScrollOnMount={false} 
         
         colorScheme='orange'
@@ -242,7 +239,7 @@ const theme = extendTheme({
             <div id='close-btn-container' style={{}}   >
 
 
-              {/* <MenuIcon   id='toggle-button' className={className}  style={style1}  /> */}
+
             <span id="close-modal-span"  >
               Close 
             </span> 
@@ -268,7 +265,7 @@ const theme = extendTheme({
            
             <li id='menu-list-item'style={{borderBottom: '0.0rem solid slategrey'}}   >
 
-            {/* add in an onclick function call here to close the modal  */}
+
             <div id='list-item-content' style={{}} onClick={onClose}  >
             <Link href='./ministries'>
             Ministries 
@@ -307,7 +304,7 @@ const theme = extendTheme({
             
             <li id='menu-list-item' style={{borderBottom: '0.0rem solid slategrey'}}   >
             
-            {/* Add in the container for the list item's content  */}
+
             
             
             
@@ -322,7 +319,7 @@ const theme = extendTheme({
 
             
             
-            {/* Add in the social media icons here  */}
+            
             
             <div id='social-media-footer-section' >
             
@@ -345,7 +342,7 @@ const theme = extendTheme({
             
             <div id='social-footer-icon-container' >
             
-            {/* Add in the icon here  */}
+
             <Link href='https://www.instagram.com/' target="_blank">
             
             <InstagramIcon fontSize='5rem' id='footer-icon' style={{color: 'white'}}  />
@@ -361,7 +358,7 @@ const theme = extendTheme({
             
             <div id='social-footer-icon-container' >
             
-            {/* Add in the icon here  */}
+
             <Link href='https://www.youtube.com/' target="_blank">
             <YouTubeIcon id='footer-icon' fontSize='12rem' style={{color: 'white', transform: 'scale(1.3)'}} />
             

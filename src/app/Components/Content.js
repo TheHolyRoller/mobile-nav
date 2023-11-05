@@ -63,7 +63,8 @@ import SingupModal from '../Components/SingupModal.jsx';
 
 import {NewSignupModal} from '../Components/NewSignupModal.js'; 
 
-import HeroComponent from '../Components/HeroComponent.jsx'; 
+import HeroComponent from '../Components/HeroComponent.jsx';
+
 
 // import YouTubeCTA from '../Components/YoutubeCTA.jsx'; 
 import ImageText from "./ImageText.jsx";
@@ -78,12 +79,7 @@ import HomeHero from '../Components/Heros/HomeHero.jsx';
 
 export const Content = () => (
 
-
-
-   <Box id="box" css={{px: "$0", mt: "$0", "@xsMax": {px: "$0"}}} style={{outline: '0px solid red'}} > 
   
-  <HomeHero/> 
-
   <section id="mission-section" style={{position: "relative", zIndex: "20"}} >
   
   <Text id="mission-text" >
@@ -99,15 +95,9 @@ export const Content = () => (
     you are welcome to join us.
     
     
-    {/* Add in the modal in here  */}
-  
-  
   {/* <NewSignupModal/>  */}
   
   
-  
-    <SingupModal/> 
-
 
     </Text>
     
@@ -132,8 +122,7 @@ export const Content = () => (
   {/* </Text> */}
 
 
-   {/* Add in the Grid Container here  */}
-   <Grid.Container gap={3} justify="center">
+   {/* <Grid.Container gap={3} justify="center">
       <Grid xs={12} sm={3}>
 
         <Card1 />
@@ -148,18 +137,15 @@ export const Content = () => (
         <Card3 />
       </Grid>
       <Grid xs={12} sm={5}>
-        {/* <CardRenderer/> */}
         <Card4/> 
         
         
       </Grid>
       <Grid xs={12} sm={5}>
-        {/* Add in alternative Card2 here  */}
-        {/* <AlternativeCard2/>  */}
         
         <Card5 />
       </Grid>
-    </Grid.Container>
+    </Grid.Container> */}
 
   </article>
   
@@ -182,9 +168,8 @@ export const Content = () => (
 
  
   {/* Add in the Grid Layout here   */}
-  <Grid.Container gap={4} justify="center">
+  {/* <Grid.Container gap={4} justify="center">
       <Grid xs={12} sm={3.5}>
-        {/* <NewCard/>  */}
 
         <TextCard1 id='TextCard1'  />
       </Grid>
@@ -198,7 +183,7 @@ export const Content = () => (
      
      
      
-    </Grid.Container>
+    </Grid.Container> */}
     
     
     {/* Add in the image text here  */}
@@ -208,5 +193,4 @@ export const Content = () => (
     
   </article>
   
-  </Box>
 );

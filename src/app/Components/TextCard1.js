@@ -2,7 +2,11 @@
 
 
 
-import { Card, Col, Row, Button, Text } from "@nextui-org/react";
+import Text from "@nextui-org/react"; 
+import Col from "@nextui-org/react"; 
+import Row from "@nextui-org/react"; 
+
+import { Card, Button,  } from "@nextui-org/react";
 
 export const TextCard1 = () => (
   <Card css={{ w: "100%", h: "400px" }}>

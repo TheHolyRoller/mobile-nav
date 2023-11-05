@@ -7,7 +7,8 @@ import { FaLocationArrow } from "react-icons/fa";
 
 
 
-import { Grid } from "@nextui-org/react";
+// import { Grid } from "@nextui-org/react";
+import  Grid  from "@nextui-org/react";
 import { Card, Row, Text } from "@nextui-org/react";
 
 import {  Col,  Button,  } from "@nextui-org/react";
